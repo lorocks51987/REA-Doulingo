@@ -1,0 +1,68 @@
+{
+  "name": "combo-grade-class",
+  "operation": "inspect-android-class",
+  "selectors": [
+    "com.duolingo.data.comborun.ComboGradeResult"
+  ],
+  "startedAt": "2026-10-20T14:07:56.074Z",
+  "elapsedMs": 100671,
+  "exitCode": 0,
+  "signal": null,
+  "summary": {
+    "evidenceId": "ev_bbb2f5448497adfe062f09c5fe0ecff4a66d476ec3831c2cd26ca68688c1c90c",
+    "operation": "inspect_android_class",
+    "className": "com.duolingo.data.comborun.ComboGradeResult",
+    "methods": [
+      {
+        "name": "<clinit>",
+        "reported_signature": "<clinit>(): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "getEntries",
+        "reported_signature": "getEntries(): lmd",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "valueOf",
+        "reported_signature": "valueOf(java.lang.String): com.duolingo.data.comborun.ComboGradeResult",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "values",
+        "reported_signature": "values(): com.duolingo.data.comborun.ComboGradeResult[]",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      }
+    ],
+    "fields": [
+      {
+        "name": "$VALUES",
+        "reported_type": "com.duolingo.data.comborun.ComboGradeResult[]"
+      },
+      {
+        "name": "CORRECT",
+        "reported_type": "com.duolingo.data.comborun.ComboGradeResult"
+      },
+      {
+        "name": "NONE",
+        "reported_type": "com.duolingo.data.comborun.ComboGradeResult"
+      },
+      {
+        "name": "WRONG",
+        "reported_type": "com.duolingo.data.comborun.ComboGradeResult"
+      },
+      {
+        "name": "a",
+        "reported_type": "mmd"
+      }
+    ]
+  }
+}

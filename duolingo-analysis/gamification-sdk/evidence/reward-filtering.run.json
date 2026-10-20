@@ -1,0 +1,18 @@
+{
+  "name": "reward-filtering",
+  "ok": true,
+  "operation": "inspect_android_method",
+  "evidenceId": "ev_bf86a31d130e90ead16bb9906c2bceeca3a7d5b17e72b1fcc2e8d10cd1cce251",
+  "startedAt": "2026-10-20T14:21:13.529Z",
+  "elapsedMs": 3534,
+  "className": "defpackage.cid",
+  "method": {
+    "name": "c",
+    "reported_signature": "c(com.duolingo.data.energyrewards.EnergyRewardsTemplate, int, java.lang.String, com.duolingo.data.energyrewards.ComboMoment, com.duolingo.data.course.Subject, int, boolean, boolean, java.lang.Integer, yv8): java.lang.Object",
+    "overload_index": 0,
+    "is_constructor": false,
+    "dex_descriptor": null
+  },
+  "representation": "smali",
+  "bodyStatus": "available"
+}

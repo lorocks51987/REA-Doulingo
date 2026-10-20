@@ -1,0 +1,20 @@
+[
+  {"name":"combo-producer-class","operation":"inspect_android_class","input":{"class_name":"defpackage.eu7"}},
+  {"name":"combo-session-class","operation":"inspect_android_class","input":{"class_name":"defpackage.xt7"}},
+  {"name":"combo-session-fields","operation":"inspect_android_method","methodFromClass":{"record":"combo-session-class","name":"toString"}},
+  {"name":"combo-complete-persist","operation":"inspect_android_method","methodFromClass":{"record":"combo-producer-class","name":"c"}},
+  {"name":"combo-quit","operation":"inspect_android_method","methodFromClass":{"record":"combo-producer-class","name":"d"}},
+  {"name":"grade-map-search","operation":"search_android_classes","input":{"query":"yt7"}},
+  {"name":"grade-map-class","operation":"inspect_android_class","classFromSearch":{"record":"grade-map-search","exact":"yt7"}},
+  {"name":"grade-map-values","operation":"inspect_android_method","methodFromClass":{"record":"grade-map-class","name":"<clinit>"}},
+  {"name":"reward-requirement-class","operation":"inspect_android_class","input":{"class_name":"com.duolingo.data.energyrewards.InLessonRewardRequirement"}},
+  {"name":"reward-requirement-fields","operation":"inspect_android_method","methodFromClass":{"record":"reward-requirement-class","name":"toString"}},
+  {"name":"reward-template-class","operation":"inspect_android_class","input":{"class_name":"com.duolingo.data.energyrewards.EnergyRewardsTemplate"}},
+  {"name":"reward-template-fields","operation":"inspect_android_method","methodFromClass":{"record":"reward-template-class","name":"toString"}},
+  {"name":"in-lesson-reward-class","operation":"inspect_android_class","input":{"class_name":"com.duolingo.data.energyrewards.InLessonReward"}},
+  {"name":"in-lesson-reward-fields","operation":"inspect_android_method","methodFromClass":{"record":"in-lesson-reward-class","name":"toString"}},
+  {"name":"league-rules-class","operation":"inspect_android_class","input":{"class_name":"com.duolingo.data.leagues.LeaguesRuleset"}},
+  {"name":"league-rules-fields","operation":"inspect_android_method","methodFromClass":{"record":"league-rules-class","name":"toString"}},
+  {"name":"reward-operator-class","operation":"inspect_android_class","input":{"class_name":"com.duolingo.data.energyrewards.InLessonRewardOperator"}},
+  {"name":"reward-operator-values","operation":"inspect_android_method","methodFromClass":{"record":"reward-operator-class","name":"<clinit>"}}
+]

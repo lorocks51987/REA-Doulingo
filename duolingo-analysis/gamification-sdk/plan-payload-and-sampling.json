@@ -1,0 +1,8 @@
+[
+  {"name":"reward-sampling-search","operation":"search_android_classes","input":{"query":"cid"}},
+  {"name":"reward-sampling-class","operation":"inspect_android_class","classFromSearch":{"record":"reward-sampling-search","exact":"cid"}},
+  {"name":"reward-sampling","operation":"inspect_android_method","methodFromClass":{"record":"reward-sampling-class","name":"b"}},
+  {"name":"reward-filtering","operation":"inspect_android_method","methodFromClass":{"record":"reward-sampling-class","name":"c"}},
+  {"name":"session-payload-class","operation":"inspect_android_class","input":{"class_name":"com.duolingo.core.session.SessionSurrogate"}},
+  {"name":"challenge-payload-class","operation":"inspect_android_class","input":{"class_name":"com.duolingo.core.challenges.ChallengeSurrogate"}}
+]

@@ -1,0 +1,110 @@
+{
+  "name": "league-rules-class",
+  "ok": true,
+  "operation": "inspect_android_class",
+  "evidenceId": "ev_8c9423a995280014a9d1d52d679cedb12c3ac3249e6e7d6c999c8c926d0a30df",
+  "startedAt": "2026-10-20T14:14:01.019Z",
+  "elapsedMs": 1464,
+  "className": "com.duolingo.data.leagues.LeaguesRuleset",
+  "methods": [
+    {
+      "name": "<clinit>",
+      "reported_signature": "<clinit>(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(int, int, com.duolingo.data.leagues.LeaguesRuleset$CohortType, com.duolingo.core.pcollections.migration.PVector, java.lang.Integer, com.duolingo.core.pcollections.migration.PVector, java.lang.Integer, com.duolingo.core.pcollections.migration.PVector, com.duolingo.data.leagues.LeaguesRuleset$ScoreType, java.lang.Boolean, java.lang.Integer): void",
+      "overload_index": 0,
+      "is_constructor": true,
+      "dex_descriptor": null
+    },
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(com.duolingo.data.leagues.LeaguesRuleset$CohortType, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.data.leagues.LeaguesRuleset$ScoreType): void",
+      "overload_index": 1,
+      "is_constructor": true,
+      "dex_descriptor": null
+    },
+    {
+      "name": "a",
+      "reported_signature": "a(): int",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "equals",
+      "reported_signature": "equals(java.lang.Object): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "hashCode",
+      "reported_signature": "hashCode(): int",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "toString",
+      "reported_signature": "toString(): java.lang.String",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    }
+  ],
+  "fields": [
+    {
+      "name": "Companion",
+      "reported_type": "com.duolingo.data.leagues.k0"
+    },
+    {
+      "name": "a",
+      "reported_type": "int"
+    },
+    {
+      "name": "b",
+      "reported_type": "com.duolingo.data.leagues.LeaguesRuleset$CohortType"
+    },
+    {
+      "name": "c",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "d",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "e",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "f",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "g",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "h",
+      "reported_type": "com.duolingo.data.leagues.LeaguesRuleset$ScoreType"
+    },
+    {
+      "name": "i",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "j",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "k",
+      "reported_type": "n8m[]"
+    }
+  ]
+}

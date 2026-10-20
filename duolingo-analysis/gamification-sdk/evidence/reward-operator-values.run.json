@@ -1,0 +1,18 @@
+{
+  "name": "reward-operator-values",
+  "ok": true,
+  "operation": "inspect_android_method",
+  "evidenceId": "ev_8f5c4f00e702d44d2f47a070fe00148c9e74ca6acf6c6a4f70a0751faa9baaf8",
+  "startedAt": "2026-10-20T14:16:48.044Z",
+  "elapsedMs": 1698,
+  "className": "com.duolingo.data.energyrewards.InLessonRewardOperator",
+  "method": {
+    "name": "<clinit>",
+    "reported_signature": "<clinit>(): void",
+    "overload_index": 0,
+    "is_constructor": false,
+    "dex_descriptor": null
+  },
+  "representation": "java",
+  "bodyStatus": "available"
+}

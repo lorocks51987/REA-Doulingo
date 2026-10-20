@@ -1,0 +1,18 @@
+{
+  "name": "xp-multiplier-values",
+  "ok": true,
+  "operation": "inspect_android_method",
+  "evidenceId": "ev_bddf5baaa869a3505799cacd838cfee37388ff6feb2eb58d5bbe57d5b2d8b16d",
+  "startedAt": "2026-10-20T14:13:59.473Z",
+  "elapsedMs": 1545,
+  "className": "com.duolingo.data.xpboost.XpBoostMultiplier",
+  "method": {
+    "name": "<clinit>",
+    "reported_signature": "<clinit>(): void",
+    "overload_index": 0,
+    "is_constructor": false,
+    "dex_descriptor": null
+  },
+  "representation": "java",
+  "bodyStatus": "available"
+}

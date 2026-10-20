@@ -1,0 +1,12 @@
+{
+  "name": "combo-session-search",
+  "ok": true,
+  "operation": "search_android_classes",
+  "evidenceId": "ev_8790dfc8456a8a5b67b93d669a576c9add7d1301d9253ddfd34c6b7d49cdeb78",
+  "startedAt": "2026-10-20T14:13:33.997Z",
+  "elapsedMs": 11397,
+  "matches": [
+    "defpackage.xt7",
+    "defpackage.xt70"
+  ]
+}

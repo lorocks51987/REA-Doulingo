@@ -1,0 +1,18 @@
+{
+  "name": "combo-session-visible",
+  "ok": true,
+  "operation": "inspect_android_method",
+  "evidenceId": "ev_7bb2301892387bae6c0f760e2fca069667cddde3c174ffacb00f0aabf920cb40",
+  "startedAt": "2026-10-20T14:13:50.078Z",
+  "elapsedMs": 1756,
+  "className": "defpackage.xt7",
+  "method": {
+    "name": "c",
+    "reported_signature": "c(): java.lang.Integer",
+    "overload_index": 0,
+    "is_constructor": false,
+    "dex_descriptor": null
+  },
+  "representation": "java",
+  "bodyStatus": "available"
+}

@@ -1,0 +1,67 @@
+{
+  "name": "reward-template-class",
+  "ok": true,
+  "operation": "inspect_android_class",
+  "evidenceId": "ev_c5503889901c9127027b789c6651d58e1a951319a9d822074c87e900315eba62",
+  "startedAt": "2026-10-20T14:14:04.018Z",
+  "elapsedMs": 1666,
+  "className": "com.duolingo.data.energyrewards.EnergyRewardsTemplate",
+  "methods": [
+    {
+      "name": "<clinit>",
+      "reported_signature": "<clinit>(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(int, com.duolingo.core.pcollections.migration.PVector): void",
+      "overload_index": 0,
+      "is_constructor": true,
+      "dex_descriptor": null
+    },
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(com.duolingo.core.pcollections.migration.PersistentListBackedVector): void",
+      "overload_index": 1,
+      "is_constructor": true,
+      "dex_descriptor": null
+    },
+    {
+      "name": "equals",
+      "reported_signature": "equals(java.lang.Object): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "hashCode",
+      "reported_signature": "hashCode(): int",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "toString",
+      "reported_signature": "toString(): java.lang.String",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    }
+  ],
+  "fields": [
+    {
+      "name": "Companion",
+      "reported_type": "nid"
+    },
+    {
+      "name": "a",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "b",
+      "reported_type": "n8m[]"
+    }
+  ]
+}

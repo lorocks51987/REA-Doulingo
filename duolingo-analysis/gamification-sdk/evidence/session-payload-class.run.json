@@ -1,0 +1,171 @@
+{
+  "name": "session-payload-class",
+  "ok": true,
+  "operation": "inspect_android_class",
+  "evidenceId": "ev_bfd82ef21da7642b466990e6c6f370b29623a90ea51ce57f13b9b25796cc1a88",
+  "startedAt": "2026-10-20T14:21:17.065Z",
+  "elapsedMs": 2113,
+  "className": "com.duolingo.core.session.SessionSurrogate",
+  "methods": [
+    {
+      "name": "<clinit>",
+      "reported_signature": "<clinit>(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(int, boolean, boolean, java.lang.Long, java.lang.Boolean, java.lang.Boolean, com.duolingo.core.challenges.explanations.SkillTipReference, com.duolingo.core.language.Language, java.lang.String, boolean, boolean, com.duolingo.core.language.Language, java.lang.Integer, java.lang.Integer, com.duolingo.core.resourcemanager.model.Metadata, java.lang.String, com.duolingo.core.tracking.TrackingProperties, com.duolingo.core.pcollections.migration.PMap, com.duolingo.core.pcollections.migration.PMap, java.lang.String, com.duolingo.core.session.Session$Type$ApiName, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.session.InterleavedChallenges, com.duolingo.core.session.SessionContext, com.duolingo.core.pcollections.migration.PMap): void",
+      "overload_index": 0,
+      "is_constructor": true,
+      "dex_descriptor": null
+    },
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(boolean, boolean, java.lang.Long, java.lang.Boolean, java.lang.Boolean, com.duolingo.core.challenges.explanations.SkillTipReference, com.duolingo.core.language.Language, java.lang.String, boolean, com.duolingo.core.language.Language, java.lang.Integer, java.lang.Integer, com.duolingo.core.resourcemanager.model.Metadata, java.lang.String, com.duolingo.core.tracking.TrackingProperties, com.duolingo.core.pcollections.migration.PMap, com.duolingo.core.pcollections.migration.PMap, java.lang.String, com.duolingo.core.session.Session$Type$ApiName, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.session.InterleavedChallenges, com.duolingo.core.session.SessionContext, com.duolingo.core.pcollections.migration.PMap): void",
+      "overload_index": 1,
+      "is_constructor": true,
+      "dex_descriptor": null
+    },
+    {
+      "name": "equals",
+      "reported_signature": "equals(java.lang.Object): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "hashCode",
+      "reported_signature": "hashCode(): int",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "toString",
+      "reported_signature": "toString(): java.lang.String",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    }
+  ],
+  "fields": [
+    {
+      "name": "A",
+      "reported_type": "com.duolingo.core.pcollections.migration.PMap"
+    },
+    {
+      "name": "B",
+      "reported_type": "n8m[]"
+    },
+    {
+      "name": "Companion",
+      "reported_type": "zm10"
+    },
+    {
+      "name": "a",
+      "reported_type": "boolean"
+    },
+    {
+      "name": "b",
+      "reported_type": "boolean"
+    },
+    {
+      "name": "c",
+      "reported_type": "java.lang.Long"
+    },
+    {
+      "name": "d",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "e",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "f",
+      "reported_type": "com.duolingo.core.challenges.explanations.SkillTipReference"
+    },
+    {
+      "name": "g",
+      "reported_type": "com.duolingo.core.language.Language"
+    },
+    {
+      "name": "h",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "i",
+      "reported_type": "boolean"
+    },
+    {
+      "name": "j",
+      "reported_type": "boolean"
+    },
+    {
+      "name": "k",
+      "reported_type": "com.duolingo.core.language.Language"
+    },
+    {
+      "name": "l",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "m",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "n",
+      "reported_type": "com.duolingo.core.resourcemanager.model.Metadata"
+    },
+    {
+      "name": "o",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "p",
+      "reported_type": "com.duolingo.core.tracking.TrackingProperties"
+    },
+    {
+      "name": "q",
+      "reported_type": "com.duolingo.core.pcollections.migration.PMap"
+    },
+    {
+      "name": "r",
+      "reported_type": "com.duolingo.core.pcollections.migration.PMap"
+    },
+    {
+      "name": "s",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "t",
+      "reported_type": "com.duolingo.core.session.Session$Type$ApiName"
+    },
+    {
+      "name": "u",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "v",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "w",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "x",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "y",
+      "reported_type": "com.duolingo.core.session.InterleavedChallenges"
+    },
+    {
+      "name": "z",
+      "reported_type": "com.duolingo.core.session.SessionContext"
+    }
+  ]
+}

@@ -1,0 +1,984 @@
+{
+  "authority": "Prior literal static text indexing; not network traffic or live endpoint validation",
+  "source": "../../audit-2026-10-19/smali-index.json",
+  "sourceSha256": "6b8a817085f33109fbc756129851564f17d219909483cfc6b6d13eac80a682d2",
+  "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+  "provenance": "Pre-existing decoded smali; extraction-to-APK binding was not independently regenerated",
+  "origins": [
+    {
+      "urlOrigin": "http://.css",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://.jpg",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://10.0.2.2:8080",
+      "files": 1,
+      "example": "smali_classes5\\com\\duolingo\\core\\networking\\origin\\ApiOrigin$Avd.smali"
+    },
+    {
+      "urlOrigin": "http://according",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://addEventListenerresponsible",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://An",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://applicationslink",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://ator",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://crbug.com",
+      "files": 1,
+      "example": "smali_classes10\\org\\chromium\\support_lib_boundary\\PrefetchOperationCallbackBoundaryInterface.smali"
+    },
+    {
+      "urlOrigin": "http://cript",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://Descriptionrelatively",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://dictionaryperceptionrevolutionfoundationpx",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://encoding",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://familiar",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://g.co",
+      "files": 1,
+      "example": "smali_classes9\\f5x.smali"
+    },
+    {
+      "urlOrigin": "http://html4",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://i",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://imEnglish",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://In",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://interested",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://interpreted",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://iparticipation",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://javax.xml.XMLConstants",
+      "files": 1,
+      "example": "smali_classes2\\hla.smali"
+    },
+    {
+      "urlOrigin": "http://link",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://localhost",
+      "files": 2,
+      "example": "smali_classes4\\mn80.smali"
+    },
+    {
+      "urlOrigin": "http://mathematicsmargin-top:eventually",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://navigation",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://ns.adobe.com",
+      "files": 4,
+      "example": "smali_classes4\\s0e.smali"
+    },
+    {
+      "urlOrigin": "http://option",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://play.google.com",
+      "files": 1,
+      "example": "smali_classes8\\com\\facebook\\messenger\\MessengerUtils.smali"
+    },
+    {
+      "urlOrigin": "http://px",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://s",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://schemas.android.com",
+      "files": 6,
+      "example": "smali_classes2\\lt50.smali"
+    },
+    {
+      "urlOrigin": "http://site_name",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://staticsuggested",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://style",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://tools.android.com",
+      "files": 1,
+      "example": "smali_classes3\\b8z.smali"
+    },
+    {
+      "urlOrigin": "http://UA-Compatible",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://w",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://whether",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www-",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.",
+      "files": 4,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.a",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.C",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.css",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.example.com",
+      "files": 3,
+      "example": "smali\\com\\bytedance\\sdk\\openadsdk\\core\\uc\\uc.smali"
+    },
+    {
+      "urlOrigin": "http://www.hortcut",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.icon",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.interpretation",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.language",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.slf4j.org",
+      "files": 3,
+      "example": "smali_classes10\\mdo.smali"
+    },
+    {
+      "urlOrigin": "http://www.style",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.text-decoration:underthe",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.w3.org",
+      "files": 11,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.wencodeURIComponent",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.years",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://xml.org",
+      "files": 3,
+      "example": "smali_classes4\\com\\caverock\\androidsvg\\q.smali"
+    },
+    {
+      "urlOrigin": "http://xmlpull.org",
+      "files": 7,
+      "example": "smali_classes10\\org\\prebid\\mobile\\rendering\\parser\\AdResponseParserVast.smali"
+    },
+    {
+      "urlOrigin": "http://xt",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "https://.facebook.com",
+      "files": 1,
+      "example": "smali_classes2\\com\\facebook\\internal\\Utility.smali"
+    },
+    {
+      "urlOrigin": "https://89a5a5b9206d947706f9d24c108c3438",
+      "files": 1,
+      "example": "smali_classes3\\v58.smali"
+    },
+    {
+      "urlOrigin": "https://accounts.google.com",
+      "files": 1,
+      "example": "smali_classes8\\com\\google\\android\\gms\\auth\\api\\signin\\internal\\zbb.smali"
+    },
+    {
+      "urlOrigin": "https://aditude.prebid-server.com",
+      "files": 1,
+      "example": "smali_classes3\\e1c0.smali"
+    },
+    {
+      "urlOrigin": "https://admob-gmats.uc.r.appspot.com",
+      "files": 3,
+      "example": "smali_classes8\\com\\google\\android\\gms\\internal\\pal\\zzgk.smali"
+    },
+    {
+      "urlOrigin": "https://adx.ads.vungle.com",
+      "files": 1,
+      "example": "smali_classes10\\hj8.smali"
+    },
+    {
+      "urlOrigin": "https://aIn",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "https://android-api-cf.duolingo.com",
+      "files": 1,
+      "example": "smali\\com\\duolingo\\core\\networking\\origin\\ApiOrigin$Regional.smali"
+    },
+    {
+      "urlOrigin": "https://android-api-stage.duolingo.com",
+      "files": 1,
+      "example": "smali_classes5\\com\\duolingo\\core\\networking\\origin\\ApiOrigin$SessionStartStaging.smali"
+    },
+    {
+      "urlOrigin": "https://android-api.duolingo.cn",
+      "files": 2,
+      "example": "smali_classes5\\com\\duolingo\\core\\networking\\origin\\ApiOrigin$China.smali"
+    },
+    {
+      "urlOrigin": "https://android-api.duolingo.com",
+      "files": 2,
+      "example": "smali\\com\\duolingo\\core\\networking\\origin\\ApiOrigin$Production.smali"
+    },
+    {
+      "urlOrigin": "https://aomedia.org",
+      "files": 2,
+      "example": "smali_classes8\\com\\google\\android\\exoplayer2\\metadata\\emsg\\EventMessage.smali"
+    },
+    {
+      "urlOrigin": "https://app-measurement.com",
+      "files": 2,
+      "example": "smali_classes2\\com\\google\\android\\gms\\measurement\\internal\\zzfy.smali"
+    },
+    {
+      "urlOrigin": "https://app.",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://app.adjust.com",
+      "files": 3,
+      "example": "smali\\com\\adjust\\sdk\\AdjustFactory.smali"
+    },
+    {
+      "urlOrigin": "https://app.adjust.io",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://appassets.androidplatform.net",
+      "files": 8,
+      "example": "smali_classes4\\no4.smali"
+    },
+    {
+      "urlOrigin": "https://beian.miit.gov.cn",
+      "files": 1,
+      "example": "smali_classes7\\v520.smali"
+    },
+    {
+      "urlOrigin": "https://birdseye.duolingo.com",
+      "files": 1,
+      "example": "smali\\rw9.smali"
+    },
+    {
+      "urlOrigin": "https://c.amazon-adsystem.com",
+      "files": 3,
+      "example": "smali_classes4\\qu1.smali"
+    },
+    {
+      "urlOrigin": "https://cache.prebid-server.com",
+      "files": 1,
+      "example": "smali_classes3\\c0c0.smali"
+    },
+    {
+      "urlOrigin": "https://careers.duolingo.com",
+      "files": 1,
+      "example": "smali_classes6\\vyc.smali"
+    },
+    {
+      "urlOrigin": "https://cdn-f.adsmoloco.com",
+      "files": 2,
+      "example": "smali_classes6\\bjb0.smali"
+    },
+    {
+      "urlOrigin": "https://cdn.confiant-integrations.net",
+      "files": 1,
+      "example": "smali\\com\\confiant\\android\\sdk\\q2.smali"
+    },
+    {
+      "urlOrigin": "https://cdn.duolingo.com",
+      "files": 3,
+      "example": "smali_classes3\\rre.smali"
+    },
+    {
+      "urlOrigin": "https://cdn.jsdelivr.net",
+      "files": 2,
+      "example": "smali_classes4\\org\\prebid\\mobile\\rendering\\sdk\\scripts\\JsScriptData.smali"
+    },
+    {
+      "urlOrigin": "https://cloud.aditude.io",
+      "files": 1,
+      "example": "smali_classes3\\c0c0.smali"
+    },
+    {
+      "urlOrigin": "https://config.ads.vungle.com",
+      "files": 2,
+      "example": "smali_classes3\\eka0.smali"
+    },
+    {
+      "urlOrigin": "https://crbug.com",
+      "files": 1,
+      "example": "smali_classes5\\e6b.smali"
+    },
+    {
+      "urlOrigin": "https://d1vq87e9lcf771.cloudfront.net",
+      "files": 12,
+      "example": "smali\\rw9.smali"
+    },
+    {
+      "urlOrigin": "https://d35aaqx5ub95lt.cloudfront.net",
+      "files": 1,
+      "example": "smali_classes5\\com\\duolingo\\debug\\PicassoExampleActivity.smali"
+    },
+    {
+      "urlOrigin": "https://d3bvesgviq46ad.cloudfront.net",
+      "files": 1,
+      "example": "smali_classes2\\lsp.smali"
+    },
+    {
+      "urlOrigin": "https://d3gq3s1iyyx31w.cloudfront.net",
+      "files": 1,
+      "example": "smali_classes7\\t1t.smali"
+    },
+    {
+      "urlOrigin": "https://developer.android.com",
+      "files": 10,
+      "example": "smali_classes10\\io\\sentry\\android\\core\\u1.smali"
+    },
+    {
+      "urlOrigin": "https://developer.apple.com",
+      "files": 2,
+      "example": "smali_classes8\\com\\google\\android\\exoplayer2\\metadata\\emsg\\EventMessage.smali"
+    },
+    {
+      "urlOrigin": "https://developers.facebook.com",
+      "files": 12,
+      "example": "smali_classes2\\com\\facebook\\FacebookSdk.smali"
+    },
+    {
+      "urlOrigin": "https://dg91ef2xzhkcz.cloudfront.net",
+      "files": 241,
+      "example": "smali_classes6\\t8r.smali"
+    },
+    {
+      "urlOrigin": "https://diagnostics.duolingo.com",
+      "files": 1,
+      "example": "smali_classes3\\tb2.smali"
+    },
+    {
+      "urlOrigin": "https://drive-thru.duolingo.com",
+      "files": 2,
+      "example": "smali_classes6\\b320.smali"
+    },
+    {
+      "urlOrigin": "https://duolingo-images.s3.amazonaws.com",
+      "files": 10,
+      "example": "smali_classes6\\kms.smali"
+    },
+    {
+      "urlOrigin": "https://duolingo-maker-prod.duolingo.com",
+      "files": 4,
+      "example": "smali_classes5\\e78.smali"
+    },
+    {
+      "urlOrigin": "https://duolingo-sentry.sentry.io",
+      "files": 1,
+      "example": "smali_classes3\\tb2.smali"
+    },
+    {
+      "urlOrigin": "https://duolingo.atlassian.net",
+      "files": 3,
+      "example": "smali_classes6\\com\\duolingo\\feedback\\JiraDuplicate.smali"
+    },
+    {
+      "urlOrigin": "https://duolingo.com",
+      "files": 1,
+      "example": "smali_classes7\\olo.smali"
+    },
+    {
+      "urlOrigin": "https://duolingotest.zendesk.com",
+      "files": 1,
+      "example": "smali_classes10\\rwb0.smali"
+    },
+    {
+      "urlOrigin": "https://englishtest.duolingo.com",
+      "files": 5,
+      "example": "smali_classes5\\ds8.smali"
+    },
+    {
+      "urlOrigin": "https://events.ads.vungle.com",
+      "files": 2,
+      "example": "smali_classes10\\hyw.smali"
+    },
+    {
+      "urlOrigin": "https://example.com",
+      "files": 2,
+      "example": "smali_classes2\\k3s.smali"
+    },
+    {
+      "urlOrigin": "https://example.org",
+      "files": 3,
+      "example": "smali_classes7\\p88.smali"
+    },
+    {
+      "urlOrigin": "https://exoplayer.dev",
+      "files": 2,
+      "example": "smali_classes7\\c7k.smali"
+    },
+    {
+      "urlOrigin": "https://facebook.com",
+      "files": 2,
+      "example": "smali_classes2\\com\\facebook\\internal\\Utility.smali"
+    },
+    {
+      "urlOrigin": "https://fake-url",
+      "files": 1,
+      "example": "smali\\rw9.smali"
+    },
+    {
+      "urlOrigin": "https://fb.gg",
+      "files": 3,
+      "example": "smali_classes8\\com\\facebook\\gamingservices\\FriendFinderDialog.smali"
+    },
+    {
+      "urlOrigin": "https://firebase.google.com",
+      "files": 4,
+      "example": "smali_classes2\\com\\google\\android\\gms\\measurement\\internal\\zzgi.smali"
+    },
+    {
+      "urlOrigin": "https://firebaseinstallations.googleapis.com",
+      "files": 1,
+      "example": "smali_classes3\\vgf.smali"
+    },
+    {
+      "urlOrigin": "https://fundingchoicesmessages.google.com",
+      "files": 1,
+      "example": "smali_classes2\\com\\google\\android\\gms\\internal\\consent_sdk\\zzw.smali"
+    },
+    {
+      "urlOrigin": "https://gdpr.",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://gdpr.adjust.com",
+      "files": 3,
+      "example": "smali\\com\\adjust\\sdk\\AdjustFactory.smali"
+    },
+    {
+      "urlOrigin": "https://gdpr.adjust.io",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://github.com",
+      "files": 14,
+      "example": "smali\\com\\adjust\\sdk\\ActivityHandler.smali"
+    },
+    {
+      "urlOrigin": "https://goals-api-stage-2.duolingo.com",
+      "files": 1,
+      "example": "smali_classes5\\eti.smali"
+    },
+    {
+      "urlOrigin": "https://goals-api-stage-3.duolingo.com",
+      "files": 1,
+      "example": "smali_classes5\\eti.smali"
+    },
+    {
+      "urlOrigin": "https://goals-api-stage.duolingo.com",
+      "files": 1,
+      "example": "smali_classes5\\eti.smali"
+    },
+    {
+      "urlOrigin": "https://goo.gl",
+      "files": 2,
+      "example": "smali_classes2\\com\\google\\android\\gms\\measurement\\internal\\zzpp.smali"
+    },
+    {
+      "urlOrigin": "https://goo.gle",
+      "files": 2,
+      "example": "smali\\hc8.smali"
+    },
+    {
+      "urlOrigin": "https://google.com",
+      "files": 1,
+      "example": "smali_classes9\\com\\google\\android\\gms\\measurement\\internal\\zzkx.smali"
+    },
+    {
+      "urlOrigin": "https://googleads.g.doubleclick.net",
+      "files": 15,
+      "example": "smali_classes8\\com\\google\\android\\gms\\internal\\pal\\zzgk.smali"
+    },
+    {
+      "urlOrigin": "https://graph-video.",
+      "files": 2,
+      "example": "smali_classes2\\com\\facebook\\internal\\ServerProtocol.smali"
+    },
+    {
+      "urlOrigin": "https://graph.",
+      "files": 4,
+      "example": "smali_classes2\\com\\facebook\\internal\\ServerProtocol.smali"
+    },
+    {
+      "urlOrigin": "https://help.ably.io",
+      "files": 2,
+      "example": "smali_classes10\\io\\ably\\lib\\types\\ErrorInfo.smali"
+    },
+    {
+      "urlOrigin": "https://imasdk.googleapis.com",
+      "files": 5,
+      "example": "smali_classes3\\pec0.smali"
+    },
+    {
+      "urlOrigin": "https://infra-edge-gateway-stage-cf.duolingo.com",
+      "files": 1,
+      "example": "smali_classes5\\com\\duolingo\\core\\networking\\origin\\ApiOrigin$SessionStartStagingCf.smali"
+    },
+    {
+      "urlOrigin": "https://internet-up.ably-realtime.com",
+      "files": 1,
+      "example": "smali_classes5\\s86.smali"
+    },
+    {
+      "urlOrigin": "https://invite.duolingo.com",
+      "files": 6,
+      "example": "smali\\ex5.smali"
+    },
+    {
+      "urlOrigin": "https://issuetracker.google.com",
+      "files": 8,
+      "example": "smali\\doa0.smali"
+    },
+    {
+      "urlOrigin": "https://jeeves.duolingo.com",
+      "files": 1,
+      "example": "smali_classes6\\oil.smali"
+    },
+    {
+      "urlOrigin": "https://ktor.io",
+      "files": 2,
+      "example": "smali_classes4\\r6k.smali"
+    },
+    {
+      "urlOrigin": "https://lf-static.tiktokpangle-cdn-us.com",
+      "files": 5,
+      "example": "smali\\com\\bytedance\\sdk\\openadsdk\\core\\settings\\ac.smali"
+    },
+    {
+      "urlOrigin": "https://liteapks.com",
+      "files": 1,
+      "example": "smali_classes10\\com\\zx\\cmz\\Strings.smali"
+    },
+    {
+      "urlOrigin": "https://localization-duostrings.duolingo.com",
+      "files": 1,
+      "example": "smali_classes2\\g2o.smali"
+    },
+    {
+      "urlOrigin": "https://logs.ads.vungle.com",
+      "files": 2,
+      "example": "smali_classes10\\hj8.smali"
+    },
+    {
+      "urlOrigin": "https://math-cdn.duolingo.com",
+      "files": 8,
+      "example": "smali_classes5\\com\\duolingo\\debug\\DebugActivity$MathVisualLibraryVersionOverrideDialogFragment.smali"
+    },
+    {
+      "urlOrigin": "https://math-prod.duolingo.com",
+      "files": 1,
+      "example": "smali_classes5\\ga2.smali"
+    },
+    {
+      "urlOrigin": "https://mediation.goog",
+      "files": 2,
+      "example": "smali_classes2\\com\\google\\android\\gms\\internal\\ads\\zzbix.smali"
+    },
+    {
+      "urlOrigin": "https://nowhere.invalid",
+      "files": 1,
+      "example": "smali\\pb.smali"
+    },
+    {
+      "urlOrigin": "https://pag_open_icon_id",
+      "files": 1,
+      "example": "smali_classes4\\com\\bytedance\\sdk\\openadsdk\\core\\mtv\\uc\\qtm.smali"
+    },
+    {
+      "urlOrigin": "https://pagead2.googlesyndication.com",
+      "files": 4,
+      "example": "smali_classes8\\com\\google\\android\\gms\\ads\\identifier\\zza.smali"
+    },
+    {
+      "urlOrigin": "https://party.163.com",
+      "files": 1,
+      "example": "smali_classes6\\pu00.smali"
+    },
+    {
+      "urlOrigin": "https://phone-verify-ext.duolingo.cn",
+      "files": 1,
+      "example": "smali_classes7\\s32.smali"
+    },
+    {
+      "urlOrigin": "https://phone-verify.duolingo.com",
+      "files": 1,
+      "example": "smali_classes7\\s32.smali"
+    },
+    {
+      "urlOrigin": "https://play.google.com",
+      "files": 6,
+      "example": "smali_classes6\\jal.smali"
+    },
+    {
+      "urlOrigin": "https://podcasts.apple.com",
+      "files": 1,
+      "example": "smali_classes5\\com\\duolingo\\data\\messages\\serializers\\DynamicSessionEndMessageContents$Button.smali"
+    },
+    {
+      "urlOrigin": "https://prod.cm.publishers.advertising.a2z.com",
+      "files": 1,
+      "example": "smali_classes6\\p070.smali"
+    },
+    {
+      "urlOrigin": "https://prod.tahoe-analytics.publishers.advertising.a2z.com",
+      "files": 1,
+      "example": "smali_classes4\\tzp.smali"
+    },
+    {
+      "urlOrigin": "https://protected-by.clarium.io",
+      "files": 1,
+      "example": "smali\\com\\confiant\\android\\sdk\\q2.smali"
+    },
+    {
+      "urlOrigin": "https://pubads.g.doubleclick.net",
+      "files": 14,
+      "example": "smali\\kz30.smali"
+    },
+    {
+      "urlOrigin": "https://public-static.duolingo.com",
+      "files": 1,
+      "example": "smali_classes7\\dvx.smali"
+    },
+    {
+      "urlOrigin": "https://retool.duolingo.com",
+      "files": 1,
+      "example": "smali_classes7\\gr90.smali"
+    },
+    {
+      "urlOrigin": "https://s3.amazonaws.com",
+      "files": 1,
+      "example": "smali_classes5\\bw8.smali"
+    },
+    {
+      "urlOrigin": "https://schools.duolingo.com",
+      "files": 4,
+      "example": "smali_classes5\\com\\duolingo\\core\\networking\\legacy\\LegacyApi.smali"
+    },
+    {
+      "urlOrigin": "https://sdkapi.dsp-api.moloco.com",
+      "files": 3,
+      "example": "smali_classes3\\com\\moloco\\sdk\\internal\\services\\bidtoken\\d.smali"
+    },
+    {
+      "urlOrigin": "https://sdkopmetrics-us.dsp-api.moloco.com",
+      "files": 4,
+      "example": "smali_classes8\\com\\moloco\\sdk\\BuildConfig.smali"
+    },
+    {
+      "urlOrigin": "https://sf16-static.i18n-pglstatp.com",
+      "files": 1,
+      "example": "smali_classes4\\com\\bytedance\\sdk\\component\\adexpress\\dynamic\\rw\\uc.smali"
+    },
+    {
+      "urlOrigin": "https://simg-ssl.duolingo.com",
+      "files": 19,
+      "example": "smali\\com\\duolingo\\data\\ads\\promotions\\i3.smali"
+    },
+    {
+      "urlOrigin": "https://spam-control-api.duolingo.com",
+      "files": 1,
+      "example": "smali_classes6\\sgx.smali"
+    },
+    {
+      "urlOrigin": "https://ssrv.",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://ssrv.adjust.com",
+      "files": 3,
+      "example": "smali\\com\\adjust\\sdk\\AdjustFactory.smali"
+    },
+    {
+      "urlOrigin": "https://ssrv.adjust.io",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://store.duolingo.com",
+      "files": 2,
+      "example": "smali_classes7\\rt20.smali"
+    },
+    {
+      "urlOrigin": "https://stories.duolingo.com",
+      "files": 2,
+      "example": "smali_classes5\\aur.smali"
+    },
+    {
+      "urlOrigin": "https://subscription.",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://subscription.adjust.com",
+      "files": 3,
+      "example": "smali\\com\\adjust\\sdk\\AdjustFactory.smali"
+    },
+    {
+      "urlOrigin": "https://subscription.adjust.io",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://support.google.com",
+      "files": 2,
+      "example": "smali_classes8\\com\\google\\android\\gms\\ads\\internal\\util\\zzav.smali"
+    },
+    {
+      "urlOrigin": "https://tts-data.duolingo.com",
+      "files": 1,
+      "example": "smali_classes7\\jo10.smali"
+    },
+    {
+      "urlOrigin": "https://twitter.com",
+      "files": 1,
+      "example": "smali_classes7\\gq10.smali"
+    },
+    {
+      "urlOrigin": "https://ui.honeycomb.io",
+      "files": 1,
+      "example": "smali\\com\\duolingo\\core\\networking\\interceptors\\RequestTracingHeaderInterceptor.smali"
+    },
+    {
+      "urlOrigin": "https://update.9mod.com",
+      "files": 1,
+      "example": "smali_classes10\\Xpk8a$2.smali"
+    },
+    {
+      "urlOrigin": "https://was",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "https://wechat-backend-api-prod.duolingo.cn",
+      "files": 1,
+      "example": "smali_classes7\\s32.smali"
+    },
+    {
+      "urlOrigin": "https://www.amazon.com",
+      "files": 2,
+      "example": "smali_classes3\\foq.smali"
+    },
+    {
+      "urlOrigin": "https://www.duolingo.com",
+      "files": 26,
+      "example": "smali_classes5\\aur.smali"
+    },
+    {
+      "urlOrigin": "https://www.example.com",
+      "files": 2,
+      "example": "smali\\com\\bytedance\\sdk\\openadsdk\\utils\\ok.smali"
+    },
+    {
+      "urlOrigin": "https://www.google.com",
+      "files": 12,
+      "example": "smali_classes8\\com\\google\\android\\gms\\internal\\pal\\zzgk.smali"
+    },
+    {
+      "urlOrigin": "https://www.googleadservices.com",
+      "files": 1,
+      "example": "smali_classes2\\com\\google\\android\\gms\\measurement\\internal\\zzpp.smali"
+    },
+    {
+      "urlOrigin": "https://www.googleapis.com",
+      "files": 15,
+      "example": "smali_classes8\\com\\google\\android\\gms\\auth\\api\\signin\\GoogleSignInOptions.smali"
+    },
+    {
+      "urlOrigin": "https://www.linkedin.com",
+      "files": 2,
+      "example": "smali_classes4\\adv.smali"
+    },
+    {
+      "urlOrigin": "https://www.recent",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "https://www.slf4j.org",
+      "files": 8,
+      "example": "smali_classes3\\c4o.smali"
+    },
+    {
+      "urlOrigin": "https://www.World",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "https://www.zendesk.com",
+      "files": 1,
+      "example": "smali_classes10\\zendesk\\support\\SupportSdkSettings.smali"
+    },
+    {
+      "urlOrigin": "https://youtrack.jetbrains.com",
+      "files": 1,
+      "example": "smali_classes3\\fnw.smali"
+    },
+    {
+      "urlOrigin": "https://zendesk.duolingo.cn",
+      "files": 2,
+      "example": "smali_classes7\\s32.smali"
+    },
+    {
+      "urlOrigin": "https://zombie.duolingo.com",
+      "files": 1,
+      "example": "smali_classes2\\xzu.smali"
+    }
+  ],
+  "limitations": [
+    "Origins can be SDK or inactive code.",
+    "No URLs were requested.",
+    "The stored files count is the producer counter, not a newly deduplicated file count."
+  ]
+}

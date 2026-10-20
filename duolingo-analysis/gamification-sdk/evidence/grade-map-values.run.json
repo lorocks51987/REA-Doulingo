@@ -1,0 +1,18 @@
+{
+  "name": "grade-map-values",
+  "ok": true,
+  "operation": "inspect_android_method",
+  "evidenceId": "ev_3e7abb55106e02529bc677a548bb0e4bb4fd45abd193290fd58f49f80093b043",
+  "startedAt": "2026-10-20T14:16:36.706Z",
+  "elapsedMs": 1449,
+  "className": "defpackage.yt7",
+  "method": {
+    "name": "<clinit>",
+    "reported_signature": "<clinit>(): void",
+    "overload_index": 0,
+    "is_constructor": false,
+    "dex_descriptor": null
+  },
+  "representation": "java",
+  "bodyStatus": "available"
+}

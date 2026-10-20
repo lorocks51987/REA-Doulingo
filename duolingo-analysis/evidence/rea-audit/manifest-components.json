@@ -1,0 +1,3389 @@
+{
+    "source":  "C:\\dev\\REA\\duolingo-extracted\\AndroidManifest.xml",
+    "sha256":  "9D4654B8F550CBD28CCEF3F11234A1C05D7365CA2E4D5A195CB47CD15942C823",
+    "provenance":  "pre-existing Apktool decoded XML; not independently tied to APK by this inventory",
+    "package":  "com.duolingo",
+    "permissions":  [
+                        "android.permission.READ_CALENDAR",
+                        "android.permission.WRITE_CALENDAR",
+                        "android.permission.INTERNET",
+                        "android.permission.ACCESS_NETWORK_STATE",
+                        "android.permission.FOREGROUND_SERVICE",
+                        "android.permission.VIBRATE",
+                        "android.permission.RECEIVE_BOOT_COMPLETED",
+                        "android.permission.DETECT_SCREEN_CAPTURE",
+                        "android.permission.GET_ACCOUNTS",
+                        "android.permission.RECORD_AUDIO",
+                        "android.permission.POST_NOTIFICATIONS",
+                        "android.permission.READ_EXTERNAL_STORAGE",
+                        "android.permission.READ_CONTACTS",
+                        "com.google.android.c2dm.permission.RECEIVE",
+                        "android.permission.MODIFY_AUDIO_SETTINGS",
+                        "android.permission.CAMERA",
+                        "android.permission.SCHEDULE_EXACT_ALARM",
+                        "android.permission.USE_FULL_SCREEN_INTENT",
+                        "android.permission.WRITE_EXTERNAL_STORAGE",
+                        "android.permission.USE_BIOMETRIC",
+                        "android.permission.USE_FINGERPRINT",
+                        "android.permission.WAKE_LOCK",
+                        "com.duolingo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+                        "com.sec.android.provider.badge.permission.READ",
+                        "com.sec.android.provider.badge.permission.WRITE",
+                        "com.htc.launcher.permission.READ_SETTINGS",
+                        "com.htc.launcher.permission.UPDATE_SHORTCUT",
+                        "com.sonyericsson.home.permission.BROADCAST_BADGE",
+                        "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+                        "com.anddoes.launcher.permission.UPDATE_COUNT",
+                        "com.majeur.launcher.permission.UPDATE_BADGE",
+                        "com.huawei.android.launcher.permission.CHANGE_BADGE",
+                        "com.huawei.android.launcher.permission.READ_SETTINGS",
+                        "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+                        "android.permission.READ_APP_BADGE",
+                        "com.oppo.launcher.permission.READ_SETTINGS",
+                        "com.oppo.launcher.permission.WRITE_SETTINGS",
+                        "me.everything.badger.permission.BADGE_COUNT_READ",
+                        "me.everything.badger.permission.BADGE_COUNT_WRITE",
+                        "android.permission.ACCESS_WIFI_STATE"
+                    ],
+    "components":  [
+                       {
+                           "kind":  "provider",
+                           "name":  "com.facebook.FacebookContentProvider",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.splash.LaunchActivity",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  5
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.LoginActivity",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSocietyLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.SeasonalLauncher1",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.SeasonalLauncher2",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.SeasonalLauncher3",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.SeasonalLauncher4",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.SeasonalLauncher5",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.FixedRetentionChallengeLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.PreStreakSaver1Launcher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.PreStreakSaver2Launcher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.PreStreakSaver3Launcher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.PreStreakSaver4Launcher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.PreStreakSaver5Launcher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.PreStreakSaver6Launcher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.PreStreakSaver7Launcher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.PreStreakSaver8Launcher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.PreStreakSaver9Launcher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncherEmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncherHourglass",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncherAlarmClock",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncherSiren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncherExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncherAlarmClockPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncherExclamationMarksPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncherSirenPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncherEyes",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncherInterrobang",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher2",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher2EmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher2Hourglass",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher2AlarmClock",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher2Siren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher2ExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher2AlarmClockPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher2ExclamationMarksPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher2SirenPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher2Eyes",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher2Interrobang",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher3",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher3EmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher3Hourglass",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher3AlarmClock",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher3Siren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher3ExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher3AlarmClockPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher3ExclamationMarksPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher3SirenPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher3Eyes",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher3Interrobang",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4EmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4Hourglass",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4AlarmClock",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4Siren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4ExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4AlarmClockPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4ExclamationMarksPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4SirenPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4Eyes",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4Interrobang",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5EmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5Hourglass",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5AlarmClock",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5Siren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5ExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5AlarmClockPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5ExclamationMarksPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5SirenPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5Eyes",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5Interrobang",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6EmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6Hourglass",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6AlarmClock",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6Siren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6ExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6AlarmClockPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6ExclamationMarksPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6SirenPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6Eyes",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6Interrobang",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7EmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7Hourglass",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7AlarmClock",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7Siren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7ExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7AlarmClockPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7ExclamationMarksPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7SirenPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7Eyes",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7Interrobang",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4FixedLighting",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4FixedLightingEmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4FixedLightingHourglass",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4FixedLightingAlarmClock",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4FixedLightingSiren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4FixedLightingExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4FixedLightingAlarmClockPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4FixedLightingExclamationMarksPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4FixedLightingSirenPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4FixedLightingEyes",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher4FixedLightingInterrobang",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5FixedLighting",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5FixedLightingEmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5FixedLightingHourglass",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5FixedLightingAlarmClock",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5FixedLightingSiren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5FixedLightingExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5FixedLightingAlarmClockPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5FixedLightingExclamationMarksPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5FixedLightingSirenPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5FixedLightingEyes",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher5FixedLightingInterrobang",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6FixedLighting",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6FixedLightingEmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6FixedLightingHourglass",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6FixedLightingAlarmClock",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6FixedLightingSiren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6FixedLightingExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6FixedLightingAlarmClockPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6FixedLightingExclamationMarksPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6FixedLightingSirenPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6FixedLightingEyes",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher6FixedLightingInterrobang",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7FixedLighting",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7FixedLightingEmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7FixedLightingHourglass",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7FixedLightingAlarmClock",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7FixedLightingSiren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7FixedLightingExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7FixedLightingAlarmClockPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7FixedLightingExclamationMarksPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7FixedLightingSirenPrefix",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7FixedLightingEyes",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakSaverLauncher7FixedLightingInterrobang",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.UnhingedSickLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.UnhingedSickLauncherThermometer",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.UnhingedStuffLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.UnhingedStuffLauncherDroplet",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.UnhingedCryLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.UnhingedCryLauncherBrokenHeart",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher1",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher1EmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher1Siren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher1IceCube",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher1FrozenFace",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher1Snowflake",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher1ExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher2",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher2EmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher2Siren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher2IceCube",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher2FrozenFace",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher2Snowflake",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher2ExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher3",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher3EmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher3Siren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher3IceCube",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher3FrozenFace",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher3Snowflake",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher3ExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher4",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher4EmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher4Siren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher4IceCube",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher4FrozenFace",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher4Snowflake",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher4ExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher5",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher5EmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher5Siren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher5IceCube",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher5FrozenFace",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher5Snowflake",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher5ExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher6",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher6EmojiQuestionMark",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher6Siren",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher6IceCube",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher6FrozenFace",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher6Snowflake",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakFrozenLauncher6ExclamationMarks",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakRepairLauncher1",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakRepairLauncher2",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.StreakRepairLauncher3",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.BackgroundedLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.BackgroundedLauncherBrokenHeart",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.ExtendedLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveDarkLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveDarkLauncherLightBulb",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveScreamLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveScreamLauncherScream",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveBlackAndWhiteLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveBlackAndWhiteLauncherEyes",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveChickenLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveChickenLauncherChicken",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveBoneLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveBoneLauncherBone",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveBufferingLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveBlobFishLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveRockLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveRockLauncherRock",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveHorrorLauncher",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.app.InactiveHorrorLauncherScream",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.session.SessionActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.session.LandscapeSessionActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.onboarding.WelcomeFlowActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.onboarding.PlacementFallbackActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.onboarding.SmecIntroActivity",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.onboarding.reactivation.ReactivatedWelcomeActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.session.unitexplained.UnitTestExplainedActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.session.unitexplained.UnitTestExplainedLandscapeActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.session.SectionTestExplainedActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.session.unitexplained.UnitReviewExplainedActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.session.MistakesPracticeActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.session.unitexplained.UnitReviewExplainedLandscapeActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.stories.StoriesOnboardingActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.settings.SettingsActivity",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.management.ManageSubscriptionActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feedback.FeedbackFormActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.profile.addfriendsflow.AddFriendsFlowActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.profile.addfriendsflow.AddFriendsFlowFragmentWrapperActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.profile.addfriendsflow.SearchFriendsActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.profile.contacts.ContactsActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.profile.contactsync.AddPhoneActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.profile.suggestions.FollowSuggestionsActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.signuplogin.CountryCodeActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.profile.ProfileActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.avatar.AvatarBuilderActivity",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.profile.completion.CompleteProfileActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.rampup.RampUpIntroActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.home.sidequests.SidequestIntroActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.profile.schools.SchoolsActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.signuplogin.OktaCallbackActivity",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.signuplogin.SignupActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.signuplogin.AddPhoneActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.signuplogin.AddEmailActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.signuplogin.forgotpassword.ForgotPasswordActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.dashboard.PlusActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.management.PlusCancelSurveyActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.management.PlusFeatureListActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.purchaseflow.PlusPurchaseFlowActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.onboarding.WelcomeToPlusActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.onboarding.PlusOnboardingSlidesActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.onboarding.ImmersiveFamilyPlanOwnerOnboardingActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.sessionend.ads.PlusPromoVideoActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.onboarding.ImmersiveMaxFamilyPlanOwnerOnboardingActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.sessionend.immersive.ImmersivePlusIntroActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.sessionend.immersive.ImmersiveReassuranceActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.sessionend.immersive.ExtendedImmersiveForTopLearnersActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.energy.RewardedVideoForEnergyActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.session.start.sponsored.SponsoredUnlimitedEnergyOfferActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.session.start.sponsored.SponsoredUnlimitedEnergyReminderActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.shop.RewardedVideoAwardActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.energy.FullscreenEnergyDrawerActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.energy.EnergyDripConfirmationActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.streak.streakWidget.widgetPromo.BoostedEnergyWidgetConfirmationActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.home.path.PathChestRewardActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.home.path.rewards.PathTieredChestHostActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.home.path.SectionOverviewActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.shop.ShopPageWrapperActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.streak.drawer.StreakDrawerWrapperActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.avatar.suits.SuitsEventActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.shardcollections.ShardCollectionsActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.liveevents.rewardroad.RewardRoadActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.streak.earnback.StreakEarnbackProgressActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.referral.ReferralInterstitialActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.goals.monthlychallenges.MonthlyChallengeIntroActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.xpboost.XpBoostAnimatedRewardActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feed.FeedCommentReportActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.messages.dialogs.AgeBackfillAgeInputActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.adventures.AdventuresEpisodeActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.alphabets.AlphabetsTipListActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.registration.WelcomeRegistrationActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.explanations.SkillTipActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.explanations.AlphabetsTipActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.explanations.GuidebookActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.explanations.OnboardingDogfoodingActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.signuplogin.ResetPasswordActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.stories.StoriesSessionActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.duoradio.DuoRadioSessionActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.legendary.LegendaryFailureActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.legendary.LegendaryIntroActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.ai.videocall.promo.VideoCallPurchasePromoActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.web.WebViewActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.core.offline.ui.MaintenanceActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.familyplan.FamilyPlanLandingActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.familyplan.FamilyPlanConfirmActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.familyplan.FamilyPlanInvalidActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.familyplan.FamilyPlanAlreadySuperActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.familyplan.FamilyPlanKudosListActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.onboarding.PlusOnboardingNotificationsActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.plus.familyplan.ManageFamilyPlanActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.promocode.RedeemPromoCodeActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.leagues.LeagueRepairOfferWrapperActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.report.ReportActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.settings.privacy.DeleteAccountActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.score.ScoreDetailActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.DebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.PromoDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.EnergyDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.ProgressBarAnimationsDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.ai.roleplay.RoleplayActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.ai.videocall.VideoCallActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.chess.match.ChessMatchActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.chess.minimatch.ChessMiniMatchActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.math.tutor.MathTutorActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.chess.gamereview.ChessGameReviewActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.chess.pvp.ChessPvpActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.chess.matchtab.inappinvite.ChessFriendPvpInAppInviteActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.chess.pvp.ChessFriendPvpSplashScreenActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.ai.ema.ui.hook.EmaHookActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.DesignGuidelinesActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.PicassoExampleActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.coach.LessonCoachDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.leagues.LeaguesResultDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.stories.StoriesDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.rewards.AddFriendsRewardsActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.liveevents.EventsSocialCollaborationIntroActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.liveevents.EventsIndividualOptInIntroActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.goals.friendsquest.SocialQuestRewardActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.animation.LottieTestingActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.LargeLoadingIndicatorDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.animation.PreviewAnimationDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.animation.RiveTestingActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.score.ScoreTrophyRiveTestingActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.networking.NetworkTestingActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.ui.TypographyTokenGalleryActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.DiskAnalysisActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.DebugMemoryLeakActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.ResourceManagerExamplesActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.BackendTutorialActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.MessagesDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.CountryOverrideActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.sessionend.SessionEndDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.notifications.NotificationTrampolineActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.streak.streakWidget.AddWidgetShortcutActivity",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.streak.streakWidget.WidgetDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.streak.streakWidget.SduiWidgetDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.NotificationOptInBannerDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.CalendarEventDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.StreakAlarmDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.notifications.debug.TriggerNotificationDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.ResurrectionDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.FriendsStreakDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.StreakFreezeGiftDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.tieredchest.TieredChestDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.StreakStateDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.streaktiering.StreakTieringDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.GiftingHubDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.ComboRunDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.AvatarSuitsDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.FeatureFlagOverrideDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.score.linkedin.LinkedInOAuthReceiverActivity",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.wechat.WeChatFollowInstructionsActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.signuplogin.ForceConnectPhoneActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.ScoreDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.ScoreResetPathDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.math.MathSessionDebugSettingsActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.math.MathPathDebuggerActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.HomePathNodeRiveTestingActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.debug.ads.AdsDebugScreenActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.music.landing.SongLandingActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.hootcamp.HootcampDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.music.ui.licensed.LicensedMusicPromoActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.facebook.FacebookActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "androidx.tracing.profiler.ConnectedProfilerTracingReceiver",
+                           "exported":  "true",
+                           "permission":  "android.permission.DUMP",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "service",
+                           "name":  "com.duolingo.notifications.NotificationIntentService",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "service",
+                           "name":  "com.duolingo.notifications.NotificationIntentServiceProxy",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "service",
+                           "name":  "com.duolingo.core.account.AccountService",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "com.duolingo.streak.streakWidget.StreakWidgetProvider",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "com.duolingo.streak.streakWidget.MediumStreakWidgetProvider",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "com.duolingo.streak.streakWidget.StreakWidgetUpdateBroadcastReceiver",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "com.duolingo.notifications.FollowUpNotificationBroadcastReceiver",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "com.duolingo.notifications.TriggeredNotificationDelayedBroadcastReceiver",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.settings.music.betapath.MusicBetaPathDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.settings.service.mapping.ServiceMappingDebugSettingActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.settings.partnerevent.PartnerEventDebugSettingActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.settings.video.call.VideoCallDebugSettingsActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.settings.chess.ChessDebugSettingsActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.settings.chess.ChessMatchStartingFenDebugSettingsActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.settings.duo.world.DuoWorldDebugSettingsActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.settings.prototype.PrototypeDebugSettingsActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.settings.prototype.viewer.PrototypeViewerActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.settings.shardcollections.ShardCollectionsDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.settings.shardcollections.ShardDropSimulatorDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.settings.shardcollections.LocalDuplicateShardsDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.settings.shardcollections.GrandPrizeClaimDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.settings.shardcollections.BundlePurchaseDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.appicon.quest.AppIconQuestActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.appicon.AppIconDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "com.duolingo.feature.appicon.AppIconUpdateBroadcastReceiver",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.design.system.ComposeComponentGalleryActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.design.system.performance.ComposePerformanceDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.chess.dailypuzzle.session.ChessDailyPuzzleActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.chess.dailypuzzle.home.ChessDailyPuzzleHomeActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.chess.sandbox.ChessSandboxActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.chess.splash.ChessSplashActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.math.tutor.MathOnDemandActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.math.sandbox.MathSandboxActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.math.calculator.ScientificCalculatorActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.math.gradingfeedback.GradingFeedbackActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.session.settings.impl.SessionDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.widget.debug.SduiWidgetTimelineDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.core.util.facebook.PlayFacebookUtils$WrapperActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "service",
+                           "name":  "com.duolingo.notifications.FcmIntentService",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "provider",
+                           "name":  "androidx.core.content.FileProvider",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.purchase.flow.PurchaseFlowDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.streak.OverrideStreakDataDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.video.call.tab.debug.VideoCallHistoryDebugActivity",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.video.call.tab.ui.history.detail.VideoCallHistorySessionActivity",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.video.call.tab.ui.history.videomessage.VideoCallHistoryVideoMessageActivity",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.secondarymembernudge.FamilyPlanSecondaryNudgeFlowActivity",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.score.linkedin.ScoreLinkedInManuallySyncActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.music.ui.sandbox.note.MusicNoteSandboxActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.music.ui.sandbox.circletoken.MusicCircleTokenSandboxActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.music.ui.sandbox.draganddrop.MusicDragAndDropSandboxActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.music.ui.sandbox.scoreparser.MusicScoreParserSandboxActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.music.ui.sandbox.staffplay.MusicStaffPlaySandboxActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.music.ui.sandbox.audiotokenET.MusicAudioTokenETSandboxActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.timedevents.TimedChestsDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.leagues.interstitial.LeaderboardInterstitialActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.yearinreview.debug.YearInReviewDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.dogfood.subscription.DogfoodSubscriptionDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.yearinreview.report.YearInReviewReportActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.ads.CustomNativeAdActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.ads.FullscreenNetworkNativeAdActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.ads.sponsored.SponsoredInStreamAdActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.localization.livestrings.LiveStringsDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.sessionend.debug.SessionCompleteRiveTestingActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.core.rive.modular.debug.ModularRiveDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.debug.learning.challenge.LearningChallengeDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.experiments.debug.ClientExperimentDebugScreenActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.haptics.debug.HapticsPlayerDebugActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.animation.tester.impl.AnimationTesterActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.core.wechat.WeChatReceiverActivity",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.wxapi.WXPayEntryActivity",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity-alias",
+                           "name":  "com.duolingo.wxapi.WXEntryActivity",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "com.duolingo.core.streak.alarm.StreakAlarmReceiver",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.core.streak.alarm.StreakAlarmRingActivity",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.unity.MusicUnityActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.feature.unity.DuoWorldUnityActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "service",
+                           "name":  "com.duolingo.feature.unity.bridge.service.UnityBridgeService",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.duolingo.core.android.activity.test.EmptyEntryPointTestActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "com.duolingo.core.share.ShareReceiver",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.unity3d.player.UnityPlayerGameActivity",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "service",
+                           "name":  "androidx.credentials.playservices.CredentialProviderMetadataHolder",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "androidx.credentials.playservices.controllers.identityauth.HiddenActivity",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "androidx.credentials.playservices.controllers.identitycredentials.IdentityCredentialApiHiddenActivity",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "service",
+                           "name":  "androidx.camera.core.impl.MetadataHolderService",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.facebook.CustomTabMainActivity",
+                           "exported":  "",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.facebook.CustomTabActivity",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+                           "exported":  "true",
+                           "permission":  "com.google.android.c2dm.permission.SEND",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "service",
+                           "name":  "com.google.firebase.messaging.FirebaseMessagingService",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "service",
+                           "name":  "com.google.firebase.components.ComponentDiscoveryService",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "service",
+                           "name":  "androidx.work.impl.background.systemjob.SystemJobService",
+                           "exported":  "true",
+                           "permission":  "android.permission.BIND_JOB_SERVICE",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "service",
+                           "name":  "androidx.work.impl.foreground.SystemForegroundService",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+                           "exported":  "true",
+                           "permission":  "android.permission.DUMP",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "service",
+                           "name":  "com.google.android.gms.auth.api.signin.RevocationBoundService",
+                           "exported":  "true",
+                           "permission":  "com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  1
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "androidx.compose.ui.tooling.PreviewActivity",
+                           "exported":  "true",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "service",
+                           "name":  "androidx.room.MultiInstanceInvalidationService",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "androidx.profileinstaller.ProfileInstallReceiver",
+                           "exported":  "true",
+                           "permission":  "android.permission.DUMP",
+                           "intentFilters":  4
+                       },
+                       {
+                           "kind":  "provider",
+                           "name":  "com.squareup.picasso.PicassoProvider",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "receiver",
+                           "name":  "androidx.tracing.profiler.ConnectedProfilerTracingEnabledReceiver",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "provider",
+                           "name":  "com.adjust.sdk.SystemLifecycleContentProvider",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       },
+                       {
+                           "kind":  "activity",
+                           "name":  "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+                           "exported":  "false",
+                           "permission":  "",
+                           "intentFilters":  0
+                       }
+                   ]
+}

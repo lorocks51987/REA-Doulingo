@@ -1,0 +1,71 @@
+{
+  "name": "reward-requirement-class",
+  "ok": true,
+  "operation": "inspect_android_class",
+  "evidenceId": "ev_7e14dad30b6bccb7e85abf909effb945b8483cca9a093e516a092881f314c728",
+  "startedAt": "2026-10-20T14:14:02.483Z",
+  "elapsedMs": 1534,
+  "className": "com.duolingo.data.energyrewards.InLessonRewardRequirement",
+  "methods": [
+    {
+      "name": "<clinit>",
+      "reported_signature": "<clinit>(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(int, java.lang.Object, com.duolingo.data.energyrewards.InLessonRewardOperator): void",
+      "overload_index": 0,
+      "is_constructor": true,
+      "dex_descriptor": null
+    },
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(java.lang.Integer, com.duolingo.data.energyrewards.InLessonRewardOperator): void",
+      "overload_index": 1,
+      "is_constructor": true,
+      "dex_descriptor": null
+    },
+    {
+      "name": "equals",
+      "reported_signature": "equals(java.lang.Object): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "hashCode",
+      "reported_signature": "hashCode(): int",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "toString",
+      "reported_signature": "toString(): java.lang.String",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    }
+  ],
+  "fields": [
+    {
+      "name": "Companion",
+      "reported_type": "qsk"
+    },
+    {
+      "name": "a",
+      "reported_type": "java.lang.Object"
+    },
+    {
+      "name": "b",
+      "reported_type": "com.duolingo.data.energyrewards.InLessonRewardOperator"
+    },
+    {
+      "name": "c",
+      "reported_type": "y2v"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "combo-producer-search",
+  "ok": true,
+  "operation": "search_android_classes",
+  "evidenceId": "ev_5891fc2d380c9dfd251668347bf88ec1c53a03d693d7e62d3cfd8db79dadadd8",
+  "startedAt": "2026-10-20T14:12:12.708Z",
+  "elapsedMs": 64056,
+  "matches": [
+    "defpackage.eu7",
+    "defpackage.eu70"
+  ]
+}

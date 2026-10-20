@@ -1,0 +1,102 @@
+{
+  "name": "combo-producer-class",
+  "ok": true,
+  "operation": "inspect_android_class",
+  "evidenceId": "ev_554741840ca3d0eb1c68ab4a86226414e35d73be30aa47555ade470edbb6273f",
+  "startedAt": "2026-10-20T14:13:16.773Z",
+  "elapsedMs": 5304,
+  "className": "defpackage.eu7",
+  "methods": [
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(bq1, jt7, wt7, ndc, com.duolingo.core.experiments.ExperimentsRepository, x7o, ag8, qa90): void",
+      "overload_index": 0,
+      "is_constructor": true,
+      "dex_descriptor": null
+    },
+    {
+      "name": "a",
+      "reported_signature": "a(com.duolingo.core.data.model.UserId, boolean, boolean): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "b",
+      "reported_signature": "b(com.duolingo.core.data.model.UserId, com.duolingo.data.comborun.ComboGradeResult, boolean): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "c",
+      "reported_signature": "c(yv8): java.lang.Object",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "d",
+      "reported_signature": "d(boolean, yv8): java.lang.Object",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "e",
+      "reported_signature": "e(com.duolingo.data.home.path.PathLevelSessionEndInfo, com.duolingo.core.session.SessionTypeInfo, vp60): java.lang.Object",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "f",
+      "reported_signature": "f(com.duolingo.core.data.model.UserId, com.duolingo.data.comborun.ComboRunTracking$LossReason): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    }
+  ],
+  "fields": [
+    {
+      "name": "a",
+      "reported_type": "bq1"
+    },
+    {
+      "name": "b",
+      "reported_type": "jt7"
+    },
+    {
+      "name": "c",
+      "reported_type": "wt7"
+    },
+    {
+      "name": "d",
+      "reported_type": "ndc"
+    },
+    {
+      "name": "e",
+      "reported_type": "com.duolingo.core.experiments.ExperimentsRepository"
+    },
+    {
+      "name": "f",
+      "reported_type": "x7o"
+    },
+    {
+      "name": "g",
+      "reported_type": "ag8"
+    },
+    {
+      "name": "h",
+      "reported_type": "qa90"
+    },
+    {
+      "name": "i",
+      "reported_type": "p740"
+    },
+    {
+      "name": "j",
+      "reported_type": "com.duolingo.core.session.SessionTypeInfo"
+    }
+  ]
+}

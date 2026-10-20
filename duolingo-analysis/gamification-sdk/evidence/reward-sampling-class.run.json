@@ -1,0 +1,60 @@
+{
+  "name": "reward-sampling-class",
+  "ok": true,
+  "operation": "inspect_android_class",
+  "evidenceId": "ev_2fee3f50725dca13a5bac7b0e5fb2f39968e43e6146b905042d8896cf2049048",
+  "startedAt": "2026-10-20T14:20:57.756Z",
+  "elapsedMs": 7437,
+  "className": "defpackage.cid",
+  "methods": [
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(lid, com.duolingo.core.experiments.ExperimentsRepository, pfu): void",
+      "overload_index": 0,
+      "is_constructor": true,
+      "dex_descriptor": null
+    },
+    {
+      "name": "a",
+      "reported_signature": "a(com.duolingo.core.pcollections.migration.PVector, yv8): java.lang.Object",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "b",
+      "reported_signature": "b(int, java.lang.String, com.duolingo.data.energyrewards.ComboMoment, com.duolingo.data.course.Subject, int, boolean, boolean, java.lang.Integer, yv8): java.lang.Object",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "c",
+      "reported_signature": "c(com.duolingo.data.energyrewards.EnergyRewardsTemplate, int, java.lang.String, com.duolingo.data.energyrewards.ComboMoment, com.duolingo.data.course.Subject, int, boolean, boolean, java.lang.Integer, yv8): java.lang.Object",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "d",
+      "reported_signature": "d(com.duolingo.data.energyrewards.InLessonRewardExperimentRequirement, yv8): java.lang.Object",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    }
+  ],
+  "fields": [
+    {
+      "name": "a",
+      "reported_type": "lid"
+    },
+    {
+      "name": "b",
+      "reported_type": "com.duolingo.core.experiments.ExperimentsRepository"
+    },
+    {
+      "name": "c",
+      "reported_type": "pfu"
+    }
+  ]
+}

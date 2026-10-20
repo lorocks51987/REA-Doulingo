@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "researchDate": "2026-10-20",
+  "scope": "Research dossier and proposed independent SDK; no production integration",
+  "documents": [
+    {
+      "path": "SDK-DUOLINGO-ESPECIFICACAO.md",
+      "sha256": "1182314eb1d95768f253d4f07326ef729073cc344d48d720df62829c876dd0c9",
+      "bytes": 32559
+    },
+    {
+      "path": "APK-CATALOGO.md",
+      "sha256": "eefa9b44f193c3a8fa8a81f9956bcc3ba8f9dd489a1939a11876ee7b37f04888",
+      "bytes": 15998
+    },
+    {
+      "path": "../PESQUISA-PRODUTO.md",
+      "sha256": "329bb5abbaa2984932e3f9c7fd039ecb3875ff2ef3ecb4371a44f135aafc23dd",
+      "bytes": 9168
+    },
+    {
+      "path": "../REPOSITORIOS.md",
+      "sha256": "5aebc48edfdd6513c3976a0568dfb336e1a7fda5b7d73c59b3d075e8a33561e9",
+      "bytes": 6819
+    },
+    {
+      "path": "contracts.ts",
+      "sha256": "74ac19a8603789e3325f975da54d44274f5655275bf78c2c5bac99a127799c62",
+      "bytes": 7525
+    },
+    {
+      "path": "sdk-apk-catalog.json",
+      "sha256": "2da717225d325ed6241fe2e69b8d5d3322f653c053fa49beeebac874f33cd987",
+      "bytes": 916403
+    },
+    {
+      "path": "network-origins.json",
+      "sha256": "e3061be418bc04be3018ac8b8f9913bae74ed5c1d9569925bc47d1dec8f251c5",
+      "bytes": 27311
+    }
+  ],
+  "referencedWebUrls": [
+    {
+      "url": "https://blog.duolingo.com/chess-course/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/duolingo-android-reboot-2021/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/duolingo-energy/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/duolingo-leagues-leaderboards/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/duolingo-max/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/duolingo-score/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/friend-streak/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/friends-social-features/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/guide-to-duolingo-practice-hub/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/large-language-model-duolingo-lessons/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/learning-how-to-help-you-learn-introducing-birdbrain/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/migrating-duolingos-android-app-to-100-kotlin/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/music-course/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/new-duolingo-home-screen-design/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/product-highlights/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/product-lessons-friend-streak/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/protecting-streaks-from-site-issues/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/rewriting-duolingos-engine-in-scala/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/sneaky-pronunciation-practice/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/super-duolingo-launch/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/time-spent-learning-well/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/unique-engineering-problems/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/world-character-visemes/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/KartikTalwar/Duolingo",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/KartikTalwar/Duolingo/blob/master/LICENSE.md",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/KartikTalwar/Duolingo/blob/master/duolingo.py",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/KartikTalwar/Duolingo/issues/139",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/NYUCCL/duolingoSLAM",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/NYUCCL/duolingoSLAM/blob/master/processing.py",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/duolingo/halflife-regression",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/duolingo/halflife-regression/blob/master/LICENSE.md",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/duolingo/halflife-regression/blob/master/README.md?plain=1",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/duolingo/halflife-regression/blob/master/experiment.py",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/duolingo/halflife-regression/commits/master/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/jakemaz66/RecoveringSleepingBandit",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/morluto/rea",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/rive-app/rive-runtime/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://github.com/sweta20/duolingo-shared-task",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jakemaz66/RecoveringSleepingBandit/main/algorithm_bandit.py",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rive-app/rive-runtime/main/include/rive/artboard.hpp",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://research.duolingo.com/",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://research.duolingo.com/papers/settles.acl16.pdf",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    },
+    {
+      "url": "https://www.duolingo.com/privacy",
+      "accessedDate": "2026-10-20",
+      "revisionPolicy": "URL may be mutable; no full source snapshot retained"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "../lesson-progress-class.json",
+      "fileSha256": "4dd6dba9eadce5fbab82e7aa9c1b06c89d7af5532a497a9ee26427c9c01e14a2",
+      "evidenceId": "ev_08e146d192677902b60a807a85d622cc71afed33001cc145181d0511cdb9ea16",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "className": "com.duolingo.data.session.progressbar.LessonProgressBarAndroidView",
+      "methods": 17,
+      "fields": 15,
+      "innerClasses": []
+    },
+    {
+      "path": "../challenge-guess-class.json",
+      "fileSha256": "f527f5ad131e4433a6b1c9895cfeec57adf2cdbf6c45fa7fc2eecc6f733ba62d",
+      "evidenceId": "ev_07d5a62efbd12891e1f8fcd491e5fb46e0c289e863c3d3925c58a7486aa7f3a8",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "className": "com.duolingo.core.challenges.ApiGuess",
+      "methods": 1,
+      "fields": 1,
+      "innerClasses": [
+        "com.duolingo.core.challenges.ApiGuess.Int",
+        "com.duolingo.core.challenges.ApiGuess.Null",
+        "com.duolingo.core.challenges.ApiGuess.String",
+        "com.duolingo.core.challenges.ApiGuess.StringList"
+      ]
+    }
+  ],
+  "validation": {
+    "classes": 9021,
+    "uniqueClasses": 9021,
+    "namespaces": 62,
+    "assets": 599,
+    "nativeLibraries": 81,
+    "permissions": 40,
+    "components": 477,
+    "referencedWebUrls": 44,
+    "checkedLocalLinks": 17,
+    "newEvidenceRecords": 2,
+    "typescriptSyntax": "passed via Node stripTypeScriptTypes; not semantic typechecking",
+    "runtime": "v22.23.2"
+  }
+}

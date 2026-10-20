@@ -1,0 +1,64 @@
+﻿TAP version 13
+# Subtest: ungraded preserves run; incorrect resets current but retains best
+ok 1 - ungraded preserves run; incorrect resets current but retains best
+  ---
+  duration_ms: 3.1807
+  type: 'test'
+  ...
+# Subtest: attempt retry is idempotent; conflicting identity/revision rejected; input immutable
+ok 2 - attempt retry is idempotent; conflicting identity/revision rejected; input immutable
+  ---
+  duration_ms: 2.0542
+  type: 'test'
+  ...
+# Subtest: XP chooses highest active boost without stacking; expiry is exclusive
+ok 3 - XP chooses highest active boost without stacking; expiry is exclusive
+  ---
+  duration_ms: 0.8125
+  type: 'test'
+  ...
+# Subtest: XP handles large intermediate integers and rejects overflow/invalid boost
+ok 4 - XP handles large intermediate integers and rejects overflow/invalid boost
+  ---
+  duration_ms: 0.8135
+  type: 'test'
+  ...
+# Subtest: quest ignores unrelated metrics, deduplicates receipts, rejects changed receipt and claims once
+ok 5 - quest ignores unrelated metrics, deduplicates receipts, rejects changed receipt and claims once
+  ---
+  duration_ms: 1.0559
+  type: 'test'
+  ...
+# Subtest: cohort tie breaks are deterministic; zones do not overlap; source array unchanged
+ok 6 - cohort tie breaks are deterministic; zones do not overlap; source array unchanged
+  ---
+  duration_ms: 3.5214
+  type: 'test'
+  ...
+# Subtest: malformed restored state returns tagged errors instead of throwing
+ok 7 - malformed restored state returns tagged errors instead of throwing
+  ---
+  duration_ms: 0.2865
+  type: 'test'
+  ...
+# Subtest: weighted draw normalizes expected value and never selects zero-weight outcome
+ok 8 - weighted draw normalizes expected value and never selects zero-weight outcome
+  ---
+  duration_ms: 0.3359
+  type: 'test'
+  ...
+# Subtest: weighted draw rejects invalid samples and unbounded/empty weights
+ok 9 - weighted draw rejects invalid samples and unbounded/empty weights
+  ---
+  duration_ms: 0.482
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 286.6291

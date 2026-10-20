@@ -1,0 +1,18 @@
+{
+  "name": "combo-complete-persist",
+  "ok": true,
+  "operation": "inspect_android_method",
+  "evidenceId": "ev_79c3c1941bdcdb169724d0817343c7eb39bd51ce7e05ee2b5110f2a225af18c6",
+  "startedAt": "2026-10-20T14:16:16.386Z",
+  "elapsedMs": 4654,
+  "className": "defpackage.eu7",
+  "method": {
+    "name": "c",
+    "reported_signature": "c(yv8): java.lang.Object",
+    "overload_index": 0,
+    "is_constructor": false,
+    "dex_descriptor": null
+  },
+  "representation": "java",
+  "bodyStatus": "available"
+}

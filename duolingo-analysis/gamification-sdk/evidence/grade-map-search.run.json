@@ -1,0 +1,12 @@
+{
+  "name": "grade-map-search",
+  "ok": true,
+  "operation": "search_android_classes",
+  "evidenceId": "ev_90861d9679be80be0846b3890290a9c0bd6040ddb9ea0b972f574a9523d8ef95",
+  "startedAt": "2026-10-20T14:16:23.214Z",
+  "elapsedMs": 12051,
+  "matches": [
+    "defpackage.yt7",
+    "defpackage.yt70"
+  ]
+}

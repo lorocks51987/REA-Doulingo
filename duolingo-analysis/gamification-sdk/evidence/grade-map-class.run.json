@@ -1,0 +1,24 @@
+{
+  "name": "grade-map-class",
+  "ok": true,
+  "operation": "inspect_android_class",
+  "evidenceId": "ev_e7c6bc5b4d2aae799c529fa88d2cbb8e913242557c0cb929ecc96609bd4383da",
+  "startedAt": "2026-10-20T14:16:35.266Z",
+  "elapsedMs": 1440,
+  "className": "defpackage.yt7",
+  "methods": [
+    {
+      "name": "<clinit>",
+      "reported_signature": "<clinit>(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    }
+  ],
+  "fields": [
+    {
+      "name": "a",
+      "reported_type": "int[]"
+    }
+  ]
+}

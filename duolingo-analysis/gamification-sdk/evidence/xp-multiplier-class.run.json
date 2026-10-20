@@ -1,0 +1,61 @@
+{
+  "name": "xp-multiplier-class",
+  "ok": true,
+  "operation": "inspect_android_class",
+  "evidenceId": "ev_0cdc2067f33cf9843012704e629215f645aa2e8faf8d1bd2781483b8c58c2bfa",
+  "startedAt": "2026-10-20T14:13:57.929Z",
+  "elapsedMs": 1542,
+  "className": "com.duolingo.data.xpboost.XpBoostMultiplier",
+  "methods": [
+    {
+      "name": "<clinit>",
+      "reported_signature": "<clinit>(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "getEntries",
+      "reported_signature": "getEntries(): lmd",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "valueOf",
+      "reported_signature": "valueOf(java.lang.String): com.duolingo.data.xpboost.XpBoostMultiplier",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "values",
+      "reported_signature": "values(): com.duolingo.data.xpboost.XpBoostMultiplier[]",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    }
+  ],
+  "fields": [
+    {
+      "name": "$VALUES",
+      "reported_type": "com.duolingo.data.xpboost.XpBoostMultiplier[]"
+    },
+    {
+      "name": "DOUBLE_MULTIPLIER",
+      "reported_type": "com.duolingo.data.xpboost.XpBoostMultiplier"
+    },
+    {
+      "name": "ONE_POINT_FIVE_MULTIPLIER",
+      "reported_type": "com.duolingo.data.xpboost.XpBoostMultiplier"
+    },
+    {
+      "name": "TRIPLE_MULTIPLIER",
+      "reported_type": "com.duolingo.data.xpboost.XpBoostMultiplier"
+    },
+    {
+      "name": "a",
+      "reported_type": "mmd"
+    }
+  ]
+}

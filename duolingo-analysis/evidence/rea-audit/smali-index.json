@@ -1,0 +1,3623 @@
+{
+  "source": "C:/dev/REA/duolingo-extracted",
+  "authority": "ordinary shell/Node static text indexing; not REA Evidence",
+  "provenance": "pre-existing decoded files; candidates require REA verification",
+  "files": 91761,
+  "bytes": 558143165,
+  "elapsedMs": 240067,
+  "groups": {
+    "lesson": {
+      "matchingFiles": 4886,
+      "candidates": [
+        {
+          "path": "smali_classes2/com/duolingo/data/session/progressbar/LessonProgressBarAndroidView.smali",
+          "class": "Lcom/duolingo/data/session/progressbar/LessonProgressBarAndroidView;",
+          "score": 30,
+          "sha256": "0982097c68f82207f0b8c139b061dbdfa5d6f1241793932cf0adda5351233081",
+          "methods": [
+            "public static final synthetic l(Lcom/duolingo/data/session/progressbar/LessonProgressBarAndroidView;I)V\r",
+            "public final getLessonProgress$session_progressbar()F\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/progressbar/LessonProgressBarView.smali",
+          "class": "Lcom/duolingo/data/session/progressbar/LessonProgressBarView;",
+          "score": 30,
+          "sha256": "e7962abeda51f091d7d9c770014cb6b636a52e3455ace8756589310e30e8e6b5",
+          "methods": [
+            "public static final c(Lcom/duolingo/data/session/progressbar/LessonProgressBarView;Lcc8;I)V\r",
+            "public static final d(Lcom/duolingo/data/session/progressbar/LessonProgressBarView;Lcc8;I)V\r",
+            "private final getAndroidProgressBar()Lcom/duolingo/data/session/progressbar/LessonProgressBarAndroidView;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/progressbar/model/LessonProgressBarUiState$RiveMode.smali",
+          "class": "Lcom/duolingo/data/session/progressbar/model/LessonProgressBarUiState$RiveMode;",
+          "score": 30,
+          "sha256": "023b7fa74c57d4086526b80845fe41491e8c4c53fec2b35d24366ec1b3b03467",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/session/progressbar/model/LessonProgressBarUiState$RiveMode;\r",
+            "public static values()[Lcom/duolingo/data/session/progressbar/model/LessonProgressBarUiState$RiveMode;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/SessionRouteParams$AlphabetLesson.smali",
+          "class": "Lcom/duolingo/data/session/SessionRouteParams$AlphabetLesson;",
+          "score": 30,
+          "sha256": "db58a9d46b28a7bbc451eedce106d4b64ab4fea18446ac06aa5cd005359d5cf1",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/SessionRouteParams$Lesson.smali",
+          "class": "Lcom/duolingo/data/session/SessionRouteParams$Lesson;",
+          "score": 30,
+          "sha256": "86f7738598b48b69e843d1e142882c3288a00548507175dca67bdcd17602c1f5",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/SessionRouteParams$Lesson$Request.smali",
+          "class": "Lcom/duolingo/data/session/SessionRouteParams$Lesson$Request;",
+          "score": 30,
+          "sha256": "e7f96f7ac4ed8f9d6cedabd254c3bf3aa499e9e7c19a19db92f70ecb22eccf8a",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/data/session/SessionRouteParams$Lesson;Ljava/util/Set;ZLukl;ZZ)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/SessionRouteParams$MathLesson.smali",
+          "class": "Lcom/duolingo/data/session/SessionRouteParams$MathLesson;",
+          "score": 30,
+          "sha256": "726428bfcc430d0979d8eb6578f4f17b84682482654b604070311ed1f08db035",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/state/ChallengeInitializationBridge$InitializationState.smali",
+          "class": "Lcom/duolingo/data/session/state/ChallengeInitializationBridge$InitializationState;",
+          "score": 30,
+          "sha256": "bdf32223721437f7ff9a9f22fd47386a0f4175cc013f19f9652eb00567dd4193",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/session/state/ChallengeInitializationBridge$InitializationState;\r",
+            "public static values()[Lcom/duolingo/data/session/state/ChallengeInitializationBridge$InitializationState;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/state/InLessonStreakState.smali",
+          "class": "Lcom/duolingo/data/session/state/InLessonStreakState;",
+          "score": 30,
+          "sha256": "a86ad9e8f5d7c28f66a34bc8377c2e0ab1e9ece06e6e006b7edaf81b502c4c2f",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/state/InLessonStreakState$ActiveStreak.smali",
+          "class": "Lcom/duolingo/data/session/state/InLessonStreakState$ActiveStreak;",
+          "score": 30,
+          "sha256": "ad3d24b4b473f178a1351c65202a095badf360e61971a16efbce641cf520dc7e",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/state/InLessonStreakState$ComboLost.smali",
+          "class": "Lcom/duolingo/data/session/state/InLessonStreakState$ComboLost;",
+          "score": 30,
+          "sha256": "3c09c027202331e4a627cb3b5fd6d7e5e6f0410c14a49f764b14155ba8683702",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/state/InLessonStreakState$None.smali",
+          "class": "Lcom/duolingo/data/session/state/InLessonStreakState$None;",
+          "score": 30,
+          "sha256": "ae266656ce5433bb20ef0ee79ac9f6209576e684ec9467b6d1eb940a9dc56ca0",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/state/InLessonStreakState$PerfectLesson.smali",
+          "class": "Lcom/duolingo/data/session/state/InLessonStreakState$PerfectLesson;",
+          "score": 30,
+          "sha256": "8a7ef546f1f7f08dd56c9cdce2e577afc052e369457f0631d750258c91c281fe",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/state/InLessonStreakState$Skipped.smali",
+          "class": "Lcom/duolingo/data/session/state/InLessonStreakState$Skipped;",
+          "score": 30,
+          "sha256": "080a34ab5f01247a222a330705c7d916ec45566cd78416306ee53abed0e54534",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/state/SessionVisualState$Challenge.smali",
+          "class": "Lcom/duolingo/data/session/state/SessionVisualState$Challenge;",
+          "score": 30,
+          "sha256": "85edfb35cc5e8f457d72841687062d740227b5d41ffb7e53a16f83be20fcf3d8",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/core/session/api/SessionChallengeIndex;Lcom/duolingo/core/challenges/grading/GradingState;Ljava/lang/String;Z)V\r",
+            "public static a(Lcom/duolingo/data/session/state/SessionVisualState$Challenge;Lcom/duolingo/core/challenges/grading/GradingState;I)Lcom/duolingo/data/session/state/SessionVisualState$Challenge;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/stories/StoriesLesson.smali",
+          "class": "Lcom/duolingo/data/stories/StoriesLesson;",
+          "score": 30,
+          "sha256": "5ccbc39e59d6a5c6d28ac8c9373383796eb10103e0b5fb7e82c39d64a3427b14",
+          "methods": [
+            "public synthetic constructor <init>(ILcom/duolingo/core/pcollections/migration/PVector;Lcom/duolingo/core/language/Language;Lcom/duolingo/core/language/Language;Ljava/lang/Integer;Lcom/duolingo/core/pcollections/migration/PVector;Lcom/duolingo/data/stories/StoryMode;Lcom/duolingo/core/tracking/TrackingProperties;Lcom/duolingo/data/stories/StoriesLessonTrackingConstants;Lcom/duolingo/core/character/JuicyCharacterName;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/stories/StoriesLessonTrackingConstants.smali",
+          "class": "Lcom/duolingo/data/stories/StoriesLessonTrackingConstants;",
+          "score": 30,
+          "sha256": "442c1c3f58716762f37f90541a0fa7c33bcaa72c275433a52d8115aa74bd6140",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/goals/monthlychallenges/MonthlyChallengeCompleteBadgeView.smali",
+          "class": "Lcom/duolingo/goals/monthlychallenges/MonthlyChallengeCompleteBadgeView;",
+          "score": 30,
+          "sha256": "5ab9d36e2adceb6f5ce40ca86a8f1f5ff226cf6bb022259467a1920f21f8ba7d",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/goals/monthlychallenges/MonthlyChallengeHeaderView.smali",
+          "class": "Lcom/duolingo/goals/monthlychallenges/MonthlyChallengeHeaderView;",
+          "score": 30,
+          "sha256": "a6fdae4775cca991d33dce46e5ec99e4819a9c2c87c7c1577b594bb8c1482ea7",
+          "methods": [
+            "private final setUpHeaderTextForActiveChallenge(Lenq;)V\r",
+            "private final setUpViewForInactiveChallenge(Lfnq;)V\r",
+            "public final getMonthlyChallengesEventTracker()Ldnq;\r",
+            "public final setMonthlyChallengesEventTracker(Ldnq;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/goals/tab/ChallengeProgressBarView.smali",
+          "class": "Lcom/duolingo/goals/tab/ChallengeProgressBarView;",
+          "score": 30,
+          "sha256": "21146538df4476ba0fcf9f0f2132310447957d9395054efa1e0c0f613a387c06",
+          "methods": [
+            "public static synthetic A(Lcom/duolingo/goals/tab/ChallengeProgressBarView;Lcom/duolingo/goals/tab/AnimationConfiguration;I)Landroid/animation/AnimatorSet;\r",
+            "private final getMonthlyChallengeCompletionBadgeAnimator()Landroid/animation/AnimatorSet;\r",
+            "public static final synthetic v(Lcom/duolingo/goals/tab/ChallengeProgressBarView;)F\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/music/ui/MusicLessonProgressBarView.smali",
+          "class": "Lcom/duolingo/music/ui/MusicLessonProgressBarView;",
+          "score": 30,
+          "sha256": "aeb0574cebea60a1515cfcedc54cd2f6393e8377b2770a0731c5f998689ff125",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/session/buttons/ChallengeButtonsFragment.smali",
+          "class": "Lcom/duolingo/session/buttons/ChallengeButtonsFragment;",
+          "score": 30,
+          "sha256": "5a6a4555a706315e80a81305ef740c92f5c203b3c2e60b2ae0270722c6ac4921",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/session/buttons/CombinedChallengeButtonView.smali",
+          "class": "Lcom/duolingo/session/buttons/CombinedChallengeButtonView;",
+          "score": 30,
+          "sha256": "9bdfd1a03b77aec410e9b1bea1677c36d2d189db617f76dee558869a8eac8b60",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/session/buttons/Hilt_ChallengeButtonsFragment.smali",
+          "class": "Lcom/duolingo/session/buttons/Hilt_ChallengeButtonsFragment;",
+          "score": 30,
+          "sha256": "12c5066ba6b9c864e3f789769e33587774dc4160f3c9fbfb004dd40d7cdb4070",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/session/buttons/JuicyChallengeButtonViewStub.smali",
+          "class": "Lcom/duolingo/session/buttons/JuicyChallengeButtonViewStub;",
+          "score": 30,
+          "sha256": "8092761b2a0673149a908c231ec74b47f0b33fc662d263c858511d893d73cb23",
+          "methods": [
+            "public static b(Lcom/duolingo/session/buttons/JuicyChallengeButtonViewStub;Landroid/content/Context;Landroid/util/AttributeSet;I)V\r",
+            "public static final c(Lcom/duolingo/session/buttons/JuicyChallengeButtonViewStub;Lcom/duolingo/core/design/juicy/ui/JuicyButton;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/session/challenges/chess/ChessElementFragment.smali",
+          "class": "Lcom/duolingo/session/challenges/chess/ChessElementFragment;",
+          "score": 30,
+          "sha256": "f46af68f903fdbdb3f33fb64282e2e8a037ec2b9a1498a1da6d0b8ab360c8ecd",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/session/challenges/ComboIndicatorView.smali",
+          "class": "Lcom/duolingo/session/challenges/ComboIndicatorView;",
+          "score": 30,
+          "sha256": "fffce85196a55570e678539e1d5564a6d33c7ec82f4f62c5c1b034998fa856ef",
+          "methods": [
+            "public static final u(Lcom/duolingo/session/challenges/ComboIndicatorView;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/session/challenges/ElementFragment.smali",
+          "class": "Lcom/duolingo/session/challenges/ElementFragment;",
+          "score": 30,
+          "sha256": "1d0ec1f989afaf835f706a91061f384161bbec64e0d4bc0cd47ec4ff20b3aaab",
+          "methods": [
+            "public z(Lpaa0;)Lcom/duolingo/core/ui/ChallengeHeaderView;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/session/challenges/HideForKeyboardAnimationConstraintHelper.smali",
+          "class": "Lcom/duolingo/session/challenges/HideForKeyboardAnimationConstraintHelper;",
+          "score": 30,
+          "sha256": "e52ca4ec01c2ba4c316f4426b3525a6b8b4b4843e6cc320c6175d5e7d1e3f157",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/session/challenges/HideForKeyboardConstraintHelper.smali",
+          "class": "Lcom/duolingo/session/challenges/HideForKeyboardConstraintHelper;",
+          "score": 30,
+          "sha256": "500f369bf07740ab0fc1b4be453dbf2ca6a7ddaa6408d63719fb6423256b8248",
+          "methods": []
+        }
+      ]
+    },
+    "progress": {
+      "matchingFiles": 2225,
+      "candidates": [
+        {
+          "path": "smali_classes2/com/duolingo/data/score/ScoreWithProgress.smali",
+          "class": "Lcom/duolingo/data/score/ScoreWithProgress;",
+          "score": 30,
+          "sha256": "141beb47c0096b4b80a82c790338cb80f97e0ae146b335844e7d6deb94b1e9aa",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/progressbar/c.smali",
+          "class": "Lcom/duolingo/data/session/progressbar/c;",
+          "score": 30,
+          "sha256": "47f8b000c180730de08b21a3ca85c73c7c9c0520169bf2d9756ad1709cbe76ff",
+          "methods": [
+            "public final b(Lcom/duolingo/data/session/progressbar/SessionQuitSoundEffect;Lcom/duolingo/data/session/progressbar/SessionQuitHaptics;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/progressbar/LessonProgressBarAndroidView.smali",
+          "class": "Lcom/duolingo/data/session/progressbar/LessonProgressBarAndroidView;",
+          "score": 30,
+          "sha256": "0982097c68f82207f0b8c139b061dbdfa5d6f1241793932cf0adda5351233081",
+          "methods": [
+            "public static final synthetic l(Lcom/duolingo/data/session/progressbar/LessonProgressBarAndroidView;I)V\r",
+            "private final setProgressColor(I)V\r",
+            "public final getLessonProgress$session_progressbar()F\r",
+            "public getMinProgressWidth()F\r",
+            "public final getProgressColorState$session_progressbar()Lcom/duolingo/data/session/progressbar/model/ProgressBarStreakColorState;\r",
+            "public final m(Lcom/duolingo/data/session/progressbar/model/ProgressBarStreakColorState;Lcom/duolingo/data/session/progressbar/model/ProgressBarStreakColorState;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/progressbar/LessonProgressBarView.smali",
+          "class": "Lcom/duolingo/data/session/progressbar/LessonProgressBarView;",
+          "score": 30,
+          "sha256": "e7962abeda51f091d7d9c770014cb6b636a52e3455ace8756589310e30e8e6b5",
+          "methods": [
+            "public static final c(Lcom/duolingo/data/session/progressbar/LessonProgressBarView;Lcc8;I)V\r",
+            "public static final d(Lcom/duolingo/data/session/progressbar/LessonProgressBarView;Lcc8;I)V\r",
+            "private final getAndroidProgressBar()Lcom/duolingo/data/session/progressbar/LessonProgressBarAndroidView;\r",
+            "private final getRiveComposeProgressBar()Lcom/duolingo/core/common/compose/DuoComposeView2;\r",
+            "private final getRiveLegacyApiProgressBar()Lcom/duolingo/core/common/compose/DuoComposeView2;\r",
+            "private final get_regularProgressBar()Libn;\r",
+            "private final set_regularProgressBar(Libn;)V\r",
+            "public final a(Lcom/duolingo/core/experiments/ExperimentsRepository$TreatmentRecord;Lcom/duolingo/data/session/progressbar/c;)V\r",
+            "public final b(Lcom/duolingo/core/experiments/ExperimentsRepository$TreatmentRecord;Lcom/duolingo/data/session/progressbar/c;)V\r",
+            "public final getProgress()F\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/progressbar/model/LessonProgressBarUiState$RiveMode.smali",
+          "class": "Lcom/duolingo/data/session/progressbar/model/LessonProgressBarUiState$RiveMode;",
+          "score": 30,
+          "sha256": "023b7fa74c57d4086526b80845fe41491e8c4c53fec2b35d24366ec1b3b03467",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/session/progressbar/model/LessonProgressBarUiState$RiveMode;\r",
+            "public static values()[Lcom/duolingo/data/session/progressbar/model/LessonProgressBarUiState$RiveMode;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/progressbar/model/ProgressBarStreakColorState.smali",
+          "class": "Lcom/duolingo/data/session/progressbar/model/ProgressBarStreakColorState;",
+          "score": 30,
+          "sha256": "34a5f2e248e2c153ec492fa1cc571b66a0464abd541ca4bfb3bc540417cf8968",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/session/progressbar/model/ProgressBarStreakColorState;\r",
+            "public static values()[Lcom/duolingo/data/session/progressbar/model/ProgressBarStreakColorState;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/progressbar/ProgressBarInitValueCondition.smali",
+          "class": "Lcom/duolingo/data/session/progressbar/ProgressBarInitValueCondition;",
+          "score": 30,
+          "sha256": "5e92487809089152ab8ddec2e06d1e986ddf270ca6b9e7541bbb6250d214e05f",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/session/progressbar/ProgressBarInitValueCondition;\r",
+            "public static values()[Lcom/duolingo/data/session/progressbar/ProgressBarInitValueCondition;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/progressbar/SessionQuitHaptics.smali",
+          "class": "Lcom/duolingo/data/session/progressbar/SessionQuitHaptics;",
+          "score": 30,
+          "sha256": "b279be1efceb15e75ae1e42b84b1da205d828cf19ff84a05bbf74febd70c603e",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/session/progressbar/SessionQuitHaptics;\r",
+            "public static values()[Lcom/duolingo/data/session/progressbar/SessionQuitHaptics;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/progressbar/SessionQuitSoundEffect.smali",
+          "class": "Lcom/duolingo/data/session/progressbar/SessionQuitSoundEffect;",
+          "score": 30,
+          "sha256": "74bbfb4ed770823370419aab4dca6777c76d697f01d3a365bc536099bd1c2110",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/session/progressbar/SessionQuitSoundEffect;\r",
+            "public static values()[Lcom/duolingo/data/session/progressbar/SessionQuitSoundEffect;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/shop/XpBoostGiftContext.smali",
+          "class": "Lcom/duolingo/data/shop/XpBoostGiftContext;",
+          "score": 30,
+          "sha256": "271a74bce682713ed207ba7ca93e205dde3a3017748864fe8983650ffe37f1a5",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/shop/XpBoostGiftContext;\r",
+            "public static values()[Lcom/duolingo/data/shop/XpBoostGiftContext;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/words/list/WordsListSkillProgressInfo.smali",
+          "class": "Lcom/duolingo/data/words/list/WordsListSkillProgressInfo;",
+          "score": 30,
+          "sha256": "327d80987dda1f62ee72b67957bf42336caa6fcbc78cffe806e867fb9475507d",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/feature/newpath/ui/model/NewPathUnit$Node$XpBoost.smali",
+          "class": "Lcom/duolingo/feature/newpath/ui/model/NewPathUnit$Node$XpBoost;",
+          "score": 30,
+          "sha256": "74e1553b58378cb90f5fd0ba8da288a7cad03e6f7974f4e337dd9bcdb49c6656",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/feature/newpath/ui/model/NewPathUnit$Node$XpBoost;\r",
+            "public static values()[Lcom/duolingo/feature/newpath/ui/model/NewPathUnit$Node$XpBoost;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/goals/tab/ChallengeProgressBarView.smali",
+          "class": "Lcom/duolingo/goals/tab/ChallengeProgressBarView;",
+          "score": 30,
+          "sha256": "21146538df4476ba0fcf9f0f2132310447957d9395054efa1e0c0f613a387c06",
+          "methods": [
+            "public static synthetic A(Lcom/duolingo/goals/tab/ChallengeProgressBarView;Lcom/duolingo/goals/tab/AnimationConfiguration;I)Landroid/animation/AnimatorSet;\r",
+            "private final getProgressBarCenterY()F\r",
+            "public static final synthetic v(Lcom/duolingo/goals/tab/ChallengeProgressBarView;)F\r",
+            "public final getLiveOpsProgressBarUtils()Lsun;\r",
+            "public final getProgressEndPosition()Landroid/graphics/PointF;\r",
+            "public final setLiveOpsProgressBarUtils(Lsun;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/music/ui/MusicLessonProgressBarView.smali",
+          "class": "Lcom/duolingo/music/ui/MusicLessonProgressBarView;",
+          "score": 30,
+          "sha256": "aeb0574cebea60a1515cfcedc54cd2f6393e8377b2770a0731c5f998689ff125",
+          "methods": [
+            "public getMinProgressWidth()F\r"
+          ]
+        },
+        {
+          "path": "smali_classes4/com/duolingo/achievements/AchievementV4ProgressFragment.smali",
+          "class": "Lcom/duolingo/achievements/AchievementV4ProgressFragment;",
+          "score": 30,
+          "sha256": "31113c3fd48d6db267cc0f1e430dd6af968a86ef537cacc459ae9d034a213b8c",
+          "methods": []
+        },
+        {
+          "path": "smali_classes4/com/duolingo/achievements/Hilt_AchievementV4ProgressFragment.smali",
+          "class": "Lcom/duolingo/achievements/Hilt_AchievementV4ProgressFragment;",
+          "score": 30,
+          "sha256": "6c584eb199ef2ec5a0490d6e5122727907dfbeb04cc679e83f1cb3ed0cd94986",
+          "methods": []
+        },
+        {
+          "path": "smali_classes4/com/duolingo/ai/roleplay/sessionreport/RoleplayReportProgressView.smali",
+          "class": "Lcom/duolingo/ai/roleplay/sessionreport/RoleplayReportProgressView;",
+          "score": 30,
+          "sha256": "c60bf44b30fc7e043a423f88c2ca5768a2dc35b099cdefc13f316c0b2b65c41d",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindOnboardingLoadingProgressBarExperimentSingletonModule_ProvideOnboardingLoadingProgressBarExperimentAsClientExperimentOfStarIntoSetFactory$InstanceHolder.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindOnboardingLoadingProgressBarExperimentSingletonModule_ProvideOnboardingLoadingProgressBarExperimentAsClientExperimentOfStarIntoSetFactory$InstanceHolder;",
+          "score": 30,
+          "sha256": "a3e72bc1d1786e9c59fb95f70a3a55466e00a8180172eeb523db828662896d78",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/ProgressCurveIterationsCondition.smali",
+          "class": "Lcom/duolingo/core/experiments/ProgressCurveIterationsCondition;",
+          "score": 30,
+          "sha256": "c86934be4769fb90174e1cd8aa513a7cdba4072e101cb23929ef9ca478257f79",
+          "methods": [
+            "private static final synthetic $values()[Lcom/duolingo/core/experiments/ProgressCurveIterationsCondition;\r",
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/core/experiments/ProgressCurveIterationsCondition;\r",
+            "public static values()[Lcom/duolingo/core/experiments/ProgressCurveIterationsCondition;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/rewards/XpBoostReward.smali",
+          "class": "Lcom/duolingo/core/rewards/XpBoostReward;",
+          "score": 30,
+          "sha256": "37f1347543bb7eef5169b7787c4ccb0b70171be7fc0a198979ea4516501086e1",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/core/xpboost/XpBoostSource;)V\r",
+            "public final a()Lcom/duolingo/core/xpboost/XpBoostSource;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/ui/SegmentedProgressBarView.smali",
+          "class": "Lcom/duolingo/core/ui/SegmentedProgressBarView;",
+          "score": 30,
+          "sha256": "b77b2e455ac66697a79fef070f1b731cc87b5316f9318b6683c6eff9e0d83f01",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/xpboost/a.smali",
+          "class": "Lcom/duolingo/core/xpboost/a;",
+          "score": 30,
+          "sha256": "6cad9bc1772a54f42351a0144b2c941a07f69d04d008b4c691d1909bc2c6fff9",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/xpboost/b.smali",
+          "class": "Lcom/duolingo/core/xpboost/b;",
+          "score": 30,
+          "sha256": "1862642a91d050f696a393a6c4d40f0501f16ba091173390d1d23b843c3716c3",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/xpboost/c.smali",
+          "class": "Lcom/duolingo/core/xpboost/c;",
+          "score": 30,
+          "sha256": "e0dd2c0cbdb3b0ad13afed87410a3ba29bd6b933f5ae11414ab4c84cd7ac8768",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/xpboost/d.smali",
+          "class": "Lcom/duolingo/core/xpboost/d;",
+          "score": 30,
+          "sha256": "837d1ef512eb8c97cb49e59522b44de7fbcdda8cd255f6572742c7edb15f6ed8",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/xpboost/g.smali",
+          "class": "Lcom/duolingo/core/xpboost/g;",
+          "score": 30,
+          "sha256": "df2ba3718f0d596e3f5bedfd90da8b3edffedd35beb14a4420227a011a849679",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/xpboost/h.smali",
+          "class": "Lcom/duolingo/core/xpboost/h;",
+          "score": 30,
+          "sha256": "4e3d0fd5ff4a1862b021845354feb5f0414f99c7d3878f16ef9a3a0319d1e741",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/xpboost/XpBoostEventTracker$ClaimSource.smali",
+          "class": "Lcom/duolingo/core/xpboost/XpBoostEventTracker$ClaimSource;",
+          "score": 30,
+          "sha256": "6d9df3d4cd4ae410af22da200562e2274d38b12005af7c53a2795292d7461ae8",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/core/xpboost/XpBoostEventTracker$ClaimSource;\r",
+            "public static values()[Lcom/duolingo/core/xpboost/XpBoostEventTracker$ClaimSource;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/xpboost/XpBoostEventTracker$OfferType.smali",
+          "class": "Lcom/duolingo/core/xpboost/XpBoostEventTracker$OfferType;",
+          "score": 30,
+          "sha256": "ad6c5d4d2d96321cd05eb5b44310ce295f02ffe5593d01502653b05b5bc0e033",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/core/xpboost/XpBoostEventTracker$OfferType;\r",
+            "public static values()[Lcom/duolingo/core/xpboost/XpBoostEventTracker$OfferType;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/xpboost/XpBoostHaptics.smali",
+          "class": "Lcom/duolingo/core/xpboost/XpBoostHaptics;",
+          "score": 30,
+          "sha256": "73ab00346da167c9c34fe9d4daea24e3bd3b8b20b5637892c046ae6ec3b7e95f",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/core/xpboost/XpBoostHaptics;\r",
+            "public static values()[Lcom/duolingo/core/xpboost/XpBoostHaptics;\r"
+          ]
+        }
+      ]
+    },
+    "streak": {
+      "matchingFiles": 2736,
+      "candidates": [
+        {
+          "path": "smali_classes2/com/duolingo/data/session/progressbar/model/ProgressBarStreakColorState.smali",
+          "class": "Lcom/duolingo/data/session/progressbar/model/ProgressBarStreakColorState;",
+          "score": 30,
+          "sha256": "34a5f2e248e2c153ec492fa1cc571b66a0464abd541ca4bfb3bc540417cf8968",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/session/progressbar/model/ProgressBarStreakColorState;\r",
+            "public static values()[Lcom/duolingo/data/session/progressbar/model/ProgressBarStreakColorState;\r",
+            "public final getStreakLength()I\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/SessionRouteParams$StreakEarnbackStatus.smali",
+          "class": "Lcom/duolingo/data/session/SessionRouteParams$StreakEarnbackStatus;",
+          "score": 30,
+          "sha256": "0f5534d658aa5a063e6c2d85e0b480b564008a74569a408b5d89819c15e4f5d2",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/SessionRouteParams$StreakEarnbackStatus$None.smali",
+          "class": "Lcom/duolingo/data/session/SessionRouteParams$StreakEarnbackStatus$None;",
+          "score": 30,
+          "sha256": "8749316f37c9dbb2cabf223c6e9f8b196d923b944fe78b0f1bc73fc358d9ce48",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/state/InLessonStreakState.smali",
+          "class": "Lcom/duolingo/data/session/state/InLessonStreakState;",
+          "score": 30,
+          "sha256": "a86ad9e8f5d7c28f66a34bc8377c2e0ab1e9ece06e6e006b7edaf81b502c4c2f",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/state/InLessonStreakState$ActiveStreak.smali",
+          "class": "Lcom/duolingo/data/session/state/InLessonStreakState$ActiveStreak;",
+          "score": 30,
+          "sha256": "ad3d24b4b473f178a1351c65202a095badf360e61971a16efbce641cf520dc7e",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/state/InLessonStreakState$ComboLost.smali",
+          "class": "Lcom/duolingo/data/session/state/InLessonStreakState$ComboLost;",
+          "score": 30,
+          "sha256": "3c09c027202331e4a627cb3b5fd6d7e5e6f0410c14a49f764b14155ba8683702",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/state/InLessonStreakState$None.smali",
+          "class": "Lcom/duolingo/data/session/state/InLessonStreakState$None;",
+          "score": 30,
+          "sha256": "ae266656ce5433bb20ef0ee79ac9f6209576e684ec9467b6d1eb940a9dc56ca0",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/state/InLessonStreakState$PerfectLesson.smali",
+          "class": "Lcom/duolingo/data/session/state/InLessonStreakState$PerfectLesson;",
+          "score": 30,
+          "sha256": "8a7ef546f1f7f08dd56c9cdce2e577afc052e369457f0631d750258c91c281fe",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/session/state/InLessonStreakState$Skipped.smali",
+          "class": "Lcom/duolingo/data/session/state/InLessonStreakState$Skipped;",
+          "score": 30,
+          "sha256": "080a34ab5f01247a222a330705c7d916ec45566cd78416306ee53abed0e54534",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/f.smali",
+          "class": "Lcom/duolingo/data/streak/f;",
+          "score": 30,
+          "sha256": "2aa26b9b5cf8cc0135a38ed2876bf27766bc01eb155fecd3657e99ecac5a0233",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/friendStreak/model/domain/f.smali",
+          "class": "Lcom/duolingo/data/streak/friendStreak/model/domain/f;",
+          "score": 30,
+          "sha256": "046e1b8815370d13cdd7d9dff495d30dd2e48b64a5d3ac18e08b7926ee4da191",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/friendStreak/model/domain/FriendStreakMatchUser.smali",
+          "class": "Lcom/duolingo/data/streak/friendStreak/model/domain/FriendStreakMatchUser;",
+          "score": 30,
+          "sha256": "b0102d0c0c09268160ee61689565c92b37fb4a016f272789147b14bb8d4416ce",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/friendStreak/model/domain/FriendStreakMatchUser$ConfirmedMatch.smali",
+          "class": "Lcom/duolingo/data/streak/friendStreak/model/domain/FriendStreakMatchUser$ConfirmedMatch;",
+          "score": 30,
+          "sha256": "86141568677985c844e8a4e448ab09de1c9e9e24621ffefad93ffc8d8404262d",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/core/data/model/UserId;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/time/LocalDate;Lcom/duolingo/data/friendsmatches/model/FriendStreakAutostartSource;Z)V\r",
+            "public synthetic constructor <init>(Lcom/duolingo/core/data/model/UserId;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/Integer;Ljava/lang/Integer;Ljava/time/LocalDate;Lcom/duolingo/data/friendsmatches/model/FriendStreakAutostartSource;ZI)V\r",
+            "public static d(Lcom/duolingo/data/streak/friendStreak/model/domain/FriendStreakMatchUser$ConfirmedMatch;ZLjava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;I)Lcom/duolingo/data/streak/friendStreak/model/domain/FriendStreakMatchUser$ConfirmedMatch;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/friendStreak/model/local/FriendStreakLastUpdatedSource.smali",
+          "class": "Lcom/duolingo/data/streak/friendStreak/model/local/FriendStreakLastUpdatedSource;",
+          "score": 30,
+          "sha256": "7877ae4569430df3fa797a5d46bf814ec574b3f1c1cd097f9d73d8e1ef7d59cc",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/streak/friendStreak/model/local/FriendStreakLastUpdatedSource;\r",
+            "public static values()[Lcom/duolingo/data/streak/friendStreak/model/local/FriendStreakLastUpdatedSource;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/friendStreak/model/network/BatchedFriendsStreakMatchStreakDataResponse.smali",
+          "class": "Lcom/duolingo/data/streak/friendStreak/model/network/BatchedFriendsStreakMatchStreakDataResponse;",
+          "score": 30,
+          "sha256": "bb70a17f18f48beae23febdcb0e7efa8994636d5c87152e51725948c49aba5db",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/friendStreak/model/network/FriendStreakKudosUser.smali",
+          "class": "Lcom/duolingo/data/streak/friendStreak/model/network/FriendStreakKudosUser;",
+          "score": 30,
+          "sha256": "240cae5aea136568aeeb3f13f5c2755edfb4097786876425477fe9740a61a933",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/g.smali",
+          "class": "Lcom/duolingo/data/streak/g;",
+          "score": 30,
+          "sha256": "a967df9a248d4825761210fb01e7a18fbfe930be7238bca3139ebc5e858994e3",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/h.smali",
+          "class": "Lcom/duolingo/data/streak/h;",
+          "score": 30,
+          "sha256": "b024245cc1821e3688bcba6724d19d3f5701c6f6c3047e7c51ef7933b9e74a08",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/i.smali",
+          "class": "Lcom/duolingo/data/streak/i;",
+          "score": 30,
+          "sha256": "fb3009beab9d6cbaf45543aa1c931f18c872e14d4bdd895b92b6edfdba057fa9",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/IndicatorType.smali",
+          "class": "Lcom/duolingo/data/streak/IndicatorType;",
+          "score": 30,
+          "sha256": "ca79f5d3743ff56d25b393f9c058a1545a64b4c6cdc4f63cdf1a179b075c99a6",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/streak/IndicatorType;\r",
+            "public static values()[Lcom/duolingo/data/streak/IndicatorType;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/k.smali",
+          "class": "Lcom/duolingo/data/streak/k;",
+          "score": 30,
+          "sha256": "9e5b5c2ed0d2ccdea9e986f6e9fb0dcaa053e9ad40a9cacd25077fd51b1e9141",
+          "methods": [
+            "public static a(I)Lcom/duolingo/data/streak/StreakTier;\r",
+            "public static c(I)Lcom/duolingo/data/streak/StreakTier;\r",
+            "public static d(I)Lcom/duolingo/data/streak/StreakTier$TeaseKind;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/m.smali",
+          "class": "Lcom/duolingo/data/streak/m;",
+          "score": 30,
+          "sha256": "e5155f5868ee1a370d4979d2842bb620a04f89bd6ee8b4f438b1c74184a7125a",
+          "methods": [
+            "public static a(ILbp50;)Lcom/duolingo/data/streak/StreakTierVariant;\r",
+            "public static d(Lcom/duolingo/data/streak/m;ILbp50;)Lfp50;\r",
+            "public static e(Lbp50;)Lcom/duolingo/data/streak/StreakTierVariant;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/n.smali",
+          "class": "Lcom/duolingo/data/streak/n;",
+          "score": 30,
+          "sha256": "e0658d87a2c701fbcf21245c19c72eb1891c2cb09843430d409b0eb7d2146455",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/data/streak/r;Lpz;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/o.smali",
+          "class": "Lcom/duolingo/data/streak/o;",
+          "score": 30,
+          "sha256": "8de30baa11897727aaa8a8f9ddefe56b0f62bb71e1d1f6e385f7727c0abbdd84",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/p.smali",
+          "class": "Lcom/duolingo/data/streak/p;",
+          "score": 30,
+          "sha256": "a913553aeffbf8651ded347f40000260f611a708dd2db8ebbd7955ce979deb04",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/perfectStreak/PerfectStreakDateRange.smali",
+          "class": "Lcom/duolingo/data/streak/perfectStreak/PerfectStreakDateRange;",
+          "score": 30,
+          "sha256": "1ba62f1d2b80aa055769dc5a7650ba1a50667df10f5dea9bc45850fa679901ca",
+          "methods": [
+            "public static a(Lcom/duolingo/data/streak/perfectStreak/PerfectStreakDateRange;Ljava/time/LocalDate;)Lcom/duolingo/data/streak/perfectStreak/PerfectStreakDateRange;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/perfectStreak/UserPerfectStreakData.smali",
+          "class": "Lcom/duolingo/data/streak/perfectStreak/UserPerfectStreakData;",
+          "score": 30,
+          "sha256": "5fc167187d30c3df0f161ccc9493a5d581af1c2618be93944f8f26141d11d65b",
+          "methods": [
+            "public static a(Lcom/duolingo/data/streak/perfectStreak/UserPerfectStreakData;Lcom/duolingo/core/pcollections/migration/PVector;)Lcom/duolingo/data/streak/perfectStreak/UserPerfectStreakData;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/q.smali",
+          "class": "Lcom/duolingo/data/streak/q;",
+          "score": 30,
+          "sha256": "eae8e96f0b610fd5f7d236eaee9cf944466a50f43b1509ce2db034e89937158e",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/data/streak/h;Lbq70;Lpz;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/r.smali",
+          "class": "Lcom/duolingo/data/streak/r;",
+          "score": 30,
+          "sha256": "7b56e7e9621e2af19dab9113e4f2e80e4dac9568c7ce4f4031efe2370f0cd22d",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/StreakData.smali",
+          "class": "Lcom/duolingo/data/streak/StreakData;",
+          "score": 30,
+          "sha256": "bf028224111b7ebd4e8262ebc4069bcd014d45e073b3f277936876c96b89346e",
+          "methods": [
+            "public static a(Lcom/duolingo/data/streak/StreakData;ILjava/lang/Long;JLjava/lang/String;Ljava/lang/Integer;I)Lcom/duolingo/data/streak/StreakData;\r"
+          ]
+        }
+      ]
+    },
+    "retention": {
+      "matchingFiles": 580,
+      "candidates": [
+        {
+          "path": "smali_classes2/com/duolingo/feature/appicon/AppIconRetentionPlayCondition.smali",
+          "class": "Lcom/duolingo/feature/appicon/AppIconRetentionPlayCondition;",
+          "score": 30,
+          "sha256": "b6e83bc0eadc0935c908cfd8bd8be081ed88879c97810dedb99914e631cf8fca",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/feature/appicon/AppIconRetentionPlayCondition;\r",
+            "public static values()[Lcom/duolingo/feature/appicon/AppIconRetentionPlayCondition;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/churn/TomorrowReturnProbabilityRemoteDataSource$TomorrowReturnProbabilityFeatureSet.smali",
+          "class": "Lcom/duolingo/data/churn/TomorrowReturnProbabilityRemoteDataSource$TomorrowReturnProbabilityFeatureSet;",
+          "score": 30,
+          "sha256": "c018fee7f9c81bee7bb413fe05273a7b164f519ac6d36eec31e28a6b36f21099",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/churn/TomorrowReturnProbabilityRemoteDataSource$TomorrowReturnProbabilityFeatureSet;\r",
+            "public static values()[Lcom/duolingo/data/churn/TomorrowReturnProbabilityRemoteDataSource$TomorrowReturnProbabilityFeatureSet;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/feature/appicon/InactiveAppIconCooldownCondition.smali",
+          "class": "Lcom/duolingo/feature/appicon/InactiveAppIconCooldownCondition;",
+          "score": 30,
+          "sha256": "dd7e3cdbda45d8d03bd8e7cb6ed5212b0e07106aa0c6460732cccf57f69df37d",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/feature/appicon/InactiveAppIconCooldownCondition;\r",
+            "public static values()[Lcom/duolingo/feature/appicon/InactiveAppIconCooldownCondition;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/feature/appicon/MoreInactiveAppIconCondition.smali",
+          "class": "Lcom/duolingo/feature/appicon/MoreInactiveAppIconCondition;",
+          "score": 30,
+          "sha256": "793c6594e6e84814e50af8d31f67ebe8b0ba76d31ce716af40cbe1f7df99480d",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/feature/appicon/MoreInactiveAppIconCondition;\r",
+            "public static values()[Lcom/duolingo/feature/appicon/MoreInactiveAppIconCondition;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/feature/chess/quitdialog/ChessMatchQuitDialogType$Abandon.smali",
+          "class": "Lcom/duolingo/feature/chess/quitdialog/ChessMatchQuitDialogType$Abandon;",
+          "score": 30,
+          "sha256": "89b3e9a51ea899f17afd38da4eb70d2b237f7d2015b37ae3cd5728ba9d1bf620",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/feature/streakfreeze/ChurnStreakFreezeRewardView.smali",
+          "class": "Lcom/duolingo/feature/streakfreeze/ChurnStreakFreezeRewardView;",
+          "score": 30,
+          "sha256": "c00a220203d65869bcac869225ffeb87b7d62acbd9727b96c670cc1e16605aaa",
+          "methods": []
+        },
+        {
+          "path": "smali_classes6/com/duolingo/ai/churn/TomorrowReturnProbabilityDebugDialogFragment.smali",
+          "class": "Lcom/duolingo/ai/churn/TomorrowReturnProbabilityDebugDialogFragment;",
+          "score": 30,
+          "sha256": "e252bcb3177d5e99ed23c0666453a3c651e9764609694008adb0f0df49085a45",
+          "methods": []
+        },
+        {
+          "path": "smali_classes7/com/duolingo/streak/drawer/StreakDrawerTakeoverVariant$ChurnStreakFreeze.smali",
+          "class": "Lcom/duolingo/streak/drawer/StreakDrawerTakeoverVariant$ChurnStreakFreeze;",
+          "score": 30,
+          "sha256": "ff2c541c05e0fdc04ab53abcb6a63a7877f9f9eddb3e72564a671bc535a26d48",
+          "methods": []
+        },
+        {
+          "path": "smali_classes7/com/duolingo/streak/streakFreeze/ChurnStreakFreezeRewardFragment.smali",
+          "class": "Lcom/duolingo/streak/streakFreeze/ChurnStreakFreezeRewardFragment;",
+          "score": 30,
+          "sha256": "f2d50c4e1ac933e03665e3d75555030b99ca5a7a8c046457df7532917c714886",
+          "methods": []
+        },
+        {
+          "path": "smali_classes7/com/duolingo/streak/streakFreeze/Hilt_ChurnStreakFreezeRewardFragment.smali",
+          "class": "Lcom/duolingo/streak/streakFreeze/Hilt_ChurnStreakFreezeRewardFragment;",
+          "score": 30,
+          "sha256": "0742f9667f3913ec51b529145e3645efeec4f4365a912205f857826ace35f6be",
+          "methods": []
+        },
+        {
+          "path": "smali/com/duolingo/data/churn/a.smali",
+          "class": "Lcom/duolingo/data/churn/a;",
+          "score": 30,
+          "sha256": "a3cb61184cfdc9250c84a75785c001d5a56340438c7a4e4a7500020da569d03a",
+          "methods": []
+        },
+        {
+          "path": "smali/com/duolingo/data/churn/TomorrowReturnProbabilityRepository$SubscriptionSource.smali",
+          "class": "Lcom/duolingo/data/churn/TomorrowReturnProbabilityRepository$SubscriptionSource;",
+          "score": 30,
+          "sha256": "6c3946f9eded9ae9c544e9184f90028f1b4b97a18205562e92401370f68cb101",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/churn/TomorrowReturnProbabilityRepository$SubscriptionSource;\r",
+            "public static values()[Lcom/duolingo/data/churn/TomorrowReturnProbabilityRepository$SubscriptionSource;\r"
+          ]
+        },
+        {
+          "path": "smali_classes10/kotlin/annotation/AnnotationRetention.smali",
+          "class": "Lkotlin/annotation/AnnotationRetention;",
+          "score": 20,
+          "sha256": "5cbad82f6995a181f75ce60d5dc028bba50efd02e98fab411d97ebb727c2e2eb",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lkotlin/annotation/AnnotationRetention;\r",
+            "public static values()[Lkotlin/annotation/AnnotationRetention;\r"
+          ]
+        },
+        {
+          "path": "smali_classes3/androidx/datastore/preferences/protobuf/DescriptorProtos$FieldOptions$OptionRetention.smali",
+          "class": "Landroidx/datastore/preferences/protobuf/DescriptorProtos$FieldOptions$OptionRetention;",
+          "score": 20,
+          "sha256": "bfb639ed19868dacaf0c088a821e28a8625bc7a78a417ec853992f782984d0c0",
+          "methods": [
+            "public static forNumber(I)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FieldOptions$OptionRetention;\r",
+            "public static valueOf(I)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FieldOptions$OptionRetention;\r",
+            "public static valueOf(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FieldOptions$OptionRetention;\r",
+            "public static values()[Landroidx/datastore/preferences/protobuf/DescriptorProtos$FieldOptions$OptionRetention;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/perfectStreak/PerfectStreakDateRange.smali",
+          "class": "Lcom/duolingo/data/streak/perfectStreak/PerfectStreakDateRange;",
+          "score": 10,
+          "sha256": "1ba62f1d2b80aa055769dc5a7650ba1a50667df10f5dea9bc45850fa679901ca",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/perfectStreak/UserPerfectStreakData.smali",
+          "class": "Lcom/duolingo/data/streak/perfectStreak/UserPerfectStreakData;",
+          "score": 10,
+          "sha256": "5fc167187d30c3df0f161ccc9493a5d581af1c2618be93944f8f26141d11d65b",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/streakFreezeGift/model/local/GiftDrawerState.smali",
+          "class": "Lcom/duolingo/data/streak/streakFreezeGift/model/local/GiftDrawerState;",
+          "score": 10,
+          "sha256": "45ba39bb5e0c77e36e74f7e18c0a429bac02b3bf1caff300b215d4935421455e",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/streakFreezeGift/model/network/GiftDrawer.smali",
+          "class": "Lcom/duolingo/data/streak/streakFreezeGift/model/network/GiftDrawer;",
+          "score": 10,
+          "sha256": "0903f59476a5d8089c58c929ab34c3f3070d4a61db562d970d4cc59e780f0fc1",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/streakFreezeGift/model/network/GiftPotentialReceiver.smali",
+          "class": "Lcom/duolingo/data/streak/streakFreezeGift/model/network/GiftPotentialReceiver;",
+          "score": 10,
+          "sha256": "0394e06903391a837cd10cb2e370cc0289ab93c6535adae7f5d133dbd497a3f2",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/UserStreak.smali",
+          "class": "Lcom/duolingo/data/streak/UserStreak;",
+          "score": 10,
+          "sha256": "3d8000e1db6b99b89e2407b30a1796453d26762b4b045f82c01e55f0ea4a878b",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/feature/appicon/a.smali",
+          "class": "Lcom/duolingo/feature/appicon/a;",
+          "score": 10,
+          "sha256": "7f6bc865c40d695993a6d685e076b994ad2a27888861887000ed0fbf39fea552",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/feature/appicon/AppIconType.smali",
+          "class": "Lcom/duolingo/feature/appicon/AppIconType;",
+          "score": 10,
+          "sha256": "72be395e1ac868ab229ac6955fb97c19bdb46af424d953d25d6e870abd94341d",
+          "methods": [
+            "public static final synthetic access$getBASE_INACTIVE_APP_ICONS$cp()Ljava/util/Set;\r",
+            "public static final synthetic access$getINACTIVE_APP_ICONS$cp()Ljava/util/Set;\r",
+            "public static final synthetic access$getMORE_INACTIVE_APP_ICONS$cp()Ljava/util/Set;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/goals/monthlychallenges/MonthlyChallengeHeaderView.smali",
+          "class": "Lcom/duolingo/goals/monthlychallenges/MonthlyChallengeHeaderView;",
+          "score": 10,
+          "sha256": "a6fdae4775cca991d33dce46e5ec99e4819a9c2c87c7c1577b594bb8c1482ea7",
+          "methods": [
+            "private final setUpViewForInactiveChallenge(Lfnq;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/splash/LaunchViewModel.smali",
+          "class": "Lcom/duolingo/splash/LaunchViewModel;",
+          "score": 10,
+          "sha256": "02a4cb7e1eaa23734bf55d6a196282d047c104154e2c5527869752cf08841d60",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/streak/perfectStreak/model/local/UserPerfectStreakDataState.smali",
+          "class": "Lcom/duolingo/streak/perfectStreak/model/local/UserPerfectStreakDataState;",
+          "score": 10,
+          "sha256": "955315994b8032a379ba772cd5ae472c6ea0145b7de9f0c2342596d820dd168e",
+          "methods": []
+        },
+        {
+          "path": "smali_classes4/com/duolingo/adventures/e.smali",
+          "class": "Lcom/duolingo/adventures/e;",
+          "score": 10,
+          "sha256": "c71d274bae7405285843e71cd18f522cf5ca66487d69e4cf9bf25fb7b21e7b8d",
+          "methods": []
+        },
+        {
+          "path": "smali_classes4/com/duolingo/adventureslib/data/SpeakingRoleplayState.smali",
+          "class": "Lcom/duolingo/adventureslib/data/SpeakingRoleplayState;",
+          "score": 10,
+          "sha256": "9f3854f115ff185c6a3a959b8c1448e504f252d41bebd61642ab7a8134d3b9c2",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/annotation/AdditionalOkHttpEventListenerFactories.smali",
+          "class": "Lcom/duolingo/core/networking/annotation/AdditionalOkHttpEventListenerFactories;",
+          "score": 10,
+          "sha256": "64cae85e76f00cbaeeb85f9f9ea8c59e2c06a4d0551e5e5aea1712dfbe0eb6fc",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/annotation/ApiRetrofit.smali",
+          "class": "Lcom/duolingo/core/networking/annotation/ApiRetrofit;",
+          "score": 10,
+          "sha256": "86563d267ffdb36ed1f2b43451e63ff9dfe3fc31fffb378f7c2a2a4ed13104c5",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/annotation/AvailabilityRequest.smali",
+          "class": "Lcom/duolingo/core/networking/annotation/AvailabilityRequest;",
+          "score": 10,
+          "sha256": "be8dd94620b3798edbacd68980422b3a286f39eaf0b56b613ec478fac531bab9",
+          "methods": []
+        }
+      ]
+    },
+    "notifications": {
+      "matchingFiles": 1016,
+      "candidates": [
+        {
+          "path": "smali_classes2/com/duolingo/data/user/PersistentNotification.smali",
+          "class": "Lcom/duolingo/data/user/PersistentNotification;",
+          "score": 30,
+          "sha256": "f110942574678cb433a670576e4cb1c3e5cf1c6a17d9bab1f96e2119a5376a14",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/user/PersistentNotification;\r",
+            "public static values()[Lcom/duolingo/data/user/PersistentNotification;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/feature/shardcollections/fab/ShardCollectionsFabUiState$NotificationType.smali",
+          "class": "Lcom/duolingo/feature/shardcollections/fab/ShardCollectionsFabUiState$NotificationType;",
+          "score": 30,
+          "sha256": "7fa887fd5c7684bdc3244e04cf3fac6829ca6ff665e5d0434da072abe8f07f68",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/feature/shardcollections/fab/ShardCollectionsFabUiState$NotificationType;\r",
+            "public static values()[Lcom/duolingo/feature/shardcollections/fab/ShardCollectionsFabUiState$NotificationType;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/home/NotificationOptInView.smali",
+          "class": "Lcom/duolingo/home/NotificationOptInView;",
+          "score": 30,
+          "sha256": "717421d38b500b90711e4a3b21e9ca6aedd33fb04bfc37e5f9901b3a9400d7bf",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/notifications/NotificationScreen.smali",
+          "class": "Lcom/duolingo/core/notifications/NotificationScreen;",
+          "score": 30,
+          "sha256": "01f0c2f324a90bfa0783ef8e6d18fe11594628f4da3d0c9bc75de7b533df8140",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/core/notifications/NotificationScreen;\r",
+            "public static values()[Lcom/duolingo/core/notifications/NotificationScreen;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/a.smali",
+          "class": "Lcom/duolingo/data/notifications/a;",
+          "score": 30,
+          "sha256": "c4ff64aec8c6ac79c8e7c07c36a282d9af2f100823571ed395a0e349316d8456",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/b.smali",
+          "class": "Lcom/duolingo/data/notifications/b;",
+          "score": 30,
+          "sha256": "192ded8f35930dbc34c7fe1103f36ae6e771799adc05fb42fb9762e55365f6d0",
+          "methods": [
+            "public static a(I)Lcom/duolingo/data/notifications/NotificationOptInContext;\r",
+            "public static b(IZ)Lcom/duolingo/data/notifications/NotificationOptInPendingImpression$Global;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/BadgeIconManager$BadgeIconContext.smali",
+          "class": "Lcom/duolingo/data/notifications/BadgeIconManager$BadgeIconContext;",
+          "score": 30,
+          "sha256": "92b5944d35dc554d04ca73abef7e27a64daaa2ceb7a9fea4992881cfe765992b",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/notifications/BadgeIconManager$BadgeIconContext;\r",
+            "public static values()[Lcom/duolingo/data/notifications/BadgeIconManager$BadgeIconContext;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/c.smali",
+          "class": "Lcom/duolingo/data/notifications/c;",
+          "score": 30,
+          "sha256": "5fa9a8d657fc46c304e0461557ad8269febe15b1a426ce1e0520c75ee4ca236c",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/custom/CustomNotificationAnimationType.smali",
+          "class": "Lcom/duolingo/data/notifications/custom/CustomNotificationAnimationType;",
+          "score": 30,
+          "sha256": "4fb2a20c0d673614c91d005fb395d1ba0e1428b9d34c8fcaacc3277ff3db6799",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/notifications/custom/CustomNotificationAnimationType;\r",
+            "public static values()[Lcom/duolingo/data/notifications/custom/CustomNotificationAnimationType;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/custom/CustomNotificationViewType.smali",
+          "class": "Lcom/duolingo/data/notifications/custom/CustomNotificationViewType;",
+          "score": 30,
+          "sha256": "28b98c50b1428da79a21c55f8fe7b1d6d35847b2f799d679046f53b40587d65e",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/notifications/custom/CustomNotificationViewType;\r",
+            "public static values()[Lcom/duolingo/data/notifications/custom/CustomNotificationViewType;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/d.smali",
+          "class": "Lcom/duolingo/data/notifications/d;",
+          "score": 30,
+          "sha256": "a2d0e2ba7b9358270dfb0b7520d290e36bb0e1506c47a7ff90fc14e0078088d3",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/NotificationAction.smali",
+          "class": "Lcom/duolingo/data/notifications/NotificationAction;",
+          "score": 30,
+          "sha256": "3e6402addb8c5d39e5ff72443612a42406dd0b3547f60673078d681bd04f14a2",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/NotificationAssetSource.smali",
+          "class": "Lcom/duolingo/data/notifications/NotificationAssetSource;",
+          "score": 30,
+          "sha256": "030b8742d0b025cbfb931fc12f8e20342f88f93350a30f3536403f0fefb90356",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/notifications/NotificationAssetSource;\r",
+            "public static values()[Lcom/duolingo/data/notifications/NotificationAssetSource;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/NotificationClientHint.smali",
+          "class": "Lcom/duolingo/data/notifications/NotificationClientHint;",
+          "score": 30,
+          "sha256": "e3270e6226c2597f506b0527c04aa97a2a3a606a5a5da654561909e5c7c0edff",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/notifications/NotificationClientHint;\r",
+            "public static values()[Lcom/duolingo/data/notifications/NotificationClientHint;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/NotificationDisplayStyle.smali",
+          "class": "Lcom/duolingo/data/notifications/NotificationDisplayStyle;",
+          "score": 30,
+          "sha256": "f0ca6dfa41918e6a1822222c4df6d8ecc180082dbc8579e33c8269b9058e8b75",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/notifications/NotificationDisplayStyle;\r",
+            "public static values()[Lcom/duolingo/data/notifications/NotificationDisplayStyle;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/NotificationOptInContext.smali",
+          "class": "Lcom/duolingo/data/notifications/NotificationOptInContext;",
+          "score": 30,
+          "sha256": "8dd123a2d8e8a47a97f340271398c9feb55876f9205b46637b65b9c27ac92fe8",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/notifications/NotificationOptInContext;\r",
+            "public static values()[Lcom/duolingo/data/notifications/NotificationOptInContext;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/NotificationOptInImpressionPolicy.smali",
+          "class": "Lcom/duolingo/data/notifications/NotificationOptInImpressionPolicy;",
+          "score": 30,
+          "sha256": "d09a814d90133fb9d27d724a0ff850d4d765528d235523305cf40927dfb3ecc1",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/notifications/NotificationOptInImpressionPolicy;\r",
+            "public static values()[Lcom/duolingo/data/notifications/NotificationOptInImpressionPolicy;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/NotificationOptInPendingImpression.smali",
+          "class": "Lcom/duolingo/data/notifications/NotificationOptInPendingImpression;",
+          "score": 30,
+          "sha256": "697249266cde8f163436da1e0a75af91541bede392606bcaa7c45454c3905279",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/NotificationOptInPendingImpression$FriendStreak.smali",
+          "class": "Lcom/duolingo/data/notifications/NotificationOptInPendingImpression$FriendStreak;",
+          "score": 30,
+          "sha256": "0807cb469c424575d8336b42a52c4f59c5e39c252d10913913dbade12a9375a6",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/NotificationOptInPendingImpression$Global.smali",
+          "class": "Lcom/duolingo/data/notifications/NotificationOptInPendingImpression$Global;",
+          "score": 30,
+          "sha256": "96e1e62fcbc92bb42bdefe533a7d84486a541eb0fa749d93372be9b3ef354092",
+          "methods": [
+            "public constructor <init>(IZLcom/duolingo/data/notifications/NotificationOptInContext;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/NotificationOptInPendingImpression$PerContext.smali",
+          "class": "Lcom/duolingo/data/notifications/NotificationOptInPendingImpression$PerContext;",
+          "score": 30,
+          "sha256": "54460f94217e0ce6cb4cafeb56219dbd16a305d94eb26c88e9b2c4766d8ead64",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/data/notifications/NotificationOptInContext;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/notifications/UnstickNotifCondition.smali",
+          "class": "Lcom/duolingo/data/notifications/UnstickNotifCondition;",
+          "score": 30,
+          "sha256": "176e6ffae01f45ddddab33cf81e7ceccf36bd4e239f54bfabc98ac706e006af9",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/notifications/UnstickNotifCondition;\r",
+            "public static values()[Lcom/duolingo/data/notifications/UnstickNotifCondition;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/debug/Hilt_NotificationOptInBannerDebugActivity.smali",
+          "class": "Lcom/duolingo/debug/Hilt_NotificationOptInBannerDebugActivity;",
+          "score": 30,
+          "sha256": "c9231d689feb326dc0f1f8c5a10492d6ad6c8f7ea5b4911d3fb501a0c1bf18bd",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/debug/NotificationOptInBannerDebugActivity.smali",
+          "class": "Lcom/duolingo/debug/NotificationOptInBannerDebugActivity;",
+          "score": 30,
+          "sha256": "a3961c6f68ad00efb6351f7eee0da82ceb78ff31f9f51c688b7116659767bd74",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/feature/appicon/NotificationAppIconUpdateWorker.smali",
+          "class": "Lcom/duolingo/feature/appicon/NotificationAppIconUpdateWorker;",
+          "score": 30,
+          "sha256": "ab723059bf8fc3fc2b915de75d09fcc1b1e20f487665dd110bcc03a95ecd835c",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/feature/avatar/suits/DuoCupFabUiState$Visible$NotificationType.smali",
+          "class": "Lcom/duolingo/feature/avatar/suits/DuoCupFabUiState$Visible$NotificationType;",
+          "score": 30,
+          "sha256": "dc59ec546737cee28ad3f021574ee73e68668cb6b1317cbbb301a4fb85c55c64",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/feature/avatar/suits/DuoCupFabUiState$Visible$NotificationType;\r",
+            "public static values()[Lcom/duolingo/feature/avatar/suits/DuoCupFabUiState$Visible$NotificationType;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/feature/earlybird/SessionEndEarlyBirdViewModel$NotificationSetting.smali",
+          "class": "Lcom/duolingo/feature/earlybird/SessionEndEarlyBirdViewModel$NotificationSetting;",
+          "score": 30,
+          "sha256": "0f4b37a9500f858883448ec115498edc1db83c9ebb5933e8850a511132ac0b49",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/feature/earlybird/SessionEndEarlyBirdViewModel$NotificationSetting;\r",
+            "public static values()[Lcom/duolingo/feature/earlybird/SessionEndEarlyBirdViewModel$NotificationSetting;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/home/OfflineNotificationView.smali",
+          "class": "Lcom/duolingo/home/OfflineNotificationView;",
+          "score": 30,
+          "sha256": "e08e18b984f5540a023b5b87319f179f8499f0ad6b2ce0fa494a5b0d22e6f801",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/notifications/ProfileScreen.smali",
+          "class": "Lcom/duolingo/notifications/ProfileScreen;",
+          "score": 30,
+          "sha256": "20c71e6991cc462680869d9d34d53095c283b62a53a0ec0396cc64a90c14fba6",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/notifications/ProfileScreen;\r",
+            "public static values()[Lcom/duolingo/notifications/ProfileScreen;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/settings/data/NotificationSetting.smali",
+          "class": "Lcom/duolingo/settings/data/NotificationSetting;",
+          "score": 30,
+          "sha256": "4f5f2e910ade58af2520a0b42bfd92746d1c32f9e7d056fb984c22848032f9b3",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/settings/data/NotificationSetting;\r",
+            "public static values()[Lcom/duolingo/settings/data/NotificationSetting;\r"
+          ]
+        }
+      ]
+    },
+    "telemetry": {
+      "matchingFiles": 339,
+      "candidates": [
+        {
+          "path": "smali_classes2/com/duolingo/excess/android/userProperty/AnalyticsUserPropertyTracker$PostUserPropertyResult.smali",
+          "class": "Lcom/duolingo/excess/android/userProperty/AnalyticsUserPropertyTracker$PostUserPropertyResult;",
+          "score": 30,
+          "sha256": "4b41963a8a7a280505ab6385a0ce49ee5be3d028fad67c09c9990ad2cae9f799",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/excess/android/userProperty/AnalyticsUserPropertyTracker$PostUserPropertyResult;\r",
+            "public static values()[Lcom/duolingo/excess/android/userProperty/AnalyticsUserPropertyTracker$PostUserPropertyResult;\r"
+          ]
+        },
+        {
+          "path": "smali_classes6/com/duolingo/maker/data/DialogEvent.smali",
+          "class": "Lcom/duolingo/maker/data/DialogEvent;",
+          "score": 30,
+          "sha256": "71fe85fc244698b8b820e5a40884fe22ea44a791f4db41d4085a42cb9703a40f",
+          "methods": []
+        },
+        {
+          "path": "smali_classes10/org/prebid/mobile/rendering/interstitial/DialogEventListener.smali",
+          "class": "Lorg/prebid/mobile/rendering/interstitial/DialogEventListener;",
+          "score": 20,
+          "sha256": "96bfe6be9acb6ccffedc963f639435c0ee2f2d765561e16eae086874257a8c61",
+          "methods": [
+            "public abstract onEvent(Lorg/prebid/mobile/rendering/interstitial/DialogEventListener$EventType;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes10/org/prebid/mobile/rendering/interstitial/DialogEventListener$EventType.smali",
+          "class": "Lorg/prebid/mobile/rendering/interstitial/DialogEventListener$EventType;",
+          "score": 20,
+          "sha256": "086b3ef27cb9f02639505fc00876cb1e4253505ef94362ac6a1eb80eb2f3cebd",
+          "methods": [
+            "private static synthetic $values()[Lorg/prebid/mobile/rendering/interstitial/DialogEventListener$EventType;\r",
+            "public static valueOf(Ljava/lang/String;)Lorg/prebid/mobile/rendering/interstitial/DialogEventListener$EventType;\r",
+            "public static values()[Lorg/prebid/mobile/rendering/interstitial/DialogEventListener$EventType;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/facebook/appevents/internal/AutomaticAnalyticsLogger.smali",
+          "class": "Lcom/facebook/appevents/internal/AutomaticAnalyticsLogger;",
+          "score": 20,
+          "sha256": "ec7ee4fb641a9bc64a1c10b2a6b39b4502fb28cd669591155b9dd17153cb513f",
+          "methods": [
+            "private final getPurchaseLoggingParameters(Ljava/lang/String;Ljava/lang/String;)Lcom/facebook/appevents/internal/AutomaticAnalyticsLogger$PurchaseLoggingParameters;\r",
+            "private final getPurchaseLoggingParameters(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Lcom/facebook/appevents/internal/AutomaticAnalyticsLogger$PurchaseLoggingParameters;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/google/android/gms/common/internal/RootTelemetryConfigManager.smali",
+          "class": "Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;",
+          "score": 20,
+          "sha256": "336e811a2700dec72aa03a5edf6140129605c000c6436b58b21356f4531fc9b7",
+          "methods": [
+            "public static declared-synchronized getInstance()Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;\r",
+            "public getConfig()Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;\r",
+            "public final declared-synchronized zza(Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/google/android/gms/common/internal/RootTelemetryConfiguration.smali",
+          "class": "Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;",
+          "score": 20,
+          "sha256": "a19e5b001500daec6bc743537070737d43d67efb4dc6b040335bec2462a821df",
+          "methods": [
+            "public getMethodInvocationTelemetryEnabled()Z\r",
+            "public getMethodTimingTelemetryEnabled()Z\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/google/android/gms/common/internal/TelemetryData.smali",
+          "class": "Lcom/google/android/gms/common/internal/TelemetryData;",
+          "score": 20,
+          "sha256": "cca8cc2fd8057a5de05745ea90645632268c23476e3d0e2f722295e59b1100ab",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/google/android/gms/common/internal/TelemetryLogging.smali",
+          "class": "Lcom/google/android/gms/common/internal/TelemetryLogging;",
+          "score": 20,
+          "sha256": "2c86e5305154a03b93562f1f36c7c0a34c229a44f2d2129fc8af4b25474e0d3e",
+          "methods": [
+            "public static getClient(Landroid/content/Context;)Lcom/google/android/gms/common/internal/TelemetryLoggingClient;\r",
+            "public static getClient(Landroid/content/Context;Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;)Lcom/google/android/gms/common/internal/TelemetryLoggingClient;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/google/android/gms/common/internal/TelemetryLoggingClient.smali",
+          "class": "Lcom/google/android/gms/common/internal/TelemetryLoggingClient;",
+          "score": 20,
+          "sha256": "32153ae5a96f2079530817e950270aa24883cb76afb47b2a52202efcafccfde7",
+          "methods": [
+            "public abstract log(Lcom/google/android/gms/common/internal/TelemetryData;)Lcom/google/android/gms/tasks/Task;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/google/android/gms/common/internal/TelemetryLoggingOptions.smali",
+          "class": "Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;",
+          "score": 20,
+          "sha256": "dabdab79e81af2d10b74fe739a8bf3ce1eb9e73283b1e0fdc22a7b78f4f88bd3",
+          "methods": [
+            "public static builder()Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/google/android/gms/common/internal/TelemetryLoggingOptions$Builder.smali",
+          "class": "Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;",
+          "score": 20,
+          "sha256": "7fc57e53d94b8a6e06e902243f51e5e72f559bbeb0f96db93f4633a36a4aaa27",
+          "methods": [
+            "public build()Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;\r",
+            "public setApi(Ljava/lang/String;)Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/google/firebase/analytics/connector/internal/AnalyticsConnectorRegistrar.smali",
+          "class": "Lcom/google/firebase/analytics/connector/internal/AnalyticsConnectorRegistrar;",
+          "score": 20,
+          "sha256": "2b9dcbc8cf5ac26c4f3537ec33ccf3a6cf2d613295116670d157d57fb050c9d0",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/google/firebase/analytics/FirebaseAnalytics.smali",
+          "class": "Lcom/google/firebase/analytics/FirebaseAnalytics;",
+          "score": 20,
+          "sha256": "30d2ee647cfa636781b7e2514985cb663cfca741a5b8f5db79927f18b64d73d4",
+          "methods": [
+            "public static getInstance(Landroid/content/Context;)Lcom/google/firebase/analytics/FirebaseAnalytics;\r"
+          ]
+        },
+        {
+          "path": "smali_classes3/com/unity3d/ads/core/data/datasource/AnalyticsDataSource.smali",
+          "class": "Lcom/unity3d/ads/core/data/datasource/AnalyticsDataSource;",
+          "score": 20,
+          "sha256": "c265a8d19ea3e2dde04b31e2792d3c987d160085001c000e8b2677633f6eaf3a",
+          "methods": []
+        },
+        {
+          "path": "smali_classes3/com/unity3d/ads/core/data/datasource/AndroidAnalyticsDataSource.smali",
+          "class": "Lcom/unity3d/ads/core/data/datasource/AndroidAnalyticsDataSource;",
+          "score": 20,
+          "sha256": "c88892eda679a511a399d9db10fd8c3694d4771d59e863d61fc19df2a6590b7f",
+          "methods": []
+        },
+        {
+          "path": "smali_classes3/com/unity3d/services/analytics/core/configuration/AnalyticsModuleConfiguration.smali",
+          "class": "Lcom/unity3d/services/analytics/core/configuration/AnalyticsModuleConfiguration;",
+          "score": 20,
+          "sha256": "b96c9ae11243821954ef68696409fd6a5a780cce134aa57b65818540cb260645",
+          "methods": []
+        },
+        {
+          "path": "smali_classes3/com/vungle/ads/AnalyticsClient.smali",
+          "class": "Lcom/vungle/ads/AnalyticsClient;",
+          "score": 20,
+          "sha256": "9480530a9e767f94a165010d6a9830d277bbe07b2dd841590a56fdb0dd38d38c",
+          "methods": [
+            "public static synthetic genMetric$default(Lcom/vungle/ads/AnalyticsClient;Lcom/vungle/ads/internal/protos/Sdk$SDKMetric$SDKMetricType;JLa3o;Ljava/lang/String;ILjava/lang/Object;)Lcom/vungle/ads/internal/protos/Sdk$SDKMetric$a;\r",
+            "public static synthetic genSDKError$default(Lcom/vungle/ads/AnalyticsClient;Lcom/vungle/ads/internal/protos/Sdk$SDKError$Reason;Ljava/lang/String;La3o;ILjava/lang/Object;)Lcom/vungle/ads/internal/protos/Sdk$SDKError$a;\r",
+            "public static synthetic logError$vungle_ads_release$default(Lcom/vungle/ads/AnalyticsClient;Lcom/vungle/ads/internal/protos/Sdk$SDKError$Reason;Ljava/lang/String;La3o;ILjava/lang/Object;)V\r",
+            "public static synthetic logErrorInSameThread$default(Lcom/vungle/ads/AnalyticsClient;Lcom/vungle/ads/internal/protos/Sdk$SDKError$Reason;Ljava/lang/String;La3o;ILjava/lang/Object;)V\r",
+            "public static synthetic logMetric$vungle_ads_release$default(Lcom/vungle/ads/AnalyticsClient;La7t;La3o;Ljava/lang/String;ILjava/lang/Object;)V\r",
+            "public static synthetic logMetric$vungle_ads_release$default(Lcom/vungle/ads/AnalyticsClient;Lcom/vungle/ads/internal/protos/Sdk$SDKMetric$SDKMetricType;JLa3o;Ljava/lang/String;ILjava/lang/Object;)V\r",
+            "public static synthetic logMetric$vungle_ads_release$default(Lcom/vungle/ads/AnalyticsClient;Ln730;La3o;Ljava/lang/String;ILjava/lang/Object;)V\r",
+            "public static synthetic logMetric$vungle_ads_release$default(Lcom/vungle/ads/AnalyticsClient;Lwj70;La3o;Ljava/lang/String;ILjava/lang/Object;)V\r",
+            "public static synthetic logMetric$vungle_ads_release$default(Lcom/vungle/ads/AnalyticsClient;Lz6t;La3o;Ljava/lang/String;ILjava/lang/Object;)V\r",
+            "public static synthetic logMetricInSameThread$default(Lcom/vungle/ads/AnalyticsClient;Lcom/vungle/ads/internal/protos/Sdk$SDKMetric$SDKMetricType;JLa3o;Ljava/lang/String;ILjava/lang/Object;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes3/com/vungle/ads/AnalyticsClient$b.smali",
+          "class": "Lcom/vungle/ads/AnalyticsClient$b;",
+          "score": 20,
+          "sha256": "67e13c5b9d8d027c5a8af2919fbd31157c27a131917942d5133a2c24573fec33",
+          "methods": []
+        },
+        {
+          "path": "smali_classes3/com/vungle/ads/AnalyticsClient$d.smali",
+          "class": "Lcom/vungle/ads/AnalyticsClient$d;",
+          "score": 20,
+          "sha256": "2b0a57d01682c0869651b9efea109f6cff4400677096a3cfe9d0e5414018f98f",
+          "methods": []
+        },
+        {
+          "path": "smali_classes3/com/vungle/ads/AnalyticsClient$LogLevel.smali",
+          "class": "Lcom/vungle/ads/AnalyticsClient$LogLevel;",
+          "score": 20,
+          "sha256": "0c89d92992b2150874edbb7c19789ed5999f19953ed373bb356c125867dbb634",
+          "methods": [
+            "private static final synthetic $values()[Lcom/vungle/ads/AnalyticsClient$LogLevel;\r",
+            "public static valueOf(Ljava/lang/String;)Lcom/vungle/ads/AnalyticsClient$LogLevel;\r",
+            "public static values()[Lcom/vungle/ads/AnalyticsClient$LogLevel;\r"
+          ]
+        },
+        {
+          "path": "smali_classes3/com/vungle/ads/AnalyticsClient$LogLevel$a.smali",
+          "class": "Lcom/vungle/ads/AnalyticsClient$LogLevel$a;",
+          "score": 20,
+          "sha256": "7e375ccc5db339cca10f48ea093fe4113c7da380c8af6784eddf2c91e758e9ef",
+          "methods": [
+            "public final fromValue(I)Lcom/vungle/ads/AnalyticsClient$LogLevel;\r"
+          ]
+        },
+        {
+          "path": "smali_classes3/io/sentry/SentryOpenTelemetryMode.smali",
+          "class": "Lio/sentry/SentryOpenTelemetryMode;",
+          "score": 20,
+          "sha256": "168451bbcadc87005767eb54235ebf1883940f68fcac5adbe91d565182b7516e",
+          "methods": [
+            "private static synthetic $values()[Lio/sentry/SentryOpenTelemetryMode;\r",
+            "public static valueOf(Ljava/lang/String;)Lio/sentry/SentryOpenTelemetryMode;\r",
+            "public static values()[Lio/sentry/SentryOpenTelemetryMode;\r"
+          ]
+        },
+        {
+          "path": "smali_classes4/androidx/tracing/wire/protos/MutableTrackEvent$Type.smali",
+          "class": "Landroidx/tracing/wire/protos/MutableTrackEvent$Type;",
+          "score": 20,
+          "sha256": "1085a373712bd59f2561743803b2d9fdd985f6fc59e57f5c147d07ee409808ec",
+          "methods": [
+            "public static final fromValue(I)Landroidx/tracing/wire/protos/MutableTrackEvent$Type;\r",
+            "public static valueOf(Ljava/lang/String;)Landroidx/tracing/wire/protos/MutableTrackEvent$Type;\r",
+            "public static values()[Landroidx/tracing/wire/protos/MutableTrackEvent$Type;\r"
+          ]
+        },
+        {
+          "path": "smali_classes4/com/amazon/aps/shared/analytics/APSEventSeverity.smali",
+          "class": "Lcom/amazon/aps/shared/analytics/APSEventSeverity;",
+          "score": 20,
+          "sha256": "77716441c32fbc92408c9910f3127a0c9eb9aba9fa5354e1578fded1ba585482",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/amazon/aps/shared/analytics/APSEventSeverity;\r",
+            "public static values()[Lcom/amazon/aps/shared/analytics/APSEventSeverity;\r"
+          ]
+        },
+        {
+          "path": "smali_classes4/com/amazon/aps/shared/analytics/APSEventType.smali",
+          "class": "Lcom/amazon/aps/shared/analytics/APSEventType;",
+          "score": 20,
+          "sha256": "6f59933c0cd5c508dd06f2e7f3cdc6a673ef477b5a23fc1ac5e07eece6b7124d",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/amazon/aps/shared/analytics/APSEventType;\r",
+            "public static values()[Lcom/amazon/aps/shared/analytics/APSEventType;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/moloco/sdk/internal/services/analytics/a.smali",
+          "class": "Lcom/moloco/sdk/internal/services/analytics/a;",
+          "score": 20,
+          "sha256": "d790ba6811230771b88f479d4414c069d97b31b84829d70237c6171b81001089",
+          "methods": []
+        },
+        {
+          "path": "smali_classes7/com/facebook/appevents/AnalyticsUserIDStore.smali",
+          "class": "Lcom/facebook/appevents/AnalyticsUserIDStore;",
+          "score": 20,
+          "sha256": "7a132fb477c94f68e8ba07b4337528752b7940d74380b6ac5abacf1c8e16c232",
+          "methods": []
+        },
+        {
+          "path": "smali_classes7/com/facebook/appevents/internal/AutomaticAnalyticsLogger$PurchaseLoggingParameters.smali",
+          "class": "Lcom/facebook/appevents/internal/AutomaticAnalyticsLogger$PurchaseLoggingParameters;",
+          "score": 20,
+          "sha256": "ba392159a1b777b331004eb7328d3a2e52d84f738840914be39a953e67e21508",
+          "methods": []
+        },
+        {
+          "path": "smali_classes8/com/facebook/gamingservices/cloudgaming/internal/SDKAnalyticsEvents.smali",
+          "class": "Lcom/facebook/gamingservices/cloudgaming/internal/SDKAnalyticsEvents;",
+          "score": 20,
+          "sha256": "a05037e52819aff6dc7ee3782057cc129e47f3c4c65b607b7be53ada72f4ba7c",
+          "methods": []
+        }
+      ]
+    },
+    "experiments": {
+      "matchingFiles": 1899,
+      "candidates": [
+        {
+          "path": "smali_classes2/com/duolingo/data/shardcollections/experiments/ShardCollectionsCondition.smali",
+          "class": "Lcom/duolingo/data/shardcollections/experiments/ShardCollectionsCondition;",
+          "score": 30,
+          "sha256": "8b5c1eef6cbad9c6d4f2e5047e7dd2144dd3696bf448382ec7a59e09c4cf36d5",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/shardcollections/experiments/ShardCollectionsCondition;\r",
+            "public static values()[Lcom/duolingo/data/shardcollections/experiments/ShardCollectionsCondition;\r",
+            "public final isInExperiment()Z\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/shardcollections/experiments/ShardCollectionsEventContext.smali",
+          "class": "Lcom/duolingo/data/shardcollections/experiments/ShardCollectionsEventContext;",
+          "score": 30,
+          "sha256": "d289e18120b304de659ab5d6087952d2e62e749e4905be4ffa615325547a8102",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/shardcollections/experiments/ShardCollectionsEventContext;\r",
+            "public static values()[Lcom/duolingo/data/shardcollections/experiments/ShardCollectionsEventContext;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AttemptedTreatmentsDataSource_Factory.smali",
+          "class": "Lcom/duolingo/core/experiments/AttemptedTreatmentsDataSource_Factory;",
+          "score": 30,
+          "sha256": "341f9ea32c1aadbd37e72c6c3d2b0577a28f9d9ea956c063b334bccf561b10a3",
+          "methods": [
+            "public static create(Lkpw;)Lcom/duolingo/core/experiments/AttemptedTreatmentsDataSource_Factory;\r",
+            "public static newInstance(Lvsl;)Lcom/duolingo/core/experiments/AttemptedTreatmentsDataSource;\r",
+            "public get()Lcom/duolingo/core/experiments/AttemptedTreatmentsDataSource;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindAndroidAsapNetworkCoroutinesSingletonModule_ProvideAndroidAsapNetworkCoroutinesAsClientExperimentOfStarIntoSetFactory$InstanceHolder.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindAndroidAsapNetworkCoroutinesSingletonModule_ProvideAndroidAsapNetworkCoroutinesAsClientExperimentOfStarIntoSetFactory$InstanceHolder;",
+          "score": 30,
+          "sha256": "6bea21106d7cf68e0d402ea8de366f5a6c4ddedce3ca8f601fe89207e1f4aaa8",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindAndroidAsapOptimizeUserIdRetrievalSingletonModule_ProvideAndroidAsapOptimizeUserIdRetrievalAsClientExperimentOfStarIntoSetFactory$InstanceHolder.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindAndroidAsapOptimizeUserIdRetrievalSingletonModule_ProvideAndroidAsapOptimizeUserIdRetrievalAsClientExperimentOfStarIntoSetFactory$InstanceHolder;",
+          "score": 30,
+          "sha256": "50b7e840ee79923738702cf9134500b92bd3a71070389b955467a9bc859567f2",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindClientExperimentsRepositoryImplSingletonModule.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindClientExperimentsRepositoryImplSingletonModule;",
+          "score": 30,
+          "sha256": "7b311f6e344ac9295550ba4bd284dac57362df0b89840a980d32537fa2ea56fb",
+          "methods": [
+            "public abstract bindClientExperimentsRepositoryImplAsClientExperimentsRepository$impl(Lcom/duolingo/core/experiments/ClientExperimentsRepositoryImpl;)Lcom/duolingo/core/experiments/ClientExperimentsRepository;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindClientExperimentUpdateStartupTaskSingletonModule.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindClientExperimentUpdateStartupTaskSingletonModule;",
+          "score": 30,
+          "sha256": "adc6ee1483dee64ed42e8ff38ee928d8eff541f3e3001a0b5b5c38caa09b1589",
+          "methods": [
+            "public abstract bindClientExperimentUpdateStartupTaskAsAppLifecycleTaskIntoSet$impl(Lcom/duolingo/core/experiments/ClientExperimentUpdateStartupTask;)Lmk1;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindCourseLoadEarlyLifecycleExperimentsSingletonModule_ProvideCourseLoadEarlyLifecycleExperimentsAsEarlyLifecycleExperimentDefinitionsIntoSetFactory$InstanceHolder.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindCourseLoadEarlyLifecycleExperimentsSingletonModule_ProvideCourseLoadEarlyLifecycleExperimentsAsEarlyLifecycleExperimentDefinitionsIntoSetFactory$InstanceHolder;",
+          "score": 30,
+          "sha256": "118ed5e45daa193ed39ccce7a03cd31680d351370119aa313eaffabbe1ac6f35",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindExperimentRouteSingletonModule.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindExperimentRouteSingletonModule;",
+          "score": 30,
+          "sha256": "9b3aae8898d89ca05d2e7d20f247129ff60f31bdc70ecc1bfb2337a7b8654b65",
+          "methods": [
+            "public abstract bindExperimentRouteAsRouteIntoMap(Lcom/duolingo/core/experiments/ExperimentRoute;)Lpxy;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindExperimentsEarlyLifecycleExperimentsSingletonModule_ProvideExperimentsEarlyLifecycleExperimentsAsEarlyLifecycleExperimentDefinitionsIntoSetFactory$InstanceHolder.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindExperimentsEarlyLifecycleExperimentsSingletonModule_ProvideExperimentsEarlyLifecycleExperimentsAsEarlyLifecycleExperimentDefinitionsIntoSetFactory$InstanceHolder;",
+          "score": 30,
+          "sha256": "4032f025dac0aa2a259322263589acac2b72adb1098bd01d971f2e430741a4a3",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindExperimentsFeatureFlagsSingletonModule_ProvideExperimentsFeatureFlagsAsFeatureFlagDefinitionsIntoSetFactory$InstanceHolder.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindExperimentsFeatureFlagsSingletonModule_ProvideExperimentsFeatureFlagsAsFeatureFlagDefinitionsIntoSetFactory$InstanceHolder;",
+          "score": 30,
+          "sha256": "6e7d771043db9d032f7caaa595cb04b0424c8042c807f4b7f8aea1bf2a1dbae7",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindExperimentsPopulationAppLifecycleTaskSingletonModule.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindExperimentsPopulationAppLifecycleTaskSingletonModule;",
+          "score": 30,
+          "sha256": "9f2dca34c58bc60189041cfd458fd2c482b01e7673b42da3ecb24c270bd7e978",
+          "methods": [
+            "public abstract bindExperimentsPopulationAppLifecycleTaskAsAppLifecycleTaskIntoSet(Lcom/duolingo/core/experiments/ExperimentsPopulationAppLifecycleTask;)Lmk1;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindExperimentsRefreshAppLifecycleTaskSingletonModule.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindExperimentsRefreshAppLifecycleTaskSingletonModule;",
+          "score": 30,
+          "sha256": "73e1754c13de984b16b2b08e282a53546c95ba3ebdb7d30d6bfdb5b359101a9f",
+          "methods": [
+            "public abstract bindExperimentsRefreshAppLifecycleTaskAsAppLifecycleTaskIntoSet(Lcom/duolingo/core/experiments/ExperimentsRefreshAppLifecycleTask;)Lmk1;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindExperimentsSingletonModule_ProvideExperimentsAsExperimentDefinitionsIntoSetFactory$InstanceHolder.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindExperimentsSingletonModule_ProvideExperimentsAsExperimentDefinitionsIntoSetFactory$InstanceHolder;",
+          "score": 30,
+          "sha256": "5a9f10bf167967d6c500ed8b588789b9e588bd4b2f61dd72c19bbace562673c8",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindOnboardingLoadingProgressBarExperimentSingletonModule_ProvideOnboardingLoadingProgressBarExperimentAsClientExperimentOfStarIntoSetFactory$InstanceHolder.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindOnboardingLoadingProgressBarExperimentSingletonModule_ProvideOnboardingLoadingProgressBarExperimentAsClientExperimentOfStarIntoSetFactory$InstanceHolder;",
+          "score": 30,
+          "sha256": "a3e72bc1d1786e9c59fb95f70a3a55466e00a8180172eeb523db828662896d78",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindOptimizeUserIdRetrievalExperimentAppLifecycleTaskSingletonModule.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindOptimizeUserIdRetrievalExperimentAppLifecycleTaskSingletonModule;",
+          "score": 30,
+          "sha256": "ca49d4fc12686183cda52e35ece24a576044983f998c40e919ce5449cec86197",
+          "methods": [
+            "public abstract bindOptimizeUserIdRetrievalExperimentAppLifecycleTaskAsAppLifecycleTaskIntoSet$app_legacy(Lcom/duolingo/core/experiments/OptimizeUserIdRetrievalExperimentAppLifecycleTask;)Lmk1;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindRocksEarlyLifecycleExperimentsSingletonModule_ProvideRocksEarlyLifecycleExperimentsAsEarlyLifecycleExperimentDefinitionsIntoSetFactory.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindRocksEarlyLifecycleExperimentsSingletonModule_ProvideRocksEarlyLifecycleExperimentsAsEarlyLifecycleExperimentDefinitionsIntoSetFactory;",
+          "score": 30,
+          "sha256": "cb2576345d086896516f8e4ca48d82f0f9f39b924b894c6d9d62fdb162e25664",
+          "methods": [
+            "public static create()Lcom/duolingo/core/experiments/AutoBindRocksEarlyLifecycleExperimentsSingletonModule_ProvideRocksEarlyLifecycleExperimentsAsEarlyLifecycleExperimentDefinitionsIntoSetFactory;\r",
+            "public static provideRocksEarlyLifecycleExperimentsAsEarlyLifecycleExperimentDefinitionsIntoSet()Lcom/duolingo/core/experiments/early/EarlyLifecycleExperimentDefinitions;\r",
+            "public get()Lcom/duolingo/core/experiments/early/EarlyLifecycleExperimentDefinitions;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindRocksEarlyLifecycleExperimentsSingletonModule_ProvideRocksEarlyLifecycleExperimentsAsEarlyLifecycleExperimentDefinitionsIntoSetFactory$InstanceHolder.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindRocksEarlyLifecycleExperimentsSingletonModule_ProvideRocksEarlyLifecycleExperimentsAsEarlyLifecycleExperimentDefinitionsIntoSetFactory$InstanceHolder;",
+          "score": 30,
+          "sha256": "1220b1e57b7795efed17f05cdc44ad49dec8204fdce54c5bde17cde4c33a1f35",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindRocksEarlyLifecycleExperimentsSingletonModule.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindRocksEarlyLifecycleExperimentsSingletonModule;",
+          "score": 30,
+          "sha256": "eaa34edb312eafd24fe673d08d6527f72f99f99c7eb9a41b5609351041703f75",
+          "methods": [
+            "public final provideRocksEarlyLifecycleExperimentsAsEarlyLifecycleExperimentDefinitionsIntoSet()Lcom/duolingo/core/experiments/early/EarlyLifecycleExperimentDefinitions;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/AutoBindUseNewExperimentsDataLayerSingletonModule_ProvideUseNewExperimentsDataLayerAsClientExperimentOfStarIntoSetFactory$InstanceHolder.smali",
+          "class": "Lcom/duolingo/core/experiments/AutoBindUseNewExperimentsDataLayerSingletonModule_ProvideUseNewExperimentsDataLayerAsClientExperimentOfStarIntoSetFactory$InstanceHolder;",
+          "score": 30,
+          "sha256": "292d0c4b534b425a55cc3e2dc9812c7ed2893e0c65c1468f76712e8b9cd78d47",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/ClientExperiment$DefaultImpls.smali",
+          "class": "Lcom/duolingo/core/experiments/ClientExperiment$DefaultImpls;",
+          "score": 30,
+          "sha256": "55a856e3368ac6a31fd504011d6089770aa739ceafa2d15edb207694d91b05bc",
+          "methods": [
+            "public static getConditionFromString(Lcom/duolingo/core/experiments/ClientExperiment;Ljava/lang/String;)Ljava/lang/Enum;\r",
+            "public static getPossibleConditions(Lcom/duolingo/core/experiments/ClientExperiment;)Ljava/util/List;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/ClientExperimentEntries_Serializer_Factory.smali",
+          "class": "Lcom/duolingo/core/experiments/ClientExperimentEntries_Serializer_Factory;",
+          "score": 30,
+          "sha256": "fe1d5f6c5740d17d157d725c9c39ebd08b2322189f2db0a6691f07173a3ad293",
+          "methods": [
+            "public static create(Lkpw;Lkpw;)Lcom/duolingo/core/experiments/ClientExperimentEntries_Serializer_Factory;\r",
+            "public static newInstance(Lfft;Ljava/util/Set;)Lcom/duolingo/core/experiments/ClientExperimentEntries$Serializer;\r",
+            "public get()Lcom/duolingo/core/experiments/ClientExperimentEntries$Serializer;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/ClientExperimentKt.smali",
+          "class": "Lcom/duolingo/core/experiments/ClientExperimentKt;",
+          "score": 30,
+          "sha256": "a717520914e206e50aaebfe557d1476bd74b789ae5feca977c39b22cd7608e69",
+          "methods": [
+            "public static final clientExperiment(Ljava/lang/String;FLo3i;)Lcom/duolingo/core/experiments/ClientExperiment;\r",
+            "public static clientExperiment$default(Ljava/lang/String;FLo3i;ILjava/lang/Object;)Lcom/duolingo/core/experiments/ClientExperiment;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/ClientExperimentKt$clientExperiment$1.smali",
+          "class": "Lcom/duolingo/core/experiments/ClientExperimentKt$clientExperiment$1;",
+          "score": 30,
+          "sha256": "550cef59e9790865d5e2989b2f1bfd2b853754897dab624acb52e268e7e5e267",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/ClientExperimentsRepositoryImpl_Factory.smali",
+          "class": "Lcom/duolingo/core/experiments/ClientExperimentsRepositoryImpl_Factory;",
+          "score": 30,
+          "sha256": "657f97b4b5617d28d5f3e9b1f6e34806b00f8017eda18a428e9793f6e4c0a84c",
+          "methods": [
+            "public static create(Lkpw;Lkpw;Lkpw;Lkpw;Lkpw;)Lcom/duolingo/core/experiments/ClientExperimentsRepositoryImpl_Factory;\r",
+            "public static newInstance(Lgy8;Lqpd;Lcom/duolingo/core/experiments/ExperimentsDebugDataSource;Lo3i;Lndc;)Lcom/duolingo/core/experiments/ClientExperimentsRepositoryImpl;\r",
+            "public get()Lcom/duolingo/core/experiments/ClientExperimentsRepositoryImpl;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/ClientExperimentsRepositoryImpl$observeWithOverrideFlow$1$1.smali",
+          "class": "Lcom/duolingo/core/experiments/ClientExperimentsRepositoryImpl$observeWithOverrideFlow$1$1;",
+          "score": 30,
+          "sha256": "27ce7e37b0d64e152383a30085cdc1bca7a3d284763c8433736c6708085caeb7",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/ClientExperimentUpdateStartupTask_Factory.smali",
+          "class": "Lcom/duolingo/core/experiments/ClientExperimentUpdateStartupTask_Factory;",
+          "score": 30,
+          "sha256": "9026615f960cf1fc4b16edb21032554aadc391dcce34d1c83cc07ae86e163e87",
+          "methods": [
+            "public static create(Lkpw;Lkpw;Lkpw;Lkpw;Lkpw;Lkpw;)Lcom/duolingo/core/experiments/ClientExperimentUpdateStartupTask_Factory;\r",
+            "public static newInstance(Ljava/util/Set;Ldr3;Lcom/duolingo/core/experiments/ClientExperimentsRepository;Lag8;Lgy8;Lo3i;)Lcom/duolingo/core/experiments/ClientExperimentUpdateStartupTask;\r",
+            "public get()Lcom/duolingo/core/experiments/ClientExperimentUpdateStartupTask;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/compose/R.smali",
+          "class": "Lcom/duolingo/core/experiments/compose/R;",
+          "score": 30,
+          "sha256": "c0b7c803d3d8a7af90399bcfb0bef16489e238a5eb9a734857f0e6e8bcc70dc4",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/ComposeExperimentsRepositoryKt.smali",
+          "class": "Lcom/duolingo/core/experiments/ComposeExperimentsRepositoryKt;",
+          "score": 30,
+          "sha256": "61943789d564eff08c0571c4eeacad70f524bd0ddca28b0ef0590f818f228940",
+          "methods": [
+            "public static final getNoOpComposeExperimentsRepository()Lcom/duolingo/core/experiments/ComposeExperimentsRepository;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/experiments/ComposeExperimentsRepositoryKt$NoOpComposeExperimentsRepository$1.smali",
+          "class": "Lcom/duolingo/core/experiments/ComposeExperimentsRepositoryKt$NoOpComposeExperimentsRepository$1;",
+          "score": 30,
+          "sha256": "f2a02bde6c4985d2c97f1f8c56bfbfac50609de814b1fabc7675bc431e787a6a",
+          "methods": [
+            "public static synthetic a(Lcom/duolingo/core/experiments/Experiment;Ljava/lang/String;)Ljava/lang/Object;\r",
+            "private static final get$lambda$0(Lcom/duolingo/core/experiments/Experiment;Ljava/lang/String;)Ljava/lang/Object;\r",
+            "public get(Lcom/duolingo/core/experiments/Experiment;)Ldpf;\r"
+          ]
+        }
+      ]
+    },
+    "purchases": {
+      "matchingFiles": 2561,
+      "candidates": [
+        {
+          "path": "smali_classes2/com/duolingo/data/plus/familyplan/FamilyPlanUserInvite$InviteSubscriptionType.smali",
+          "class": "Lcom/duolingo/data/plus/familyplan/FamilyPlanUserInvite$InviteSubscriptionType;",
+          "score": 30,
+          "sha256": "f9c1da8a623fd018103ccb788a24f045ebbb4ffcc9536eaf9c473a4117799024",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/plus/familyplan/FamilyPlanUserInvite$InviteSubscriptionType;\r",
+            "public static values()[Lcom/duolingo/data/plus/familyplan/FamilyPlanUserInvite$InviteSubscriptionType;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/plus/onboarding/OnboardingSherpaPurchaseFlowVariant.smali",
+          "class": "Lcom/duolingo/data/plus/onboarding/OnboardingSherpaPurchaseFlowVariant;",
+          "score": 30,
+          "sha256": "5880caf69f0cd7b9d2edce7eac036bf2741e79de51dd501098bcc9828b273b30",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/plus/onboarding/OnboardingSherpaPurchaseFlowVariant;\r",
+            "public static values()[Lcom/duolingo/data/plus/onboarding/OnboardingSherpaPurchaseFlowVariant;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/plus/subscriptionplan/SubscriptionPlan.smali",
+          "class": "Lcom/duolingo/data/plus/subscriptionplan/SubscriptionPlan;",
+          "score": 30,
+          "sha256": "f2d259f30d2018396136c36af27a56c8962e91dca5e4894efe2cd40c2aabfb52",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/profile/Subscription$FollowV2Surrogate.smali",
+          "class": "Lcom/duolingo/data/profile/Subscription$FollowV2Surrogate;",
+          "score": 30,
+          "sha256": "3160333e42dab7ec8eae210d5bf7469d7fdbb47a3be28f3da630d603cec75856",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/profile/Subscription$FriendInCommonSurrogate.smali",
+          "class": "Lcom/duolingo/data/profile/Subscription$FriendInCommonSurrogate;",
+          "score": 30,
+          "sha256": "c5fcd31e9f4c66832a86cd944b6b5fce12a2b6edba7102867e573ef16082bc4d",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/shardcollections/inventory/ShardChestPurchaseRequest.smali",
+          "class": "Lcom/duolingo/data/shardcollections/inventory/ShardChestPurchaseRequest;",
+          "score": 30,
+          "sha256": "93c2f53569ed51f4957dbb7953adddf2f2653fc3234205edb10fd1e868a8fd60",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/streak/streakFreeze/optimization/StreakFreezeOptimizationVariablesRepository$SubscriptionSource.smali",
+          "class": "Lcom/duolingo/data/streak/streakFreeze/optimization/StreakFreezeOptimizationVariablesRepository$SubscriptionSource;",
+          "score": 30,
+          "sha256": "214391cebb11e63d406841d6e4c77d0195ca6a570af50fb793d8c5b4e8212c66",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/streak/streakFreeze/optimization/StreakFreezeOptimizationVariablesRepository$SubscriptionSource;\r",
+            "public static values()[Lcom/duolingo/data/streak/streakFreeze/optimization/StreakFreezeOptimizationVariablesRepository$SubscriptionSource;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/subscription/max/SubscriptionFeatureGroup.smali",
+          "class": "Lcom/duolingo/data/subscription/max/SubscriptionFeatureGroup;",
+          "score": 30,
+          "sha256": "1aa2d0be893f4ebd3987a4f78653202e1a17993922d1ad31861151e44dbf2180",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/subscription/SubscriptionUpgradeEligibility.smali",
+          "class": "Lcom/duolingo/data/subscription/SubscriptionUpgradeEligibility;",
+          "score": 30,
+          "sha256": "c7d4ea7b9fbca3a7fc25f51c71ba90bddeb31f0e4742a10233103ffd5737da14",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/subscription/SubscriptionUpgradeEligibility;\r",
+            "public static values()[Lcom/duolingo/data/subscription/SubscriptionUpgradeEligibility;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/user/SubscriptionItemType.smali",
+          "class": "Lcom/duolingo/data/user/SubscriptionItemType;",
+          "score": 30,
+          "sha256": "e419910b5241f84ec782bee925e7b3eaa10d8945d65438803dc0a4516fcd0b62",
+          "methods": [
+            "public static final synthetic access$getRemoteName$p(Lcom/duolingo/data/user/SubscriptionItemType;)Ljava/lang/String;\r",
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/user/SubscriptionItemType;\r",
+            "public static values()[Lcom/duolingo/data/user/SubscriptionItemType;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/data/user/SubscriptionTenure.smali",
+          "class": "Lcom/duolingo/data/user/SubscriptionTenure;",
+          "score": 30,
+          "sha256": "8a0f98c3ec9e5ff9fe981c1e488307fb1d8d6f752e18bf213c3156940ab0bf42",
+          "methods": [
+            "public synthetic constructor <init>(ILjava/lang/Long;Lcom/duolingo/data/user/SubscriptionItemType;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/feature/navigation/destinations/api/DebugSubscriptionProductsScreenKey.smali",
+          "class": "Lcom/duolingo/feature/navigation/destinations/api/DebugSubscriptionProductsScreenKey;",
+          "score": 30,
+          "sha256": "c579c695ab2dcb4087c1c9992be73621d0e2fd1e5e94750e85ec2df113eea089",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/feature/newpath/ui/model/NewPathPopupData$SubscriptionTier.smali",
+          "class": "Lcom/duolingo/feature/newpath/ui/model/NewPathPopupData$SubscriptionTier;",
+          "score": 30,
+          "sha256": "ccb61e767d703e67882059c22f32b3c89a7a956a9453320ac0052c7c0a343498",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/feature/newpath/ui/model/NewPathPopupData$SubscriptionTier;\r",
+            "public static values()[Lcom/duolingo/feature/newpath/ui/model/NewPathPopupData$SubscriptionTier;\r"
+          ]
+        },
+        {
+          "path": "smali_classes2/com/duolingo/plus/HorizontalPurchaseOptionView.smali",
+          "class": "Lcom/duolingo/plus/HorizontalPurchaseOptionView;",
+          "score": 30,
+          "sha256": "0a16280e415f430cf8b6e0260d5830da19ee74ea07887b52536260351a3e4aa9",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/duolingo/plus/VerticalPurchaseOptionView.smali",
+          "class": "Lcom/duolingo/plus/VerticalPurchaseOptionView;",
+          "score": 30,
+          "sha256": "d9dd29e55536c189b9f61362dde440621941b37498760b3ae1d7bddb5986aa67",
+          "methods": []
+        },
+        {
+          "path": "smali_classes4/com/duolingo/ai/videocall/promo/Hilt_VideoCallPurchasePromoActivity.smali",
+          "class": "Lcom/duolingo/ai/videocall/promo/Hilt_VideoCallPurchasePromoActivity;",
+          "score": 30,
+          "sha256": "74fa926d501e15aa1f9c61a65034db09d19537ee01d56e92290ee9bfeef1d2ce",
+          "methods": []
+        },
+        {
+          "path": "smali_classes4/com/duolingo/ai/videocall/promo/Hilt_VideoCallPurchasePromoFragment.smali",
+          "class": "Lcom/duolingo/ai/videocall/promo/Hilt_VideoCallPurchasePromoFragment;",
+          "score": 30,
+          "sha256": "7c7618f244bef138c0f094197b30a5c373d9bd2f6e7e1edb4356476732c06340",
+          "methods": []
+        },
+        {
+          "path": "smali_classes4/com/duolingo/ai/videocall/promo/VideoCallPurchasePromoActivity.smali",
+          "class": "Lcom/duolingo/ai/videocall/promo/VideoCallPurchasePromoActivity;",
+          "score": 30,
+          "sha256": "74850a7c12b291859ebc2c411813197b7ccb838ced90e9548a5b531560a4c512",
+          "methods": []
+        },
+        {
+          "path": "smali_classes4/com/duolingo/ai/videocall/promo/VideoCallPurchasePromoFragment.smali",
+          "class": "Lcom/duolingo/ai/videocall/promo/VideoCallPurchasePromoFragment;",
+          "score": 30,
+          "sha256": "be3efd952a1db95985f48cc209c532fba4f777bf4d834d7888fde5f2176f125a",
+          "methods": []
+        },
+        {
+          "path": "smali_classes4/com/duolingo/core/billing/InAppPurchaseRequestState.smali",
+          "class": "Lcom/duolingo/core/billing/InAppPurchaseRequestState;",
+          "score": 30,
+          "sha256": "08fc0ebcba414f3a6a9462699aa4ca703a6eaccf5aee75588aca55d4b9a982aa",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/core/billing/InAppPurchaseRequestState;\r",
+            "public static values()[Lcom/duolingo/core/billing/InAppPurchaseRequestState;\r"
+          ]
+        },
+        {
+          "path": "smali_classes4/com/duolingo/core/billing/PurchaseData.smali",
+          "class": "Lcom/duolingo/core/billing/PurchaseData;",
+          "score": 30,
+          "sha256": "448010e97418611cf8c5515f3f7784fc6f018c0084deb66c2d9240ad66e26b77",
+          "methods": []
+        },
+        {
+          "path": "smali_classes4/com/duolingo/core/design/juicy/purchase/GemsAmountView.smali",
+          "class": "Lcom/duolingo/core/design/juicy/purchase/GemsAmountView;",
+          "score": 30,
+          "sha256": "ead94d51424e730874e50e4dc95c480a30a5ba669f3509ae61bfa45b0234d1a3",
+          "methods": [
+            "public getItemType()Lcom/duolingo/core/design/juicy/purchase/ItemAmountView$ItemType;\r"
+          ]
+        },
+        {
+          "path": "smali_classes4/com/duolingo/core/design/juicy/purchase/ItemAmountView$ItemType.smali",
+          "class": "Lcom/duolingo/core/design/juicy/purchase/ItemAmountView$ItemType;",
+          "score": 30,
+          "sha256": "23732bad98ad2ecd8ee0b3acabf2ffe55511e62430e06c24ea7cc322dd19925b",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/core/design/juicy/purchase/ItemAmountView$ItemType;\r",
+            "public static values()[Lcom/duolingo/core/design/juicy/purchase/ItemAmountView$ItemType;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/subscription/models/SubscriptionTier.smali",
+          "class": "Lcom/duolingo/core/subscription/models/SubscriptionTier;",
+          "score": 30,
+          "sha256": "18baa35cdb20df95920851e49f1daf12c58f58b4f31374d760994bcb5d177b88",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/core/subscription/models/SubscriptionTier;\r",
+            "public static values()[Lcom/duolingo/core/subscription/models/SubscriptionTier;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/ui/PurchasePageCardView.smali",
+          "class": "Lcom/duolingo/core/ui/PurchasePageCardView;",
+          "score": 30,
+          "sha256": "cf7eff18b02d0a5f74012c521a9ca5606a86f9c5b031f2f63854f110cdbb2bc7",
+          "methods": [
+            "public final getPackageColor()Lcom/duolingo/plus/purchaseflow/purchase/PackageColor;\r",
+            "public final setPackageColor(Lcom/duolingo/plus/purchaseflow/purchase/PackageColor;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/billing/BillingManager$PurchaseType.smali",
+          "class": "Lcom/duolingo/data/billing/BillingManager$PurchaseType;",
+          "score": 30,
+          "sha256": "b58109bb06258b431f4f9ac476557dc9ee9d997088ba3a5b62d818a5d4030b89",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/billing/BillingManager$PurchaseType;\r",
+            "public static values()[Lcom/duolingo/data/billing/BillingManager$PurchaseType;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/billing/DuoBillingResponse$DuoBillingResult.smali",
+          "class": "Lcom/duolingo/data/billing/DuoBillingResponse$DuoBillingResult;",
+          "score": 30,
+          "sha256": "9df8011ab96f31c104cfb3aabe9ca6bb4cd785a5c8313daea5eb79aad9b94f12",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/billing/DuoBillingResponse$DuoBillingResult;\r",
+            "public static values()[Lcom/duolingo/data/billing/DuoBillingResponse$DuoBillingResult;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/familyplan/FamilyPlanTokenInformation$LinkInviteSubscriptionType.smali",
+          "class": "Lcom/duolingo/data/familyplan/FamilyPlanTokenInformation$LinkInviteSubscriptionType;",
+          "score": 30,
+          "sha256": "4c9848b7c61b265946faaa58d804063c760b78d933b6a50941176b4fe5bf2369",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/familyplan/FamilyPlanTokenInformation$LinkInviteSubscriptionType;\r",
+            "public static values()[Lcom/duolingo/data/familyplan/FamilyPlanTokenInformation$LinkInviteSubscriptionType;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/plus/onboarding/OnboardingSherpaPurchaseFlowEntryFragment.smali",
+          "class": "Lcom/duolingo/data/plus/onboarding/OnboardingSherpaPurchaseFlowEntryFragment;",
+          "score": 30,
+          "sha256": "adbe819d5eb9bc82b24a9b97a8326e4e59810ba1d8f3b34faa992993ce60e167",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/plus/onboarding/OnboardingSherpaPurchaseFlowEntryFragment;\r",
+            "public static values()[Lcom/duolingo/data/plus/onboarding/OnboardingSherpaPurchaseFlowEntryFragment;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/data/plus/promotions/RotatingSubscriptionPromoType.smali",
+          "class": "Lcom/duolingo/data/plus/promotions/RotatingSubscriptionPromoType;",
+          "score": 30,
+          "sha256": "3ccc2f6cae66d020250f2f19fb47f02f71ac6d10218dd69f513ae4997b87f8b3",
+          "methods": [
+            "public static valueOf(Ljava/lang/String;)Lcom/duolingo/data/plus/promotions/RotatingSubscriptionPromoType;\r",
+            "public static values()[Lcom/duolingo/data/plus/promotions/RotatingSubscriptionPromoType;\r"
+          ]
+        }
+      ]
+    },
+    "location": {
+      "matchingFiles": 55,
+      "candidates": [
+        {
+          "path": "smali_classes9/com/google/android/gms/location/FusedLocationProviderApi.smali",
+          "class": "Lcom/google/android/gms/location/FusedLocationProviderApi;",
+          "score": 20,
+          "sha256": "e953bbc7a6f520dc8f4b105eb5ee1e5e01703a57cb76250753549fbe2e948ff8",
+          "methods": []
+        },
+        {
+          "path": "smali_classes9/com/google/android/gms/location/FusedLocationProviderClient.smali",
+          "class": "Lcom/google/android/gms/location/FusedLocationProviderClient;",
+          "score": 20,
+          "sha256": "c1b81e1f92e4725625283c1c74ca66857a5d581fa97083987b608896715acd40",
+          "methods": []
+        },
+        {
+          "path": "smali_classes9/com/google/android/gms/location/Geofence.smali",
+          "class": "Lcom/google/android/gms/location/Geofence;",
+          "score": 20,
+          "sha256": "f3f0a547929ed9b3b088085ef55a90b4232d8983c55653e9b6cef160ee0120fc",
+          "methods": []
+        },
+        {
+          "path": "smali_classes9/com/google/android/gms/location/Geofence$Builder.smali",
+          "class": "Lcom/google/android/gms/location/Geofence$Builder;",
+          "score": 20,
+          "sha256": "1dd0f2c43628ffbe9a5a1bd17fb4a1825be59d0d3cb3e597c3552254ac4e3f02",
+          "methods": [
+            "public build()Lcom/google/android/gms/location/Geofence;\r",
+            "public setCircularRegion(DDF)Lcom/google/android/gms/location/Geofence$Builder;\r",
+            "public setExpirationDuration(J)Lcom/google/android/gms/location/Geofence$Builder;\r",
+            "public setLoiteringDelay(I)Lcom/google/android/gms/location/Geofence$Builder;\r",
+            "public setNotificationResponsiveness(I)Lcom/google/android/gms/location/Geofence$Builder;\r",
+            "public setRequestId(Ljava/lang/String;)Lcom/google/android/gms/location/Geofence$Builder;\r",
+            "public setTransitionTypes(I)Lcom/google/android/gms/location/Geofence$Builder;\r"
+          ]
+        },
+        {
+          "path": "smali_classes9/com/google/android/gms/location/Geofence$GeofenceTransition.smali",
+          "class": "Lcom/google/android/gms/location/Geofence$GeofenceTransition;",
+          "score": 20,
+          "sha256": "169288d1e3329f91bd1dad3f0d08cb848765c445ae152df5a5d4ecdbbcfb5d9c",
+          "methods": []
+        },
+        {
+          "path": "smali_classes9/com/google/android/gms/location/Geofence$TransitionTypes.smali",
+          "class": "Lcom/google/android/gms/location/Geofence$TransitionTypes;",
+          "score": 20,
+          "sha256": "d374531e4e184ca0bc3567f6d7c16a152b3003051bee99e175c2027832206196",
+          "methods": []
+        },
+        {
+          "path": "smali_classes9/com/google/android/gms/location/GeofenceStatusCodes.smali",
+          "class": "Lcom/google/android/gms/location/GeofenceStatusCodes;",
+          "score": 20,
+          "sha256": "cd2dbdd858c85c0165541e8f1f479da36bb82b5f9fa736614b845b0cb1117ccb",
+          "methods": []
+        },
+        {
+          "path": "smali_classes10/org/prebid/mobile/rendering/networking/parameters/GeoLocationParameterBuilder.smali",
+          "class": "Lorg/prebid/mobile/rendering/networking/parameters/GeoLocationParameterBuilder;",
+          "score": 0,
+          "sha256": "2ba5c49633f1be7131883fd7f25c62d730289b7ee57566d7668e4fd47814e1c5",
+          "methods": []
+        },
+        {
+          "path": "smali_classes10/org/prebid/mobile/rendering/views/webview/mraid/BaseJSInterface.smali",
+          "class": "Lorg/prebid/mobile/rendering/views/webview/mraid/BaseJSInterface;",
+          "score": 0,
+          "sha256": "00a8e9065558b97e5dc0a6cfda3c6eb58e03d1aa26d07491a42cb77cb343abf0",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/facebook/GraphRequest$Companion.smali",
+          "class": "Lcom/facebook/GraphRequest$Companion;",
+          "score": 0,
+          "sha256": "835c13dfb392612286bc72d2d8da0d5ab28350f026caa93cb50b5095f402eeff",
+          "methods": []
+        },
+        {
+          "path": "smali_classes2/com/google/android/gms/internal/ads/zzeuq.smali",
+          "class": "Lcom/google/android/gms/internal/ads/zzeuq;",
+          "score": 0,
+          "sha256": "cef5e6b4ac9f56c452fdb37e8d4ac6746e4ce799464f86aafe360281e82873e4",
+          "methods": []
+        },
+        {
+          "path": "smali_classes3/bb1.smali",
+          "class": "Lbb1;",
+          "score": 0,
+          "sha256": "cc9046202c83c8eb99056cddceca05d5151dc11072693f21167678a883f35b44",
+          "methods": []
+        },
+        {
+          "path": "smali_classes3/com/moloco/sdk/publisher/bidrequest/Geo$$serializer.smali",
+          "class": "Lcom/moloco/sdk/publisher/bidrequest/Geo$$serializer;",
+          "score": 0,
+          "sha256": "4f43d125e970a49c4cf6ce62f1a4d90aa6a018bb5a1c33b1264239169479e868",
+          "methods": []
+        },
+        {
+          "path": "smali_classes3/e0e.smali",
+          "class": "Le0e;",
+          "score": 0,
+          "sha256": "7af5afc0d036948dc70ba2b786749a1b4cd5b3202cb3a7a8014d24afa13cddcd",
+          "methods": []
+        },
+        {
+          "path": "smali_classes4/com/amazon/device/ads/DtbGeoLocation.smali",
+          "class": "Lcom/amazon/device/ads/DtbGeoLocation;",
+          "score": 0,
+          "sha256": "5092e01be837d076d883e4cd654d21b4e5cee3bafc6e490f4bb668ebd88dec32",
+          "methods": []
+        },
+        {
+          "path": "smali_classes4/l0e.smali",
+          "class": "Ll0e;",
+          "score": 0,
+          "sha256": "fa1a50d1a348e914a91cb952e183cb0917ad2013a4a4c954e6aa397416cedd33",
+          "methods": []
+        },
+        {
+          "path": "smali_classes4/org/prebid/mobile/rendering/sdk/deviceData/managers/LastKnownLocationInfoManager.smali",
+          "class": "Lorg/prebid/mobile/rendering/sdk/deviceData/managers/LastKnownLocationInfoManager;",
+          "score": 0,
+          "sha256": "ab3431d4b146eb81075c978d3bae61afafbf1e77357591bc77c38d250c975039",
+          "methods": [
+            "public getLatitude()Ljava/lang/Double;\r",
+            "public getLongitude()Ljava/lang/Double;\r"
+          ]
+        },
+        {
+          "path": "smali_classes4/org/prebid/mobile/rendering/sdk/deviceData/managers/LocationInfoManager.smali",
+          "class": "Lorg/prebid/mobile/rendering/sdk/deviceData/managers/LocationInfoManager;",
+          "score": 0,
+          "sha256": "5474f9c357d9717a449bc2095efff9ddb8cc7da050709b21a119dcc5c905821c",
+          "methods": [
+            "public abstract getLatitude()Ljava/lang/Double;\r",
+            "public abstract getLongitude()Ljava/lang/Double;\r"
+          ]
+        },
+        {
+          "path": "smali_classes4/org/prebid/mobile/rendering/sdk/ManagersResolver.smali",
+          "class": "Lorg/prebid/mobile/rendering/sdk/ManagersResolver;",
+          "score": 0,
+          "sha256": "bb5ce20f8b4425c90de77d6b4bcfcecd3d5780670f8e27b663644aa3ff3a684b",
+          "methods": [
+            "public getLocationManager()Lorg/prebid/mobile/rendering/sdk/deviceData/managers/LocationInfoManager;\r"
+          ]
+        },
+        {
+          "path": "smali_classes4/s0e.smali",
+          "class": "Ls0e;",
+          "score": 0,
+          "sha256": "0f15c9c4d0f05c485f67e19c0c6c0ad91749a4acedde6e2dbaaf2167c22961db",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/xqq.smali",
+          "class": "Lxqq;",
+          "score": 0,
+          "sha256": "0b594a3ac463dca83a472f3fc67ef5aa217d37e3373381f0580afd78b67e331a",
+          "methods": []
+        },
+        {
+          "path": "smali_classes7/cy30.smali",
+          "class": "Lcy30;",
+          "score": 0,
+          "sha256": "9f57304ba7118313e86f99a83571c2b98855ce05d71f779d60d3096cec2c6f4c",
+          "methods": [
+            "public constructor <init>(Landroid/content/Context;Landroid/location/LocationManager;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes8/com/moloco/sdk/publisher/bidrequest/Geo.smali",
+          "class": "Lcom/moloco/sdk/publisher/bidrequest/Geo;",
+          "score": 0,
+          "sha256": "9bb4d872d74983252f2c8c25e36fdba44b5103ab306bb09ac81e88622995e8ac",
+          "methods": [
+            "public final getLatitude()Ljava/lang/Float;\r",
+            "public final getLongitude()Ljava/lang/Float;\r"
+          ]
+        },
+        {
+          "path": "smali_classes8/com/moloco/sdk/s4.smali",
+          "class": "Lcom/moloco/sdk/s4;",
+          "score": 0,
+          "sha256": "bc2bcce3edf1d6e0620371ab2eaf2efd00a495e189c24ce059cb6362080dd719",
+          "methods": []
+        },
+        {
+          "path": "smali_classes9/com/google/android/gms/internal/ads/zzgc.smali",
+          "class": "Lcom/google/android/gms/internal/ads/zzgc;",
+          "score": 0,
+          "sha256": "faa167ababe83c116c4a18e6210c7a13937863fe55c0c63ec0eeab9aa9fe6164",
+          "methods": []
+        },
+        {
+          "path": "smali_classes9/com/google/android/gms/internal/location/zzaf.smali",
+          "class": "Lcom/google/android/gms/internal/location/zzaf;",
+          "score": 0,
+          "sha256": "3ae1692cd9d1b6f6500c0430cca86707f91aedb37cb59562a53b7f37587e0cdf",
+          "methods": [
+            "public final addGeofences(Lcom/google/android/gms/common/api/GoogleApiClient;Lcom/google/android/gms/location/GeofencingRequest;Landroid/app/PendingIntent;)Lcom/google/android/gms/common/api/PendingResult;\r",
+            "public final addGeofences(Lcom/google/android/gms/common/api/GoogleApiClient;Ljava/util/List;Landroid/app/PendingIntent;)Lcom/google/android/gms/common/api/PendingResult;\r",
+            "public final removeGeofences(Lcom/google/android/gms/common/api/GoogleApiClient;Landroid/app/PendingIntent;)Lcom/google/android/gms/common/api/PendingResult;\r",
+            "public final removeGeofences(Lcom/google/android/gms/common/api/GoogleApiClient;Ljava/util/List;)Lcom/google/android/gms/common/api/PendingResult;\r"
+          ]
+        },
+        {
+          "path": "smali_classes9/com/google/android/gms/internal/location/zzag.smali",
+          "class": "Lcom/google/android/gms/internal/location/zzag;",
+          "score": 0,
+          "sha256": "a93247e12519b5aa68365bb20b3ca7cfe1eb7fc9e8900b2f290f82baaccdc36b",
+          "methods": []
+        },
+        {
+          "path": "smali_classes9/com/google/android/gms/internal/location/zzah.smali",
+          "class": "Lcom/google/android/gms/internal/location/zzah;",
+          "score": 0,
+          "sha256": "c7ba0aa3b903a0594f68f9bfff9f09720d08bbb328929ca58f263c03bbdbc07c",
+          "methods": []
+        },
+        {
+          "path": "smali_classes9/com/google/android/gms/internal/location/zzaj.smali",
+          "class": "Lcom/google/android/gms/internal/location/zzaj;",
+          "score": 0,
+          "sha256": "0c5aa41a05f1035fa9979e6f512c71281c2448b14be771151bd296b8f3666b2e",
+          "methods": []
+        },
+        {
+          "path": "smali_classes9/com/google/android/gms/internal/location/zzal.smali",
+          "class": "Lcom/google/android/gms/internal/location/zzal;",
+          "score": 0,
+          "sha256": "a394edf29c8b844f257042dee526c05b1cf1caf71a09710fa0aee9a216b783e5",
+          "methods": []
+        }
+      ]
+    },
+    "network": {
+      "matchingFiles": 1178,
+      "candidates": [
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/annotation/AdditionalOkHttpEventListenerFactories.smali",
+          "class": "Lcom/duolingo/core/networking/annotation/AdditionalOkHttpEventListenerFactories;",
+          "score": 30,
+          "sha256": "64cae85e76f00cbaeeb85f9f9ea8c59e2c06a4d0551e5e5aea1712dfbe0eb6fc",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/annotation/ApiRetrofit.smali",
+          "class": "Lcom/duolingo/core/networking/annotation/ApiRetrofit;",
+          "score": 30,
+          "sha256": "86563d267ffdb36ed1f2b43451e63ff9dfe3fc31fffb378f7c2a2a4ed13104c5",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/annotation/RetrofitJsonConverters.smali",
+          "class": "Lcom/duolingo/core/networking/annotation/RetrofitJsonConverters;",
+          "score": 30,
+          "sha256": "a0db8f7176741e05ab6cb9e5a767d7663f2cb487590df564bd905a8bdfd336d4",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/annotation/RetrofitXmlConverters.smali",
+          "class": "Lcom/duolingo/core/networking/annotation/RetrofitXmlConverters;",
+          "score": 30,
+          "sha256": "52b67fb51a125c5c04a14db35d33be30074326a65af38655af618252989e4b58",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/di/CloudfrontResourcesRetrofit.smali",
+          "class": "Lcom/duolingo/core/networking/di/CloudfrontResourcesRetrofit;",
+          "score": 30,
+          "sha256": "1b14b5e1c7c814824dc69187df40b175ecb9c918ff816479bdff12e6528f5d6f",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/di/OkHttpForPicasso.smali",
+          "class": "Lcom/duolingo/core/networking/di/OkHttpForPicasso;",
+          "score": 30,
+          "sha256": "1e78eef9baa91320d8e7654036d47e47c376df146ab358c084f20da9325d6b1c",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/legacy/OkHttpLegacyApi_Factory.smali",
+          "class": "Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi_Factory;",
+          "score": 30,
+          "sha256": "e8e7f2ef984f42fd03f684b2f02aacb90edeb91bfc9433c8e58d338e77986a16",
+          "methods": [
+            "public static create(Lkpw;Lkpw;Lkpw;Lkpw;Lkpw;Lkpw;Lkpw;Lkpw;)Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi_Factory;\r",
+            "public static newInstance(Lcom/duolingo/core/networking/model/ApiError$ApiErrorConverterFactory;Lu9z;Lgy8;Lcom/duolingo/core/networking/DefaultRetryStrategy;Lrvf;Lcom/google/gson/Gson;Lu9z;Lokhttp3/OkHttpClient;)Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;\r",
+            "public get()Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/legacy/OkHttpLegacyApi.smali",
+          "class": "Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;",
+          "score": 30,
+          "sha256": "85e8335daf0941b96efeda10e0dc29590f124874435405be08108b446599fc4f",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/core/networking/model/ApiError$ApiErrorConverterFactory;Lu9z;Lgy8;Lcom/duolingo/core/networking/DefaultRetryStrategy;Lrvf;Lcom/google/gson/Gson;Lu9z;Lokhttp3/OkHttpClient;)V\r",
+            "public static final synthetic access$getDefaultRetryStrategy$p(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;)Lcom/duolingo/core/networking/DefaultRetryStrategy;\r",
+            "public static final synthetic access$getFlowableFactory$p(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;)Lrvf;\r",
+            "public static final synthetic access$getGson$p(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;)Lcom/google/gson/Gson;\r",
+            "public static final synthetic access$handleResult(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;Lcom/duolingo/core/networking/retrofit/HttpResponse;Lcom/duolingo/core/networking/legacy/LegacyApiEngine$ResponseCallback;)V\r",
+            "private static synthetic getOkHttpClient$annotations()V\r",
+            "private final handleResult(Lcom/duolingo/core/networking/retrofit/HttpResponse;Lcom/duolingo/core/networking/legacy/LegacyApiEngine$ResponseCallback;)V\r",
+            "private final methodFrom(Lokhttp3/Request$Builder;Lcom/duolingo/core/networking/request/RequestMethod;Ljava/util/Map;)Lokhttp3/Request$Builder;\r",
+            "private final okHttpRequest(Ljava/lang/String;Ljava/util/Map;Lcom/duolingo/core/networking/request/RequestMethod;Ljava/lang/Class;)Ld430;\r",
+            "private final toFormBody(Ljava/util/Map;)Lokhttp3/FormBody;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/legacy/OkHttpLegacyApi$getClassroomInfo$1.smali",
+          "class": "Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi$getClassroomInfo$1;",
+          "score": 30,
+          "sha256": "d838c1dab7a42b224d16602298e658821a137023174011fb1b37d492ef756d61",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;Lo3i;)V\r",
+            "public static synthetic a(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;Lcom/duolingo/core/networking/retrofit/HttpResponse;Lo3i;Lm430;)V\r",
+            "private static final apply$lambda$0(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;Lcom/duolingo/core/networking/retrofit/HttpResponse;Lo3i;Lf530;)V\r",
+            "public final apply(Lcom/duolingo/core/networking/retrofit/HttpResponse;)Ls630;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/legacy/OkHttpLegacyApi$getObservers$1.smali",
+          "class": "Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi$getObservers$1;",
+          "score": 30,
+          "sha256": "14184246dcbcb9c6ce10546438fa67de4f52a3dad007b181d14b6531c927ca85",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;Lo3i;)V\r",
+            "public static synthetic a(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;Lcom/duolingo/core/networking/retrofit/HttpResponse;Lo3i;Lwy7;)V\r",
+            "private static final apply$lambda$0(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;Lcom/duolingo/core/networking/retrofit/HttpResponse;Lo3i;Ldz7;)V\r",
+            "public final apply(Lcom/duolingo/core/networking/retrofit/HttpResponse;)Lxz7;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/legacy/OkHttpLegacyApi$joinClassroom$1.smali",
+          "class": "Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi$joinClassroom$1;",
+          "score": 30,
+          "sha256": "bf83b397de0efd5caa9189d31770a1cf5c22cdc25ecccc2c44c708d233ac1a86",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;Lo3i;)V\r",
+            "public static synthetic a(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;Lcom/duolingo/core/networking/retrofit/HttpResponse;Lo3i;Lwy7;)V\r",
+            "private static final apply$lambda$0(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;Lcom/duolingo/core/networking/retrofit/HttpResponse;Lo3i;Ldz7;)V\r",
+            "public final apply(Lcom/duolingo/core/networking/retrofit/HttpResponse;)Lxz7;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/legacy/OkHttpLegacyApi$okHttpRequest$1.smali",
+          "class": "Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi$okHttpRequest$1;",
+          "score": 30,
+          "sha256": "4528e8d0f49d0987e79b169f570beeabd3a249496477ec8dae8ce5b8049b27b2",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;Ljava/lang/Class;)V\r",
+            "public final apply(Lokhttp3/Response;)Lcom/duolingo/core/data/Outcome;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/legacy/OkHttpLegacyApi$okHttpRequest$2.smali",
+          "class": "Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi$okHttpRequest$2;",
+          "score": 30,
+          "sha256": "ad1f87a509231d5ed0b5fe975961bd62f4ce0828435d8925e33bfbcbf458557e",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/legacy/OkHttpLegacyApi$okHttpRequest$2$2.smali",
+          "class": "Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi$okHttpRequest$2$2;",
+          "score": 30,
+          "sha256": "d5522a9f6d8691399e06c87a1e73872609cd989ee559000c0dfdfe966265fea4",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/legacy/OkHttpLegacyApi$WhenMappings.smali",
+          "class": "Lcom/duolingo/core/networking/legacy/OkHttpLegacyApi$WhenMappings;",
+          "score": 30,
+          "sha256": "68fbb55f7c093efc7c196cec32557b0bb28e1b5f635ff9773dd541b1e3ae74a2",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/OkHttpUtils_Factory.smali",
+          "class": "Lcom/duolingo/core/networking/OkHttpUtils_Factory;",
+          "score": 30,
+          "sha256": "f4c1f5c13e813eefb175a6f5490333293b4c7cd3645953cf3b509103d7b26d31",
+          "methods": [
+            "public static create(Lkpw;)Lcom/duolingo/core/networking/OkHttpUtils_Factory;\r",
+            "public static newInstance(Lgl7;)Lcom/duolingo/core/networking/OkHttpUtils;\r",
+            "public get()Lcom/duolingo/core/networking/OkHttpUtils;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/OkHttpUtilsKt.smali",
+          "class": "Lcom/duolingo/core/networking/OkHttpUtilsKt;",
+          "score": 30,
+          "sha256": "66e006ebadb3072f5befd5184a719564f9cb2bccc36c401cffe1657cd8b6be97",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/persisted/suspend/worker/RequestExecutorSuspend$execute$2$okHttpResponse$1.smali",
+          "class": "Lcom/duolingo/core/networking/persisted/suspend/worker/RequestExecutorSuspend$execute$2$okHttpResponse$1;",
+          "score": 30,
+          "sha256": "621e2be21f12fd3f9e053d8cab29e099e6c62b9fac2cfaba4b29aa5c49ce1a4b",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/core/networking/persisted/suspend/worker/RequestExecutorSuspend;Lcom/duolingo/core/networking/retrofit/RetrofitRequestData;Lvv8;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/retrofit/AddJwtAuthenticationHeader.smali",
+          "class": "Lcom/duolingo/core/networking/retrofit/AddJwtAuthenticationHeader;",
+          "score": 30,
+          "sha256": "3ecfa08c02bba273b1b5839566e3f50fe70eac1c4c91d29a5c9b2f8040051c0d",
+          "methods": []
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/retrofit/AutoBindBlackoutClearingStartupTaskSingletonModule.smali",
+          "class": "Lcom/duolingo/core/networking/retrofit/AutoBindBlackoutClearingStartupTaskSingletonModule;",
+          "score": 30,
+          "sha256": "274504b22bedcd24efc965c0165e4ab48e86343b2a3cd224bcecf2e72207341b",
+          "methods": [
+            "public abstract bindBlackoutClearingStartupTaskAsAppStartupTaskIntoSet(Lcom/duolingo/core/networking/retrofit/BlackoutClearingStartupTask;)Lvl1;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/retrofit/BlackoutClearingStartupTask_Factory.smali",
+          "class": "Lcom/duolingo/core/networking/retrofit/BlackoutClearingStartupTask_Factory;",
+          "score": 30,
+          "sha256": "8e2b95d900dd58dda5a838849d533e6b6af42b6f2fb31dc21ffb5ff02365f9bd",
+          "methods": [
+            "public static create(Lkpw;Lkpw;Lkpw;)Lcom/duolingo/core/networking/retrofit/BlackoutClearingStartupTask_Factory;\r",
+            "public static newInstance(Lcom/duolingo/core/networking/retrofit/BlackoutRequestWrapper;Lgy8;Lcom/duolingo/core/networking/offline/NetworkStatusRepository;)Lcom/duolingo/core/networking/retrofit/BlackoutClearingStartupTask;\r",
+            "public get()Lcom/duolingo/core/networking/retrofit/BlackoutClearingStartupTask;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/retrofit/BlackoutRequestWrapper_Factory.smali",
+          "class": "Lcom/duolingo/core/networking/retrofit/BlackoutRequestWrapper_Factory;",
+          "score": 30,
+          "sha256": "533f64bcf8e2aae2a90942f22ed7d97284e41e1c5920dbbcd3222a7eb0795214",
+          "methods": [
+            "public static create(Lkpw;)Lcom/duolingo/core/networking/retrofit/BlackoutRequestWrapper_Factory;\r",
+            "public static newInstance(Lgl7;)Lcom/duolingo/core/networking/retrofit/BlackoutRequestWrapper;\r",
+            "public get()Lcom/duolingo/core/networking/retrofit/BlackoutRequestWrapper;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/retrofit/CallSingle.smali",
+          "class": "Lcom/duolingo/core/networking/retrofit/CallSingle;",
+          "score": 30,
+          "sha256": "77192cd6dfa69f86cf8f9e374ce8a99dd4212a5883138862fea12d92de79df8d",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/core/networking/retrofit/CallSingle$Call;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/retrofit/CallSingle$CallCallback.smali",
+          "class": "Lcom/duolingo/core/networking/retrofit/CallSingle$CallCallback;",
+          "score": 30,
+          "sha256": "b12737e7c8254dcb2ffe707bbd3a930eadd4d8ea563d7584cb79d15aa4339cf8",
+          "methods": [
+            "public bridge synthetic onFailure(Lcom/duolingo/core/networking/retrofit/CallSingle$Call;Ljava/lang/Object;)V\r",
+            "public onFailure(Lcom/duolingo/core/networking/retrofit/CallSingle$Call;Ljava/lang/Throwable;)V\r",
+            "public onResponse(Lcom/duolingo/core/networking/retrofit/CallSingle$Call;Ljava/lang/Object;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/retrofit/CallSingle$RetrofitCallWrapper.smali",
+          "class": "Lcom/duolingo/core/networking/retrofit/CallSingle$RetrofitCallWrapper;",
+          "score": 30,
+          "sha256": "a3cc40e69f1fda8cf07efe075e83dbad3de40d467e82ad53477b5e3d78acb23c",
+          "methods": [
+            "public clone()Lcom/duolingo/core/networking/retrofit/CallSingle$Call;\r",
+            "public enqueue(Lcom/duolingo/core/networking/retrofit/CallSingle$Callback;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/retrofit/CallSingle$RetrofitCallWrapper$enqueue$1.smali",
+          "class": "Lcom/duolingo/core/networking/retrofit/CallSingle$RetrofitCallWrapper$enqueue$1;",
+          "score": 30,
+          "sha256": "ae88cde99b77b95f107becbfe005d1019a3ea494defb223cf74134d96919ff9b",
+          "methods": [
+            "public constructor <init>(Lcom/duolingo/core/networking/retrofit/CallSingle$Callback;Lcom/duolingo/core/networking/retrofit/CallSingle$RetrofitCallWrapper;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/retrofit/CallSuspendKt.smali",
+          "class": "Lcom/duolingo/core/networking/retrofit/CallSuspendKt;",
+          "score": 30,
+          "sha256": "44b53978e6bf1cd5b7c582e0e3a7726ab55954447bc2baa22b778be0fc50ac1c",
+          "methods": [
+            "public static final awaitResponse(Lokhttp3/Call;Lvv8;)Ljava/lang/Object;\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/retrofit/CallSuspendKt$awaitResponse$2$1.smali",
+          "class": "Lcom/duolingo/core/networking/retrofit/CallSuspendKt$awaitResponse$2$1;",
+          "score": 30,
+          "sha256": "e548e681ab85e427016c55e5dba0b998d38a9ee5a10c38e31cce8c23ff10697f",
+          "methods": [
+            "public constructor <init>(Lokhttp3/Call;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/retrofit/CallSuspendKt$awaitResponse$2$2.smali",
+          "class": "Lcom/duolingo/core/networking/retrofit/CallSuspendKt$awaitResponse$2$2;",
+          "score": 30,
+          "sha256": "f0a505461b7ea4e063d586c7277e894e54138ca935a63ebe749a64ffaca353ad",
+          "methods": [
+            "public onFailure(Lokhttp3/Call;Ljava/io/IOException;)V\r",
+            "public onResponse(Lokhttp3/Call;Lokhttp3/Response;)V\r"
+          ]
+        },
+        {
+          "path": "smali_classes5/com/duolingo/core/networking/retrofit/ConfigurableCallAdapterFactory_Factory.smali",
+          "class": "Lcom/duolingo/core/networking/retrofit/ConfigurableCallAdapterFactory_Factory;",
+          "score": 30,
+          "sha256": "7ec87deab83c3a171b7d7e07c80fd736cfa4513b02c3c8ccb48cb8a1539db8c8",
+          "methods": [
+            "public static create(Lkpw;Lkpw;)Lcom/duolingo/core/networking/retrofit/ConfigurableCallAdapterFactory_Factory;\r",
+            "public static newInstance(Lgy8;Lcom/duolingo/core/networking/retrofit/SuspendCallAdapterFactory;)Lcom/duolingo/core/networking/retrofit/ConfigurableCallAdapterFactory;\r",
+            "public get()Lcom/duolingo/core/networking/retrofit/ConfigurableCallAdapterFactory;\r"
+          ]
+        }
+      ]
+    }
+  },
+  "endpoints": [
+    {
+      "urlOrigin": "http://.css",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://.jpg",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://10.0.2.2:8080",
+      "files": 1,
+      "example": "smali_classes5\\com\\duolingo\\core\\networking\\origin\\ApiOrigin$Avd.smali"
+    },
+    {
+      "urlOrigin": "http://according",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://addEventListenerresponsible",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://An",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://applicationslink",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://ator",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://crbug.com",
+      "files": 1,
+      "example": "smali_classes10\\org\\chromium\\support_lib_boundary\\PrefetchOperationCallbackBoundaryInterface.smali"
+    },
+    {
+      "urlOrigin": "http://cript",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://Descriptionrelatively",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://dictionaryperceptionrevolutionfoundationpx",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://encoding",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://familiar",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://g.co",
+      "files": 1,
+      "example": "smali_classes9\\f5x.smali"
+    },
+    {
+      "urlOrigin": "http://html4",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://i",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://imEnglish",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://In",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://interested",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://interpreted",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://iparticipation",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://javax.xml.XMLConstants",
+      "files": 1,
+      "example": "smali_classes2\\hla.smali"
+    },
+    {
+      "urlOrigin": "http://link",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://localhost",
+      "files": 2,
+      "example": "smali_classes4\\mn80.smali"
+    },
+    {
+      "urlOrigin": "http://mathematicsmargin-top:eventually",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://navigation",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://ns.adobe.com",
+      "files": 4,
+      "example": "smali_classes4\\s0e.smali"
+    },
+    {
+      "urlOrigin": "http://option",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://play.google.com",
+      "files": 1,
+      "example": "smali_classes8\\com\\facebook\\messenger\\MessengerUtils.smali"
+    },
+    {
+      "urlOrigin": "http://px",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://s",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://schemas.android.com",
+      "files": 6,
+      "example": "smali_classes2\\lt50.smali"
+    },
+    {
+      "urlOrigin": "http://site_name",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://staticsuggested",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://style",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://tools.android.com",
+      "files": 1,
+      "example": "smali_classes3\\b8z.smali"
+    },
+    {
+      "urlOrigin": "http://UA-Compatible",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://w",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://whether",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www-",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.",
+      "files": 4,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.a",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.C",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.css",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.example.com",
+      "files": 3,
+      "example": "smali\\com\\bytedance\\sdk\\openadsdk\\core\\uc\\uc.smali"
+    },
+    {
+      "urlOrigin": "http://www.hortcut",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.icon",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.interpretation",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.language",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.slf4j.org",
+      "files": 3,
+      "example": "smali_classes10\\mdo.smali"
+    },
+    {
+      "urlOrigin": "http://www.style",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.text-decoration:underthe",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.w3.org",
+      "files": 11,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.wencodeURIComponent",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://www.years",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "http://xml.org",
+      "files": 3,
+      "example": "smali_classes4\\com\\caverock\\androidsvg\\q.smali"
+    },
+    {
+      "urlOrigin": "http://xmlpull.org",
+      "files": 7,
+      "example": "smali_classes10\\org\\prebid\\mobile\\rendering\\parser\\AdResponseParserVast.smali"
+    },
+    {
+      "urlOrigin": "http://xt",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "https://.facebook.com",
+      "files": 1,
+      "example": "smali_classes2\\com\\facebook\\internal\\Utility.smali"
+    },
+    {
+      "urlOrigin": "https://89a5a5b9206d947706f9d24c108c3438",
+      "files": 1,
+      "example": "smali_classes3\\v58.smali"
+    },
+    {
+      "urlOrigin": "https://accounts.google.com",
+      "files": 1,
+      "example": "smali_classes8\\com\\google\\android\\gms\\auth\\api\\signin\\internal\\zbb.smali"
+    },
+    {
+      "urlOrigin": "https://aditude.prebid-server.com",
+      "files": 1,
+      "example": "smali_classes3\\e1c0.smali"
+    },
+    {
+      "urlOrigin": "https://admob-gmats.uc.r.appspot.com",
+      "files": 3,
+      "example": "smali_classes8\\com\\google\\android\\gms\\internal\\pal\\zzgk.smali"
+    },
+    {
+      "urlOrigin": "https://adx.ads.vungle.com",
+      "files": 1,
+      "example": "smali_classes10\\hj8.smali"
+    },
+    {
+      "urlOrigin": "https://aIn",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "https://android-api-cf.duolingo.com",
+      "files": 1,
+      "example": "smali\\com\\duolingo\\core\\networking\\origin\\ApiOrigin$Regional.smali"
+    },
+    {
+      "urlOrigin": "https://android-api-stage.duolingo.com",
+      "files": 1,
+      "example": "smali_classes5\\com\\duolingo\\core\\networking\\origin\\ApiOrigin$SessionStartStaging.smali"
+    },
+    {
+      "urlOrigin": "https://android-api.duolingo.cn",
+      "files": 2,
+      "example": "smali_classes5\\com\\duolingo\\core\\networking\\origin\\ApiOrigin$China.smali"
+    },
+    {
+      "urlOrigin": "https://android-api.duolingo.com",
+      "files": 2,
+      "example": "smali\\com\\duolingo\\core\\networking\\origin\\ApiOrigin$Production.smali"
+    },
+    {
+      "urlOrigin": "https://aomedia.org",
+      "files": 2,
+      "example": "smali_classes8\\com\\google\\android\\exoplayer2\\metadata\\emsg\\EventMessage.smali"
+    },
+    {
+      "urlOrigin": "https://app-measurement.com",
+      "files": 2,
+      "example": "smali_classes2\\com\\google\\android\\gms\\measurement\\internal\\zzfy.smali"
+    },
+    {
+      "urlOrigin": "https://app.",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://app.adjust.com",
+      "files": 3,
+      "example": "smali\\com\\adjust\\sdk\\AdjustFactory.smali"
+    },
+    {
+      "urlOrigin": "https://app.adjust.io",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://appassets.androidplatform.net",
+      "files": 8,
+      "example": "smali_classes4\\no4.smali"
+    },
+    {
+      "urlOrigin": "https://beian.miit.gov.cn",
+      "files": 1,
+      "example": "smali_classes7\\v520.smali"
+    },
+    {
+      "urlOrigin": "https://birdseye.duolingo.com",
+      "files": 1,
+      "example": "smali\\rw9.smali"
+    },
+    {
+      "urlOrigin": "https://c.amazon-adsystem.com",
+      "files": 3,
+      "example": "smali_classes4\\qu1.smali"
+    },
+    {
+      "urlOrigin": "https://cache.prebid-server.com",
+      "files": 1,
+      "example": "smali_classes3\\c0c0.smali"
+    },
+    {
+      "urlOrigin": "https://careers.duolingo.com",
+      "files": 1,
+      "example": "smali_classes6\\vyc.smali"
+    },
+    {
+      "urlOrigin": "https://cdn-f.adsmoloco.com",
+      "files": 2,
+      "example": "smali_classes6\\bjb0.smali"
+    },
+    {
+      "urlOrigin": "https://cdn.confiant-integrations.net",
+      "files": 1,
+      "example": "smali\\com\\confiant\\android\\sdk\\q2.smali"
+    },
+    {
+      "urlOrigin": "https://cdn.duolingo.com",
+      "files": 3,
+      "example": "smali_classes3\\rre.smali"
+    },
+    {
+      "urlOrigin": "https://cdn.jsdelivr.net",
+      "files": 2,
+      "example": "smali_classes4\\org\\prebid\\mobile\\rendering\\sdk\\scripts\\JsScriptData.smali"
+    },
+    {
+      "urlOrigin": "https://cloud.aditude.io",
+      "files": 1,
+      "example": "smali_classes3\\c0c0.smali"
+    },
+    {
+      "urlOrigin": "https://config.ads.vungle.com",
+      "files": 2,
+      "example": "smali_classes3\\eka0.smali"
+    },
+    {
+      "urlOrigin": "https://crbug.com",
+      "files": 1,
+      "example": "smali_classes5\\e6b.smali"
+    },
+    {
+      "urlOrigin": "https://d1vq87e9lcf771.cloudfront.net",
+      "files": 12,
+      "example": "smali\\rw9.smali"
+    },
+    {
+      "urlOrigin": "https://d35aaqx5ub95lt.cloudfront.net",
+      "files": 1,
+      "example": "smali_classes5\\com\\duolingo\\debug\\PicassoExampleActivity.smali"
+    },
+    {
+      "urlOrigin": "https://d3bvesgviq46ad.cloudfront.net",
+      "files": 1,
+      "example": "smali_classes2\\lsp.smali"
+    },
+    {
+      "urlOrigin": "https://d3gq3s1iyyx31w.cloudfront.net",
+      "files": 1,
+      "example": "smali_classes7\\t1t.smali"
+    },
+    {
+      "urlOrigin": "https://developer.android.com",
+      "files": 10,
+      "example": "smali_classes10\\io\\sentry\\android\\core\\u1.smali"
+    },
+    {
+      "urlOrigin": "https://developer.apple.com",
+      "files": 2,
+      "example": "smali_classes8\\com\\google\\android\\exoplayer2\\metadata\\emsg\\EventMessage.smali"
+    },
+    {
+      "urlOrigin": "https://developers.facebook.com",
+      "files": 12,
+      "example": "smali_classes2\\com\\facebook\\FacebookSdk.smali"
+    },
+    {
+      "urlOrigin": "https://dg91ef2xzhkcz.cloudfront.net",
+      "files": 241,
+      "example": "smali_classes6\\t8r.smali"
+    },
+    {
+      "urlOrigin": "https://diagnostics.duolingo.com",
+      "files": 1,
+      "example": "smali_classes3\\tb2.smali"
+    },
+    {
+      "urlOrigin": "https://drive-thru.duolingo.com",
+      "files": 2,
+      "example": "smali_classes6\\b320.smali"
+    },
+    {
+      "urlOrigin": "https://duolingo-images.s3.amazonaws.com",
+      "files": 10,
+      "example": "smali_classes6\\kms.smali"
+    },
+    {
+      "urlOrigin": "https://duolingo-maker-prod.duolingo.com",
+      "files": 4,
+      "example": "smali_classes5\\e78.smali"
+    },
+    {
+      "urlOrigin": "https://duolingo-sentry.sentry.io",
+      "files": 1,
+      "example": "smali_classes3\\tb2.smali"
+    },
+    {
+      "urlOrigin": "https://duolingo.atlassian.net",
+      "files": 3,
+      "example": "smali_classes6\\com\\duolingo\\feedback\\JiraDuplicate.smali"
+    },
+    {
+      "urlOrigin": "https://duolingo.com",
+      "files": 1,
+      "example": "smali_classes7\\olo.smali"
+    },
+    {
+      "urlOrigin": "https://duolingotest.zendesk.com",
+      "files": 1,
+      "example": "smali_classes10\\rwb0.smali"
+    },
+    {
+      "urlOrigin": "https://englishtest.duolingo.com",
+      "files": 5,
+      "example": "smali_classes5\\ds8.smali"
+    },
+    {
+      "urlOrigin": "https://events.ads.vungle.com",
+      "files": 2,
+      "example": "smali_classes10\\hyw.smali"
+    },
+    {
+      "urlOrigin": "https://example.com",
+      "files": 2,
+      "example": "smali_classes2\\k3s.smali"
+    },
+    {
+      "urlOrigin": "https://example.org",
+      "files": 3,
+      "example": "smali_classes7\\p88.smali"
+    },
+    {
+      "urlOrigin": "https://exoplayer.dev",
+      "files": 2,
+      "example": "smali_classes7\\c7k.smali"
+    },
+    {
+      "urlOrigin": "https://facebook.com",
+      "files": 2,
+      "example": "smali_classes2\\com\\facebook\\internal\\Utility.smali"
+    },
+    {
+      "urlOrigin": "https://fake-url",
+      "files": 1,
+      "example": "smali\\rw9.smali"
+    },
+    {
+      "urlOrigin": "https://fb.gg",
+      "files": 3,
+      "example": "smali_classes8\\com\\facebook\\gamingservices\\FriendFinderDialog.smali"
+    },
+    {
+      "urlOrigin": "https://firebase.google.com",
+      "files": 4,
+      "example": "smali_classes2\\com\\google\\android\\gms\\measurement\\internal\\zzgi.smali"
+    },
+    {
+      "urlOrigin": "https://firebaseinstallations.googleapis.com",
+      "files": 1,
+      "example": "smali_classes3\\vgf.smali"
+    },
+    {
+      "urlOrigin": "https://fundingchoicesmessages.google.com",
+      "files": 1,
+      "example": "smali_classes2\\com\\google\\android\\gms\\internal\\consent_sdk\\zzw.smali"
+    },
+    {
+      "urlOrigin": "https://gdpr.",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://gdpr.adjust.com",
+      "files": 3,
+      "example": "smali\\com\\adjust\\sdk\\AdjustFactory.smali"
+    },
+    {
+      "urlOrigin": "https://gdpr.adjust.io",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://github.com",
+      "files": 14,
+      "example": "smali\\com\\adjust\\sdk\\ActivityHandler.smali"
+    },
+    {
+      "urlOrigin": "https://goals-api-stage-2.duolingo.com",
+      "files": 1,
+      "example": "smali_classes5\\eti.smali"
+    },
+    {
+      "urlOrigin": "https://goals-api-stage-3.duolingo.com",
+      "files": 1,
+      "example": "smali_classes5\\eti.smali"
+    },
+    {
+      "urlOrigin": "https://goals-api-stage.duolingo.com",
+      "files": 1,
+      "example": "smali_classes5\\eti.smali"
+    },
+    {
+      "urlOrigin": "https://goo.gl",
+      "files": 2,
+      "example": "smali_classes2\\com\\google\\android\\gms\\measurement\\internal\\zzpp.smali"
+    },
+    {
+      "urlOrigin": "https://goo.gle",
+      "files": 2,
+      "example": "smali\\hc8.smali"
+    },
+    {
+      "urlOrigin": "https://google.com",
+      "files": 1,
+      "example": "smali_classes9\\com\\google\\android\\gms\\measurement\\internal\\zzkx.smali"
+    },
+    {
+      "urlOrigin": "https://googleads.g.doubleclick.net",
+      "files": 15,
+      "example": "smali_classes8\\com\\google\\android\\gms\\internal\\pal\\zzgk.smali"
+    },
+    {
+      "urlOrigin": "https://graph-video.",
+      "files": 2,
+      "example": "smali_classes2\\com\\facebook\\internal\\ServerProtocol.smali"
+    },
+    {
+      "urlOrigin": "https://graph.",
+      "files": 4,
+      "example": "smali_classes2\\com\\facebook\\internal\\ServerProtocol.smali"
+    },
+    {
+      "urlOrigin": "https://help.ably.io",
+      "files": 2,
+      "example": "smali_classes10\\io\\ably\\lib\\types\\ErrorInfo.smali"
+    },
+    {
+      "urlOrigin": "https://imasdk.googleapis.com",
+      "files": 5,
+      "example": "smali_classes3\\pec0.smali"
+    },
+    {
+      "urlOrigin": "https://infra-edge-gateway-stage-cf.duolingo.com",
+      "files": 1,
+      "example": "smali_classes5\\com\\duolingo\\core\\networking\\origin\\ApiOrigin$SessionStartStagingCf.smali"
+    },
+    {
+      "urlOrigin": "https://internet-up.ably-realtime.com",
+      "files": 1,
+      "example": "smali_classes5\\s86.smali"
+    },
+    {
+      "urlOrigin": "https://invite.duolingo.com",
+      "files": 6,
+      "example": "smali\\ex5.smali"
+    },
+    {
+      "urlOrigin": "https://issuetracker.google.com",
+      "files": 8,
+      "example": "smali\\doa0.smali"
+    },
+    {
+      "urlOrigin": "https://jeeves.duolingo.com",
+      "files": 1,
+      "example": "smali_classes6\\oil.smali"
+    },
+    {
+      "urlOrigin": "https://ktor.io",
+      "files": 2,
+      "example": "smali_classes4\\r6k.smali"
+    },
+    {
+      "urlOrigin": "https://lf-static.tiktokpangle-cdn-us.com",
+      "files": 5,
+      "example": "smali\\com\\bytedance\\sdk\\openadsdk\\core\\settings\\ac.smali"
+    },
+    {
+      "urlOrigin": "https://liteapks.com",
+      "files": 1,
+      "example": "smali_classes10\\com\\zx\\cmz\\Strings.smali"
+    },
+    {
+      "urlOrigin": "https://localization-duostrings.duolingo.com",
+      "files": 1,
+      "example": "smali_classes2\\g2o.smali"
+    },
+    {
+      "urlOrigin": "https://logs.ads.vungle.com",
+      "files": 2,
+      "example": "smali_classes10\\hj8.smali"
+    },
+    {
+      "urlOrigin": "https://math-cdn.duolingo.com",
+      "files": 8,
+      "example": "smali_classes5\\com\\duolingo\\debug\\DebugActivity$MathVisualLibraryVersionOverrideDialogFragment.smali"
+    },
+    {
+      "urlOrigin": "https://math-prod.duolingo.com",
+      "files": 1,
+      "example": "smali_classes5\\ga2.smali"
+    },
+    {
+      "urlOrigin": "https://mediation.goog",
+      "files": 2,
+      "example": "smali_classes2\\com\\google\\android\\gms\\internal\\ads\\zzbix.smali"
+    },
+    {
+      "urlOrigin": "https://nowhere.invalid",
+      "files": 1,
+      "example": "smali\\pb.smali"
+    },
+    {
+      "urlOrigin": "https://pag_open_icon_id",
+      "files": 1,
+      "example": "smali_classes4\\com\\bytedance\\sdk\\openadsdk\\core\\mtv\\uc\\qtm.smali"
+    },
+    {
+      "urlOrigin": "https://pagead2.googlesyndication.com",
+      "files": 4,
+      "example": "smali_classes8\\com\\google\\android\\gms\\ads\\identifier\\zza.smali"
+    },
+    {
+      "urlOrigin": "https://party.163.com",
+      "files": 1,
+      "example": "smali_classes6\\pu00.smali"
+    },
+    {
+      "urlOrigin": "https://phone-verify-ext.duolingo.cn",
+      "files": 1,
+      "example": "smali_classes7\\s32.smali"
+    },
+    {
+      "urlOrigin": "https://phone-verify.duolingo.com",
+      "files": 1,
+      "example": "smali_classes7\\s32.smali"
+    },
+    {
+      "urlOrigin": "https://play.google.com",
+      "files": 6,
+      "example": "smali_classes6\\jal.smali"
+    },
+    {
+      "urlOrigin": "https://podcasts.apple.com",
+      "files": 1,
+      "example": "smali_classes5\\com\\duolingo\\data\\messages\\serializers\\DynamicSessionEndMessageContents$Button.smali"
+    },
+    {
+      "urlOrigin": "https://prod.cm.publishers.advertising.a2z.com",
+      "files": 1,
+      "example": "smali_classes6\\p070.smali"
+    },
+    {
+      "urlOrigin": "https://prod.tahoe-analytics.publishers.advertising.a2z.com",
+      "files": 1,
+      "example": "smali_classes4\\tzp.smali"
+    },
+    {
+      "urlOrigin": "https://protected-by.clarium.io",
+      "files": 1,
+      "example": "smali\\com\\confiant\\android\\sdk\\q2.smali"
+    },
+    {
+      "urlOrigin": "https://pubads.g.doubleclick.net",
+      "files": 14,
+      "example": "smali\\kz30.smali"
+    },
+    {
+      "urlOrigin": "https://public-static.duolingo.com",
+      "files": 1,
+      "example": "smali_classes7\\dvx.smali"
+    },
+    {
+      "urlOrigin": "https://retool.duolingo.com",
+      "files": 1,
+      "example": "smali_classes7\\gr90.smali"
+    },
+    {
+      "urlOrigin": "https://s3.amazonaws.com",
+      "files": 1,
+      "example": "smali_classes5\\bw8.smali"
+    },
+    {
+      "urlOrigin": "https://schools.duolingo.com",
+      "files": 4,
+      "example": "smali_classes5\\com\\duolingo\\core\\networking\\legacy\\LegacyApi.smali"
+    },
+    {
+      "urlOrigin": "https://sdkapi.dsp-api.moloco.com",
+      "files": 3,
+      "example": "smali_classes3\\com\\moloco\\sdk\\internal\\services\\bidtoken\\d.smali"
+    },
+    {
+      "urlOrigin": "https://sdkopmetrics-us.dsp-api.moloco.com",
+      "files": 4,
+      "example": "smali_classes8\\com\\moloco\\sdk\\BuildConfig.smali"
+    },
+    {
+      "urlOrigin": "https://sf16-static.i18n-pglstatp.com",
+      "files": 1,
+      "example": "smali_classes4\\com\\bytedance\\sdk\\component\\adexpress\\dynamic\\rw\\uc.smali"
+    },
+    {
+      "urlOrigin": "https://simg-ssl.duolingo.com",
+      "files": 19,
+      "example": "smali\\com\\duolingo\\data\\ads\\promotions\\i3.smali"
+    },
+    {
+      "urlOrigin": "https://spam-control-api.duolingo.com",
+      "files": 1,
+      "example": "smali_classes6\\sgx.smali"
+    },
+    {
+      "urlOrigin": "https://ssrv.",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://ssrv.adjust.com",
+      "files": 3,
+      "example": "smali\\com\\adjust\\sdk\\AdjustFactory.smali"
+    },
+    {
+      "urlOrigin": "https://ssrv.adjust.io",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://store.duolingo.com",
+      "files": 2,
+      "example": "smali_classes7\\rt20.smali"
+    },
+    {
+      "urlOrigin": "https://stories.duolingo.com",
+      "files": 2,
+      "example": "smali_classes5\\aur.smali"
+    },
+    {
+      "urlOrigin": "https://subscription.",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://subscription.adjust.com",
+      "files": 3,
+      "example": "smali\\com\\adjust\\sdk\\AdjustFactory.smali"
+    },
+    {
+      "urlOrigin": "https://subscription.adjust.io",
+      "files": 2,
+      "example": "smali\\com\\adjust\\sdk\\network\\UrlStrategy.smali"
+    },
+    {
+      "urlOrigin": "https://support.google.com",
+      "files": 2,
+      "example": "smali_classes8\\com\\google\\android\\gms\\ads\\internal\\util\\zzav.smali"
+    },
+    {
+      "urlOrigin": "https://tts-data.duolingo.com",
+      "files": 1,
+      "example": "smali_classes7\\jo10.smali"
+    },
+    {
+      "urlOrigin": "https://twitter.com",
+      "files": 1,
+      "example": "smali_classes7\\gq10.smali"
+    },
+    {
+      "urlOrigin": "https://ui.honeycomb.io",
+      "files": 1,
+      "example": "smali\\com\\duolingo\\core\\networking\\interceptors\\RequestTracingHeaderInterceptor.smali"
+    },
+    {
+      "urlOrigin": "https://update.9mod.com",
+      "files": 1,
+      "example": "smali_classes10\\Xpk8a$2.smali"
+    },
+    {
+      "urlOrigin": "https://was",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "https://wechat-backend-api-prod.duolingo.cn",
+      "files": 1,
+      "example": "smali_classes7\\s32.smali"
+    },
+    {
+      "urlOrigin": "https://www.amazon.com",
+      "files": 2,
+      "example": "smali_classes3\\foq.smali"
+    },
+    {
+      "urlOrigin": "https://www.duolingo.com",
+      "files": 26,
+      "example": "smali_classes5\\aur.smali"
+    },
+    {
+      "urlOrigin": "https://www.example.com",
+      "files": 2,
+      "example": "smali\\com\\bytedance\\sdk\\openadsdk\\utils\\ok.smali"
+    },
+    {
+      "urlOrigin": "https://www.google.com",
+      "files": 12,
+      "example": "smali_classes8\\com\\google\\android\\gms\\internal\\pal\\zzgk.smali"
+    },
+    {
+      "urlOrigin": "https://www.googleadservices.com",
+      "files": 1,
+      "example": "smali_classes2\\com\\google\\android\\gms\\measurement\\internal\\zzpp.smali"
+    },
+    {
+      "urlOrigin": "https://www.googleapis.com",
+      "files": 15,
+      "example": "smali_classes8\\com\\google\\android\\gms\\auth\\api\\signin\\GoogleSignInOptions.smali"
+    },
+    {
+      "urlOrigin": "https://www.linkedin.com",
+      "files": 2,
+      "example": "smali_classes4\\adv.smali"
+    },
+    {
+      "urlOrigin": "https://www.recent",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "https://www.slf4j.org",
+      "files": 8,
+      "example": "smali_classes3\\c4o.smali"
+    },
+    {
+      "urlOrigin": "https://www.World",
+      "files": 1,
+      "example": "smali_classes3\\fvb.smali"
+    },
+    {
+      "urlOrigin": "https://www.zendesk.com",
+      "files": 1,
+      "example": "smali_classes10\\zendesk\\support\\SupportSdkSettings.smali"
+    },
+    {
+      "urlOrigin": "https://youtrack.jetbrains.com",
+      "files": 1,
+      "example": "smali_classes3\\fnw.smali"
+    },
+    {
+      "urlOrigin": "https://zendesk.duolingo.cn",
+      "files": 2,
+      "example": "smali_classes7\\s32.smali"
+    },
+    {
+      "urlOrigin": "https://zombie.duolingo.com",
+      "files": 1,
+      "example": "smali_classes2\\xzu.smali"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Literal matching is candidate discovery, not verified behavior.",
+    "Counts include SDKs, generated code, unused code and obfuscated classes.",
+    "URLs were not requested. No APK execution.",
+    "Candidate lists capped at 30 per category; file scanning itself exhaustive over encountered .smali files."
+  ]
+}

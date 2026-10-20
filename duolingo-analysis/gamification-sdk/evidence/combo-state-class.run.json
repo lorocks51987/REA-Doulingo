@@ -1,0 +1,114 @@
+{
+  "name": "combo-state-class",
+  "operation": "inspect-android-class",
+  "selectors": [
+    "com.duolingo.core.session.timed.ComboState"
+  ],
+  "startedAt": "2026-10-20T14:05:04.640Z",
+  "elapsedMs": 110330,
+  "exitCode": 0,
+  "signal": null,
+  "summary": {
+    "evidenceId": "ev_85d2d7c5c71647dfd32d8da9a5db27c8bfbcdcfd87a2a16755d935105fb58f8e",
+    "operation": "inspect_android_class",
+    "className": "com.duolingo.core.session.timed.ComboState",
+    "methods": [
+      {
+        "name": "<clinit>",
+        "reported_signature": "<clinit>(): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "<init>",
+        "reported_signature": "<init>(int, int, int, int, boolean): void",
+        "overload_index": 0,
+        "is_constructor": true,
+        "dex_descriptor": null
+      },
+      {
+        "name": "<init>",
+        "reported_signature": "<init>(boolean, int, int, int): void",
+        "overload_index": 1,
+        "is_constructor": true,
+        "dex_descriptor": null
+      },
+      {
+        "name": "a",
+        "reported_signature": "a(): int",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "b",
+        "reported_signature": "b(): int",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "describeContents",
+        "reported_signature": "describeContents(): int",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "equals",
+        "reported_signature": "equals(java.lang.Object): boolean",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "hashCode",
+        "reported_signature": "hashCode(): int",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "toString",
+        "reported_signature": "toString(): java.lang.String",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "writeToParcel",
+        "reported_signature": "writeToParcel(android.os.Parcel, int): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      }
+    ],
+    "fields": [
+      {
+        "name": "CREATOR",
+        "reported_type": "android.os.Parcelable$Creator<com.duolingo.core.session.timed.ComboState>"
+      },
+      {
+        "name": "Companion",
+        "reported_type": "ru7"
+      },
+      {
+        "name": "a",
+        "reported_type": "boolean"
+      },
+      {
+        "name": "b",
+        "reported_type": "int"
+      },
+      {
+        "name": "c",
+        "reported_type": "int"
+      },
+      {
+        "name": "d",
+        "reported_type": "int"
+      }
+    ]
+  }
+}

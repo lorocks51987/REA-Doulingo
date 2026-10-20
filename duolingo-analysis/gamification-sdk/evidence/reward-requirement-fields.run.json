@@ -1,0 +1,18 @@
+{
+  "name": "reward-requirement-fields",
+  "ok": true,
+  "operation": "inspect_android_method",
+  "evidenceId": "ev_208eb54f506406eec7530c12f0a9c642ed18755e14d69b3f2330cf2c5fc55d5b",
+  "startedAt": "2026-10-20T14:16:38.158Z",
+  "elapsedMs": 2121,
+  "className": "com.duolingo.data.energyrewards.InLessonRewardRequirement",
+  "method": {
+    "name": "toString",
+    "reported_signature": "toString(): java.lang.String",
+    "overload_index": 0,
+    "is_constructor": false,
+    "dex_descriptor": null
+  },
+  "representation": "java",
+  "bodyStatus": "available"
+}

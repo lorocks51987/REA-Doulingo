@@ -1,0 +1,18 @@
+{
+  "name": "energy-combo-values",
+  "ok": true,
+  "operation": "inspect_android_method",
+  "evidenceId": "ev_bb507c808186c4d827365624a0c7f662ee5eb0479c2b73b89f2aa1d46380d492",
+  "startedAt": "2026-10-20T14:13:56.351Z",
+  "elapsedMs": 1577,
+  "className": "com.duolingo.data.energyrewards.ComboMoment",
+  "method": {
+    "name": "<clinit>",
+    "reported_signature": "<clinit>(): void",
+    "overload_index": 0,
+    "is_constructor": false,
+    "dex_descriptor": null
+  },
+  "representation": "java",
+  "bodyStatus": "available"
+}

@@ -1,0 +1,1258 @@
+{
+  "format": "independent-gamification-research-index",
+  "version": 1,
+  "date": "2026-10-20",
+  "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+  "notes": [
+    "Static observations do not establish runtime behavior.",
+    "No official authenticity verification or backend access.",
+    "Generated source marked complete may still contain decompiler control-flow errors.",
+    "Successful records are REA 6.4.0 shared workflow Evidence with JADX 0.7.1.",
+    "Reference implementation policies are original; tests do not prove Duolingo parity."
+  ],
+  "validation": {
+    "successfulEvidenceRecords": 39,
+    "failuresPreserved": 2,
+    "operations": {
+      "inspect_android_class": 15,
+      "inspect_android_method": 20,
+      "search_android_classes": 4
+    },
+    "providerCloseRecords": 3,
+    "referencedWebUrls": 16,
+    "localLinksChecked": 52,
+    "missingLocalLinks": 0,
+    "referenceTests": {
+      "tests": 9,
+      "passed": 9,
+      "failed": 0
+    },
+    "runtime": "v22.23.2"
+  },
+  "documents": [
+    {
+      "path": "DESCOBERTAS-REA.md",
+      "bytes": 16403,
+      "sha256": "683229b48fa139bedf8cee87381e4e2af2e7b345e3a095f6c6b3daa5ac8bade6"
+    },
+    {
+      "path": "DISCOVERY-LOCAL.md",
+      "bytes": 10506,
+      "sha256": "c1a8deb7fc9ea5cc442eafbe42748bd05387f6fe83d1ca01f028fe37232cde97"
+    },
+    {
+      "path": "DISTRIBUICAO-LOCAL.md",
+      "bytes": 3641,
+      "sha256": "a80ce86b25b694f0d1193a3c5cae865935f1701630af0b77375e7d170d6974a4"
+    },
+    {
+      "path": "GAMIFICACAO-PUBLICO.md",
+      "bytes": 7853,
+      "sha256": "76474d7e84cd441c2df186cfa1f1767c045f004ef1e1b26bd597940d88b91f03"
+    },
+    {
+      "path": "QUESTOES-APK.md",
+      "bytes": 6304,
+      "sha256": "df34f21aff7c03db6a126368e303611cfe1ad41f9be5a4c55253b445f926866f"
+    },
+    {
+      "path": "QUESTOES-PUBLICO.md",
+      "bytes": 5845,
+      "sha256": "42333a2b5b1889ddf318e7dc1c18e7605b5f5d59fef75954ee816ddf9a7cb765"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1549,
+      "sha256": "dd77b1042e75f3578506c6812025c8e39dc31fe179736cc7e74c67014ae1f5ed"
+    },
+    {
+      "path": "SDK-GAMIFICACAO.md",
+      "bytes": 19865,
+      "sha256": "e4c072f01aa0909b494701155efe0212e83cd0086dd72e9eae003276b106e5d7"
+    },
+    {
+      "path": "VALIDACAO.md",
+      "bytes": 3713,
+      "sha256": "6d93bb49fc380a076975a45c3d625873f0632db71d7ba4610601c91b34422def"
+    }
+  ],
+  "implemented": [
+    {
+      "path": "reference-engine.mjs",
+      "bytes": 8921,
+      "sha256": "468d59611deb4248e3c9c93607c0767a25522753d61424bcd4ebb43ecd9357a0"
+    },
+    {
+      "path": "reference-engine.test.mjs",
+      "bytes": 5206,
+      "sha256": "70d2029e5a53798892a91df3bda6d26f7fe6afe73e2b4616079a6f17bc1ec84c"
+    }
+  ],
+  "webReferences": [
+    {
+      "url": "https://blog.duolingo.com/ai-and-video-call/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/duolingo-energy/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/duolingo-leagues-leaderboards/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/friends-quests/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/frontend-prediction/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/hi-its-duo-the-ai-behind-the-meme/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/how-duolingo-experts-work-with-ai/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/how-duolingo-streak-builds-habit/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/how-streaks-keep-duolingo-learners-committed-to-their-language-goals/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/improving-the-streak/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/large-language-model-duolingo-lessons/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/learning-how-to-help-you-learn-introducing-birdbrain/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/new-subjects/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/product-highlights/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://blog.duolingo.com/rewriting-duolingos-engine-in-scala/",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    },
+    {
+      "url": "https://investors.duolingo.com/news-releases/news-release-details/duolingo-launches-148-new-language-courses",
+      "researchDate": "2026-10-20",
+      "revision": "mutable URL; no full-page snapshot retained"
+    }
+  ],
+  "records": [
+    {
+      "path": "evidence/challenge-payload-class.retry1.json",
+      "sha256": "bfc7e2ef7501f35eb61cf2740a249dcdf67187c103e02e7ed82d2970627feb5c",
+      "evidenceId": "ev_299f6151af52a1e4cb5e33a2dd69d4a4268fd1ae1af0491f3263b8e3c4a8d2e2",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.core.challenges.ChallengeSurrogate"
+      },
+      "className": "com.duolingo.core.challenges.ChallengeSurrogate",
+      "decompilerWarningInText": false,
+      "methodsCount": 8,
+      "fieldsCount": 184,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-complete-persist.json",
+      "sha256": "d1a089366ff17acff898fefe974124c687f75d339d7cde48646c0f6c02736366",
+      "evidenceId": "ev_79c3c1941bdcdb169724d0817343c7eb39bd51ce7e05ee2b5110f2a225af18c6",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.eu7",
+        "method_name": "c",
+        "overload_index": 0
+      },
+      "className": "defpackage.eu7",
+      "method": {
+        "name": "c",
+        "reported_signature": "c(yv8): java.lang.Object",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": true,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-grade-class.json",
+      "sha256": "4164140856cd22c4a81cb4f82e21baf886c09066329092bdc148bfc68f73636d",
+      "evidenceId": "ev_bbb2f5448497adfe062f09c5fe0ecff4a66d476ec3831c2cd26ca68688c1c90c",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.comborun.ComboGradeResult"
+      },
+      "className": "com.duolingo.data.comborun.ComboGradeResult",
+      "decompilerWarningInText": false,
+      "methodsCount": 4,
+      "fieldsCount": 5,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-grade-transition.json",
+      "sha256": "030e1ec9bbd26d617f60e2f97d771a15c7a69c11c03a95ccdae2e27e0f9cbbd3",
+      "evidenceId": "ev_294daef96622b07145b400036e55248c0a04331572fb787368508835da898c46",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.eu7",
+        "method_name": "b",
+        "overload_index": 0
+      },
+      "className": "defpackage.eu7",
+      "method": {
+        "name": "b",
+        "reported_signature": "b(com.duolingo.core.data.model.UserId, com.duolingo.data.comborun.ComboGradeResult, boolean): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-increment.json",
+      "sha256": "37cb7641abd44b3626b7d0f516b3b3bf94f8d807592d906fc28ac35ca187eb5d",
+      "evidenceId": "ev_9cebce47061c796aa52c879d370dbfd0bde9a0e63644a0fd45bfee167d1259f8",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.eu7",
+        "method_name": "a",
+        "overload_index": 0
+      },
+      "className": "defpackage.eu7",
+      "method": {
+        "name": "a",
+        "reported_signature": "a(com.duolingo.core.data.model.UserId, boolean, boolean): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": true,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-producer-class.json",
+      "sha256": "00bfcb57f52be9e5ce6f8e2015cf61d0fc1dfe202afe013a4d47c8339352467a",
+      "evidenceId": "ev_554741840ca3d0eb1c68ab4a86226414e35d73be30aa47555ade470edbb6273f",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.eu7"
+      },
+      "className": "defpackage.eu7",
+      "decompilerWarningInText": false,
+      "methodsCount": 7,
+      "fieldsCount": 10,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-producer-search.retry1.json",
+      "sha256": "87117c36d4ba3aeb5bc198bed94a2a3f9283e71576fc416ec80d0f14308ceba0",
+      "evidenceId": "ev_5891fc2d380c9dfd251668347bf88ec1c53a03d693d7e62d3cfd8db79dadadd8",
+      "operation": "search_android_classes",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "query": "eu7"
+      },
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-quit.json",
+      "sha256": "ee2893c4d6f14ef27a1999e39c3afdc31e597ac62252037a91d0c0f432bb5040",
+      "evidenceId": "ev_adcf94571e21c7dd96c38b8d177721e63e4896845906d108f53faf56fe904509",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.eu7",
+        "method_name": "d",
+        "overload_index": 0
+      },
+      "className": "defpackage.eu7",
+      "method": {
+        "name": "d",
+        "reported_signature": "d(boolean, yv8): java.lang.Object",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": true,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-reset.json",
+      "sha256": "91160aceef84b35e5d946117e9f66876c8a25796e8d97c5062f4a15fb4271bb1",
+      "evidenceId": "ev_6a2f55c9c3379abedff642cef49e5069247cf633c2df3dbc8f9ee38df6232222",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.eu7",
+        "method_name": "f",
+        "overload_index": 0
+      },
+      "className": "defpackage.eu7",
+      "method": {
+        "name": "f",
+        "reported_signature": "f(com.duolingo.core.data.model.UserId, com.duolingo.data.comborun.ComboRunTracking$LossReason): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-session-class.json",
+      "sha256": "ee1b4bd623b597c3ef59b3588e102f046a7160bb6a0e3ec92b1eb8a887d75c0b",
+      "evidenceId": "ev_0a8be73ea795aea43e95c99a0faa91c9dcaba13847c83e964b5248e19bbe188c",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.xt7"
+      },
+      "className": "defpackage.xt7",
+      "decompilerWarningInText": false,
+      "methodsCount": 10,
+      "fieldsCount": 14,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-session-experiment.json",
+      "sha256": "5f06c95ee0f7ab8fb15c540207541e9eac4a506930388172a6cee3c4f525df84",
+      "evidenceId": "ev_eb61a4ed6deca55b4255f8217c9dd674d476faafa02ef48e0621d6de7300d06a",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.xt7",
+        "method_name": "d",
+        "overload_index": 0
+      },
+      "className": "defpackage.xt7",
+      "method": {
+        "name": "d",
+        "reported_signature": "d(): boolean",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-session-fields.json",
+      "sha256": "4333dcf3fd2f69feb4fd1be32189d8bfa092cd7c863e9ffc768c898bf7e2b624",
+      "evidenceId": "ev_a7897902529c7daa2996f3e6f52cf646bb96a402b4a0f638bf6958721f866f75",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.xt7",
+        "method_name": "toString",
+        "overload_index": 0
+      },
+      "className": "defpackage.xt7",
+      "method": {
+        "name": "toString",
+        "reported_signature": "toString(): java.lang.String",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-session-offset.json",
+      "sha256": "445bfc7df38f1b90b43ce71c5c1c3069af2f9d395057546cff03cc84bb3aeae4",
+      "evidenceId": "ev_5af674c78a7f0eeb2b26f4a8e060a2d45e621b8b5ee7b162e26f7ca81a2433da",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.xt7",
+        "method_name": "b",
+        "overload_index": 0
+      },
+      "className": "defpackage.xt7",
+      "method": {
+        "name": "b",
+        "reported_signature": "b(int): int",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-session-perfect.json",
+      "sha256": "4608e2dff8a32b44467f84a74a62d8d5be77fb5047461b60d427ab1681033e1d",
+      "evidenceId": "ev_55c2ab541d1e82bf807ef45ed552cf7f1db3d4d6ccdf1f264adbb17d9f69914d",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.xt7",
+        "method_name": "e",
+        "overload_index": 0
+      },
+      "className": "defpackage.xt7",
+      "method": {
+        "name": "e",
+        "reported_signature": "e(): boolean",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-session-search.json",
+      "sha256": "c1e5c8a811cb7ca2d77f33bec170826a947a5cadfae74f28b73a39e40523dffe",
+      "evidenceId": "ev_8790dfc8456a8a5b67b93d669a576c9add7d1301d9253ddfd34c6b7d49cdeb78",
+      "operation": "search_android_classes",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "query": "xt7"
+      },
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-session-visible.json",
+      "sha256": "eb95dd3356cd1204474ff62825210047364e04074cc0252e215cae15343806f2",
+      "evidenceId": "ev_7bb2301892387bae6c0f760e2fca069667cddde3c174ffacb00f0aabf920cb40",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.xt7",
+        "method_name": "c",
+        "overload_index": 0
+      },
+      "className": "defpackage.xt7",
+      "method": {
+        "name": "c",
+        "reported_signature": "c(): java.lang.Integer",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/combo-state-class.json",
+      "sha256": "aff665ff0ed45596a5ebe1c13553db05d6d452d4625f1e4d0cc370bed6ad1d09",
+      "evidenceId": "ev_85d2d7c5c71647dfd32d8da9a5db27c8bfbcdcfd87a2a16755d935105fb58f8e",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.core.session.timed.ComboState"
+      },
+      "className": "com.duolingo.core.session.timed.ComboState",
+      "decompilerWarningInText": false,
+      "methodsCount": 10,
+      "fieldsCount": 6,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/energy-combo-class.json",
+      "sha256": "3d9d5ae87f36618b8e57df085ee9d4df74a348e1a66e20b5fe55038e4c926d27",
+      "evidenceId": "ev_7e7609cbdc33c7a6b9962b2114952bda40c7ed06eba3786c2380c3e4b8916fad",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.energyrewards.ComboMoment"
+      },
+      "className": "com.duolingo.data.energyrewards.ComboMoment",
+      "decompilerWarningInText": false,
+      "methodsCount": 6,
+      "fieldsCount": 11,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/energy-combo-values.json",
+      "sha256": "1815e095d0759085777aa570e583c3e229018f2b776c4b32e60c317ee3393b5e",
+      "evidenceId": "ev_bb507c808186c4d827365624a0c7f662ee5eb0479c2b73b89f2aa1d46380d492",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.energyrewards.ComboMoment",
+        "method_name": "<clinit>",
+        "overload_index": 0
+      },
+      "className": "com.duolingo.data.energyrewards.ComboMoment",
+      "method": {
+        "name": "<clinit>",
+        "reported_signature": "<clinit>(): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/grade-map-class.json",
+      "sha256": "e26e2e2e37478629255e1dae2a444b98cac29551552d40347a4fbf010e1466f7",
+      "evidenceId": "ev_e7c6bc5b4d2aae799c529fa88d2cbb8e913242557c0cb929ecc96609bd4383da",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.yt7"
+      },
+      "className": "defpackage.yt7",
+      "decompilerWarningInText": false,
+      "methodsCount": 1,
+      "fieldsCount": 1,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/grade-map-search.json",
+      "sha256": "efec64d40effa238f67059000992ecd81059e9563e5bf76698efee3292d162a8",
+      "evidenceId": "ev_90861d9679be80be0846b3890290a9c0bd6040ddb9ea0b972f574a9523d8ef95",
+      "operation": "search_android_classes",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "query": "yt7"
+      },
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/grade-map-values.json",
+      "sha256": "b1ec241fed54cffc350ddd518a5c8e20b117815b4512b6d6a3b25985fec0e8a1",
+      "evidenceId": "ev_3e7abb55106e02529bc677a548bb0e4bb4fd45abd193290fd58f49f80093b043",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.yt7",
+        "method_name": "<clinit>",
+        "overload_index": 0
+      },
+      "className": "defpackage.yt7",
+      "method": {
+        "name": "<clinit>",
+        "reported_signature": "<clinit>(): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/in-lesson-reward-class.json",
+      "sha256": "db87ff758005dd345b7460733cb6bcea1508989220affd3375ef89e7499f334e",
+      "evidenceId": "ev_5784d442426e12dff0d263bf66b119d93f927d8db3b577430b6f2d7037c7bd0e",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.energyrewards.InLessonReward"
+      },
+      "className": "com.duolingo.data.energyrewards.InLessonReward",
+      "decompilerWarningInText": false,
+      "methodsCount": 6,
+      "fieldsCount": 13,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/in-lesson-reward-fields.json",
+      "sha256": "77ffc8190d18c91537d000d6ecf567fef3f7263eac12171bf4045b3f98858aa1",
+      "evidenceId": "ev_61a431c66fb571a585408c0cd851e6b98e26a6eae033d544c565c4ea4d9aa1bf",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.energyrewards.InLessonReward",
+        "method_name": "toString",
+        "overload_index": 0
+      },
+      "className": "com.duolingo.data.energyrewards.InLessonReward",
+      "method": {
+        "name": "toString",
+        "reported_signature": "toString(): java.lang.String",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/league-rules-class.json",
+      "sha256": "e9750fc317f43e6190b6d53fee5d88d404f7ffc4fea84fa6753482a190484534",
+      "evidenceId": "ev_8c9423a995280014a9d1d52d679cedb12c3ac3249e6e7d6c999c8c926d0a30df",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.leagues.LeaguesRuleset"
+      },
+      "className": "com.duolingo.data.leagues.LeaguesRuleset",
+      "decompilerWarningInText": false,
+      "methodsCount": 7,
+      "fieldsCount": 12,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/league-rules-fields.json",
+      "sha256": "e9487f6bb49a6375a29c04acce70912fd6c4e0780ab07464cdaad0100c737c32",
+      "evidenceId": "ev_0fddf06d32f82497b390618a052e71b7032aba711a545e358e781bc66f8666fb",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.leagues.LeaguesRuleset",
+        "method_name": "toString",
+        "overload_index": 0
+      },
+      "className": "com.duolingo.data.leagues.LeaguesRuleset",
+      "method": {
+        "name": "toString",
+        "reported_signature": "toString(): java.lang.String",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/reward-filtering.json",
+      "sha256": "92def6d375c79c52135cb7058b5e47655d06748c47e4e93cff70bb6946751c40",
+      "evidenceId": "ev_bf86a31d130e90ead16bb9906c2bceeca3a7d5b17e72b1fcc2e8d10cd1cce251",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.cid",
+        "method_name": "c",
+        "overload_index": 0
+      },
+      "className": "defpackage.cid",
+      "method": {
+        "name": "c",
+        "reported_signature": "c(com.duolingo.data.energyrewards.EnergyRewardsTemplate, int, java.lang.String, com.duolingo.data.energyrewards.ComboMoment, com.duolingo.data.course.Subject, int, boolean, boolean, java.lang.Integer, yv8): java.lang.Object",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "smali",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": true,
+      "markers": [
+        "Method not decompiled",
+        "Method dump skipped, instruction units count"
+      ],
+      "decompilerWarningInText": true,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/reward-operator-class.json",
+      "sha256": "5299cdd2d3dab012778512f7c30a62cc94a2aba27170c69cab3a358589b6efce",
+      "evidenceId": "ev_00f718380d49e0e9f3138d533420a5b6f2a8519cf534f07bba7f507ab483395f",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.energyrewards.InLessonRewardOperator"
+      },
+      "className": "com.duolingo.data.energyrewards.InLessonRewardOperator",
+      "decompilerWarningInText": false,
+      "methodsCount": 6,
+      "fieldsCount": 10,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/reward-operator-values.json",
+      "sha256": "7f8f4297d26c8e8e2bd290ed0cf75a636612687e5dc74ff8fcd40968a9d21d9d",
+      "evidenceId": "ev_8f5c4f00e702d44d2f47a070fe00148c9e74ca6acf6c6a4f70a0751faa9baaf8",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.energyrewards.InLessonRewardOperator",
+        "method_name": "<clinit>",
+        "overload_index": 0
+      },
+      "className": "com.duolingo.data.energyrewards.InLessonRewardOperator",
+      "method": {
+        "name": "<clinit>",
+        "reported_signature": "<clinit>(): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/reward-requirement-class.json",
+      "sha256": "7566935be01453c36e23e1d2c24a12927902e4847ebccea61dce79716ca6e3da",
+      "evidenceId": "ev_7e14dad30b6bccb7e85abf909effb945b8483cca9a093e516a092881f314c728",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.energyrewards.InLessonRewardRequirement"
+      },
+      "className": "com.duolingo.data.energyrewards.InLessonRewardRequirement",
+      "decompilerWarningInText": false,
+      "methodsCount": 6,
+      "fieldsCount": 4,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/reward-requirement-fields.json",
+      "sha256": "994b4452c4a6fe81fc13bb03f69e238295c3464a00aa2e7dbae92b4e85d4486c",
+      "evidenceId": "ev_208eb54f506406eec7530c12f0a9c642ed18755e14d69b3f2330cf2c5fc55d5b",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.energyrewards.InLessonRewardRequirement",
+        "method_name": "toString",
+        "overload_index": 0
+      },
+      "className": "com.duolingo.data.energyrewards.InLessonRewardRequirement",
+      "method": {
+        "name": "toString",
+        "reported_signature": "toString(): java.lang.String",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/reward-sampling-class.json",
+      "sha256": "e86a9deb9d9de61ebe57b22ac323973696eb99a21bc9e2844e0a4198bef81d3e",
+      "evidenceId": "ev_2fee3f50725dca13a5bac7b0e5fb2f39968e43e6146b905042d8896cf2049048",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.cid"
+      },
+      "className": "defpackage.cid",
+      "decompilerWarningInText": false,
+      "methodsCount": 5,
+      "fieldsCount": 3,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/reward-sampling-search.json",
+      "sha256": "217a9887b9f9925106f60bd1cdcd3c3e55d764c5767d0ec8ac4224b703707622",
+      "evidenceId": "ev_9f71673f4a2878e22cf515de1f7b7e30a8358408dc87735160089f97de5d9e73",
+      "operation": "search_android_classes",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "query": "cid"
+      },
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/reward-sampling.json",
+      "sha256": "b476b4a1112a5bea473ead5568773c7d12ee35fe08debd2d820262d48ce2e457",
+      "evidenceId": "ev_553ad90b4c3f3e6c6235a6fba6e59b49cc63b56f7f8c752d87129ba7f03f8b39",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "defpackage.cid",
+        "method_name": "b",
+        "overload_index": 0
+      },
+      "className": "defpackage.cid",
+      "method": {
+        "name": "b",
+        "reported_signature": "b(int, java.lang.String, com.duolingo.data.energyrewards.ComboMoment, com.duolingo.data.course.Subject, int, boolean, boolean, java.lang.Integer, yv8): java.lang.Object",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": true,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/reward-template-class.json",
+      "sha256": "84989fbadd1d3402a0eaef5b9e3538d2dc97a59a54b831636d639eae0254f266",
+      "evidenceId": "ev_c5503889901c9127027b789c6651d58e1a951319a9d822074c87e900315eba62",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.energyrewards.EnergyRewardsTemplate"
+      },
+      "className": "com.duolingo.data.energyrewards.EnergyRewardsTemplate",
+      "decompilerWarningInText": false,
+      "methodsCount": 6,
+      "fieldsCount": 3,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/reward-template-fields.json",
+      "sha256": "8ebae12c33cf264ee6fb57ca5a5a5d167ff479c4a869de4c5d06c1bf04e989de",
+      "evidenceId": "ev_41718a44906d71d226a336ac800d75ece62474203dd49f4b46e0e3d68b9c5070",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.energyrewards.EnergyRewardsTemplate",
+        "method_name": "toString",
+        "overload_index": 0
+      },
+      "className": "com.duolingo.data.energyrewards.EnergyRewardsTemplate",
+      "method": {
+        "name": "toString",
+        "reported_signature": "toString(): java.lang.String",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/session-payload-class.json",
+      "sha256": "fe35093ae3f56c4d95a9a01bd45032dc9e7acd44979c12fcf8197eb218682bf3",
+      "evidenceId": "ev_bfd82ef21da7642b466990e6c6f370b29623a90ea51ce57f13b9b25796cc1a88",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.core.session.SessionSurrogate"
+      },
+      "className": "com.duolingo.core.session.SessionSurrogate",
+      "decompilerWarningInText": false,
+      "methodsCount": 6,
+      "fieldsCount": 29,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/xp-multiplier-class.json",
+      "sha256": "3785c2fdd2b7efeb48e71f489ae6868ad00feb0f226532a62db68231d39e986b",
+      "evidenceId": "ev_0cdc2067f33cf9843012704e629215f645aa2e8faf8d1bd2781483b8c58c2bfa",
+      "operation": "inspect_android_class",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.xpboost.XpBoostMultiplier"
+      },
+      "className": "com.duolingo.data.xpboost.XpBoostMultiplier",
+      "decompilerWarningInText": false,
+      "methodsCount": 4,
+      "fieldsCount": 5,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "path": "evidence/xp-multiplier-values.json",
+      "sha256": "73ec57f2250b2e929da75570e6a6d62edfb9fc86eba7649026088abd0df6e3bb",
+      "evidenceId": "ev_bddf5baaa869a3505799cacd838cfee37388ff6feb2eb58d5bbe57d5b2d8b16d",
+      "operation": "inspect_android_method",
+      "artifactSha256": "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+      "parameters": {
+        "path": "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+        "class_name": "com.duolingo.data.xpboost.XpBoostMultiplier",
+        "method_name": "<clinit>",
+        "overload_index": 0
+      },
+      "className": "com.duolingo.data.xpboost.XpBoostMultiplier",
+      "method": {
+        "name": "<clinit>",
+        "reported_signature": "<clinit>(): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      "representation": "java",
+      "sourceStatus": "complete",
+      "bodyStatus": "available",
+      "fellBack": false,
+      "markers": [],
+      "decompilerWarningInText": false,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "path": "evidence/challenge-payload-class.json",
+      "sha256": "212d7c32dd8f76dbd9e8b974723f7d5491e8f425e3e6bbe69f78dd1c904a32b9",
+      "code": "invalid_request",
+      "category": "invalid_input",
+      "message": "Analysis input is invalid. Check the arguments and try again."
+    },
+    {
+      "path": "evidence/combo-producer-search.json",
+      "sha256": "9271ad50cbd209908fce38a27ba0b32149e1b06b4039186c92e062ca4ad25bd6",
+      "code": "capability_unavailable",
+      "category": "unsupported_provider",
+      "message": "REA Windows native controls are unavailable: Open Windows path component failed [C:\\Users\\ead.atend] (Win32 5): Acesso negado.\r\n"
+    }
+  ],
+  "cleanup": [
+    {
+      "path": "evidence/plan-confirmation.json.cleanup.json",
+      "providerClose": "completed",
+      "at": "2026-10-20T14:16:49.888Z"
+    },
+    {
+      "path": "evidence/plan-payload-and-sampling.json.cleanup.json",
+      "providerClose": "completed",
+      "at": "2026-10-20T14:27:20.240Z"
+    },
+    {
+      "path": "evidence/plan-rules.json.cleanup.json",
+      "providerClose": "completed",
+      "at": "2026-10-20T14:14:07.505Z"
+    }
+  ]
+}

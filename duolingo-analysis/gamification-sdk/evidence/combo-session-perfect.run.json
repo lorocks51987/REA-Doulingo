@@ -1,0 +1,18 @@
+{
+  "name": "combo-session-perfect",
+  "ok": true,
+  "operation": "inspect_android_method",
+  "evidenceId": "ev_55c2ab541d1e82bf807ef45ed552cf7f1db3d4d6ccdf1f264adbb17d9f69914d",
+  "startedAt": "2026-10-20T14:13:47.393Z",
+  "elapsedMs": 2684,
+  "className": "defpackage.xt7",
+  "method": {
+    "name": "e",
+    "reported_signature": "e(): boolean",
+    "overload_index": 0,
+    "is_constructor": false,
+    "dex_descriptor": null
+  },
+  "representation": "java",
+  "bodyStatus": "available"
+}

@@ -1,0 +1,246 @@
+Program: libduolingounity.so
+SHA256: 653f965fb738564c29de06f1a96ee9880373bc4bfce55befcd6a96ec45d709bf
+Language: AARCH64:LE:64:v8A
+Functions: 47
+Analysis completion/timeout: consult companion headless log.
+Scope: function inventory; selected non-external function pseudocode, maximum 12, 10 seconds/function. Static only.
+FUNCTION 00104a20 _FINI_1 external=false thunk=false
+FUNCTION 00104a30 FUN_00104a30 external=false thunk=false
+FUNCTION 00104a38 _FINI_0 external=false thunk=true
+FUNCTION 00104a40 FUN_00104a40 external=false thunk=false
+FUNCTION 00104a54 FUN_00104a54 external=false thunk=false
+FUNCTION 00104a70 FUN_00104a70 external=false thunk=false
+FUNCTION 00104a80 JNI_OnLoad external=false thunk=false
+FUNCTION 00104b0c FUN_00104b0c external=false thunk=false
+FUNCTION 00104be8 FUN_00104be8 external=false thunk=false
+FUNCTION 00104ce4 FUN_00104ce4 external=false thunk=false
+FUNCTION 00104e40 FUN_00104e40 external=false thunk=false
+FUNCTION 00104e60 __cxa_finalize external=false thunk=true
+FUNCTION 00104e70 __cxa_atexit external=false thunk=true
+FUNCTION 00104e80 __register_atfork external=false thunk=true
+FUNCTION 00104e90 malloc external=false thunk=true
+FUNCTION 00104ea0 memcpy external=false thunk=true
+FUNCTION 00104eb0 free external=false thunk=true
+FUNCTION 00104ec0 dlsym external=false thunk=true
+FUNCTION 00104ed0 dlclose external=false thunk=true
+FUNCTION 00104ee0 snprintf external=false thunk=true
+FUNCTION 00104ef0 dlopen external=false thunk=true
+FUNCTION 00104f00 dlerror external=false thunk=true
+FUNCTION 00104f10 __stack_chk_fail external=false thunk=true
+FUNCTION 0010e000 __cxa_finalize external=false thunk=true
+FUNCTION 0010e008 __cxa_atexit external=false thunk=true
+FUNCTION 0010e010 __register_atfork external=false thunk=true
+FUNCTION 0010e018 malloc external=false thunk=true
+FUNCTION 0010e020 memcpy external=false thunk=true
+FUNCTION 0010e028 free external=false thunk=true
+FUNCTION 0010e030 dlsym external=false thunk=true
+FUNCTION 0010e038 dlclose external=false thunk=true
+FUNCTION 0010e040 snprintf external=false thunk=true
+FUNCTION 0010e048 dlopen external=false thunk=true
+FUNCTION 0010e050 dlerror external=false thunk=true
+FUNCTION 0010e058 __stack_chk_fail external=false thunk=true
+=== DECOMPILED SAMPLE ===
+PROCEDURE 00104a20 _FINI_1
+
+void _FINI_1(void)
+
+{
+  __cxa_finalize(&PTR_LOOP_00108f20);
+  return;
+}
+
+
+PROCEDURE 00104a30 FUN_00104a30
+
+void FUN_00104a30(void)
+
+{
+  return;
+}
+
+
+PROCEDURE 00104a40 FUN_00104a40
+
+void FUN_00104a40(code *UNRECOVERED_JUMPTABLE)
+
+{
+  if (UNRECOVERED_JUMPTABLE != (code *)0x0) {
+                    /* WARNING: Could not recover jumptable at 0x00104a4c. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (*UNRECOVERED_JUMPTABLE)();
+    return;
+  }
+  return;
+}
+
+
+PROCEDURE 00104a54 FUN_00104a54
+
+void FUN_00104a54(undefined8 param_1)
+
+{
+  __cxa_atexit(FUN_00104a40,param_1,&PTR_LOOP_00108f20);
+  return;
+}
+
+
+PROCEDURE 00104a70 FUN_00104a70
+
+void FUN_00104a70(void)
+
+{
+  __register_atfork();
+  return;
+}
+
+
+PROCEDURE 00104a80 JNI_OnLoad
+
+undefined8 JNI_OnLoad(long *param_1)
+
+{
+  int iVar1;
+  undefined8 uVar2;
+  long *local_8;
+  
+  local_8 = (long *)0x0;
+  (**(code **)(*param_1 + 0x20))(param_1,&local_8,0);
+  uVar2 = (**(code **)(*local_8 + 0x30))(local_8,"com/unity3d/player/NativeLoader");
+  iVar1 = (**(code **)(*local_8 + 0x6b8))(local_8,uVar2,&PTR_DAT_0010d150,2);
+  if (-1 < iVar1) {
+    return 0x10006;
+  }
+  (**(code **)(*local_8 + 0x90))(local_8,"com/unity3d/player/NativeLoader");
+  return 0xffffffff;
+}
+
+
+PROCEDURE 00104b0c FUN_00104b0c
+
+bool FUN_00104b0c(long *param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  int iVar1;
+  void *__dest;
+  void *__src;
+  
+  iVar1 = (**(code **)(*param_1 + 0x540))(param_1,param_3);
+  __dest = malloc((long)(iVar1 + 1));
+  __src = (void *)(**(code **)(*param_1 + 0x548))(param_1,param_3,0);
+  memcpy(__dest,__src,(long)(iVar1 + 1));
+  (**(code **)(*param_1 + 0x550))(param_1,param_3,__src);
+  FUN_00104ce4(param_1,__dest,"libunity.so",&DAT_0010d180);
+  FUN_00104ce4(param_1,__dest,"libil2cpp.so",&DAT_0010d188);
+  free(__dest);
+  return DAT_0010d180 != 0;
+}
+
+
+PROCEDURE 00104be8 FUN_00104be8
+
+undefined8 FUN_00104be8(long *param_1)
+
+{
+  long lVar1;
+  int iVar2;
+  code *pcVar3;
+  undefined8 local_18;
+  
+  lVar1 = DAT_0010d180;
+  if (DAT_0010d180 != 0) {
+    DAT_0010d180 = 0;
+    iVar2 = (**(code **)(*param_1 + 0x6d8))(param_1,&local_18);
+    if (iVar2 < 0) {
+      (**(code **)(*param_1 + 0x90))(param_1,"Unable to retrieve Java VM");
+    }
+    else {
+      pcVar3 = (code *)dlsym(lVar1,"JNI_OnUnload");
+      if (pcVar3 != (code *)0x0) {
+        (*pcVar3)(local_18,0);
+      }
+      dlclose(lVar1);
+    }
+  }
+  lVar1 = DAT_0010d188;
+  if (DAT_0010d188 != 0) {
+    DAT_0010d188 = 0;
+    iVar2 = (**(code **)(*param_1 + 0x6d8))(param_1,&local_18);
+    if (iVar2 < 0) {
+      (**(code **)(*param_1 + 0x90))(param_1,"Unable to retrieve Java VM");
+    }
+    else {
+      pcVar3 = (code *)dlsym(lVar1,"JNI_OnUnload");
+      if (pcVar3 != (code *)0x0) {
+        (*pcVar3)(local_18,0);
+      }
+      dlclose(lVar1);
+    }
+  }
+  return 1;
+}
+
+
+PROCEDURE 00104ce4 FUN_00104ce4
+
+void FUN_00104ce4(long *param_1,undefined8 param_2,undefined8 param_3,long *param_4)
+
+{
+  long lVar1;
+  int iVar2;
+  long lVar3;
+  code *pcVar4;
+  undefined8 uVar5;
+  char *pcVar6;
+  undefined8 local_c50;
+  char acStack_c48 [1024];
+  char acStack_848 [2048];
+  long local_48;
+  
+  lVar1 = tpidr_el0;
+  local_48 = *(long *)(lVar1 + 0x28);
+  if (*param_4 == 0) {
+    iVar2 = (**(code **)(*param_1 + 0x6d8))(param_1,&local_c50);
+    if (iVar2 < 0) {
+      lVar3 = *param_1;
+      pcVar6 = "Unable to retrieve Java VM";
+    }
+    else {
+      snprintf(acStack_848,0x7ff,"%s/%s",param_2,param_3);
+      lVar3 = dlopen(acStack_848,1);
+      if ((lVar3 == 0) && (lVar3 = dlopen(param_3,1), lVar3 == 0)) {
+        uVar5 = dlerror();
+        snprintf(acStack_c48,0x400,"Unable to load library: %s [%s]",acStack_848,uVar5);
+        lVar3 = *param_1;
+        pcVar6 = acStack_c48;
+      }
+      else {
+        pcVar4 = (code *)dlsym(lVar3,"JNI_OnLoad");
+        if ((pcVar4 == (code *)0x0) || (iVar2 = (*pcVar4)(local_c50,0), iVar2 < 0x10007)) {
+          *param_4 = lVar3;
+          goto LAB_00104ddc;
+        }
+        lVar3 = *param_1;
+        pcVar6 = "Unsupported VM version";
+      }
+    }
+    (**(code **)(lVar3 + 0x90))(param_1,pcVar6);
+  }
+LAB_00104ddc:
+  if (*(long *)(lVar1 + 0x28) == local_48) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+
+
+PROCEDURE 00104e40 FUN_00104e40
+
+void FUN_00104e40(void)
+
+{
+  (*(code *)PTR_001090e8)();
+  return;
+}
+
+

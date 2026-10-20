@@ -1,0 +1,5 @@
+[
+  {"name":"combo-state-class","operation":"inspect-android-class","selectors":["com.duolingo.core.session.timed.ComboState"]},
+  {"name":"energy-combo-class","operation":"inspect-android-class","selectors":["com.duolingo.data.energyrewards.ComboMoment"]},
+  {"name":"combo-grade-class","operation":"inspect-android-class","selectors":["com.duolingo.data.comborun.ComboGradeResult"]}
+]

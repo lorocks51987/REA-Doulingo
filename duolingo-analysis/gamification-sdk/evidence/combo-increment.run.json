@@ -1,0 +1,18 @@
+{
+  "name": "combo-increment",
+  "ok": true,
+  "operation": "inspect_android_method",
+  "evidenceId": "ev_9cebce47061c796aa52c879d370dbfd0bde9a0e63644a0fd45bfee167d1259f8",
+  "startedAt": "2026-10-20T14:13:28.828Z",
+  "elapsedMs": 3205,
+  "className": "defpackage.eu7",
+  "method": {
+    "name": "a",
+    "reported_signature": "a(com.duolingo.core.data.model.UserId, boolean, boolean): void",
+    "overload_index": 0,
+    "is_constructor": false,
+    "dex_descriptor": null
+  },
+  "representation": "java",
+  "bodyStatus": "available"
+}

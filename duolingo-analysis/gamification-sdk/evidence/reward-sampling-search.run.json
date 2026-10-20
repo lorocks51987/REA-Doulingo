@@ -1,0 +1,11 @@
+{
+  "name": "reward-sampling-search",
+  "ok": true,
+  "operation": "search_android_classes",
+  "evidenceId": "ev_9f71673f4a2878e22cf515de1f7b7e30a8358408dc87735160089f97de5d9e73",
+  "startedAt": "2026-10-20T14:20:05.356Z",
+  "elapsedMs": 52392,
+  "matches": [
+    "defpackage.cid"
+  ]
+}

@@ -1,0 +1,407 @@
+[
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libandroidx.graphics.path.so",
+        "bytes":  10096,
+        "sha256":  "41e9a793c43a0f4fddb19e33f346bace464f30f888ba7b9eaf96294ea115bfb6"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libc++_shared.so",
+        "bytes":  1292904,
+        "sha256":  "4397241b4bd20a8e579bfb41d21107857e12985f6a01ca0c2a5f83380d1270b4"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libdatastore_shared_counter.so",
+        "bytes":  7784,
+        "sha256":  "178f89a2c6c9234ddf980dd4cd1f3616186a46b2b932aafa6707abd04c5fd76a"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libduolingounity.so",
+        "bytes":  6696,
+        "sha256":  "653f965fb738564c29de06f1a96ee9880373bc4bfce55befcd6a96ec45d709bf"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libgame.so",
+        "bytes":  144576,
+        "sha256":  "c9d5d95d28bf1bce427f0eface590066dd880ef8cda57de375caea41b4fd88e8"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libil2cpp.so",
+        "bytes":  29162960,
+        "sha256":  "0b82e689ae3931ef57da40384293e2eb2e331ad5a59878fd05560c5cbb644ffb"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libimage_processing_util_jni.so",
+        "bytes":  32528,
+        "sha256":  "0292b063fafccf734472cbb59588e756c2dbca907c72021ba6fbf126385508a2"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libjlottie.so",
+        "bytes":  431456,
+        "sha256":  "54d21d9fc0af2c09ae9638da861f2fe21cd96d0b06ce0a0e366c9ba220c93ce4"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libjlz4.so",
+        "bytes":  58568,
+        "sha256":  "553829d66f84a3292a0a5c213eea1434f33134d8d67194e7efffa8b654aee3fd"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libmain.so",
+        "bytes":  606048,
+        "sha256":  "bbf40026b88f76b887a26d00ea81c976578de605f04b8c0a82b03b6066ddfa51"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libnhook.so",
+        "bytes":  273832,
+        "sha256":  "e90d0fe3509c8ec508f54f832bb567f06c7e929dad99109bf46af735c0859ff5"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\librive-android.so",
+        "bytes":  5336624,
+        "sha256":  "b756c823ace09c9d61c1296425a5612a2f42926fac07e64586f99d13526457b1"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\librive.so",
+        "bytes":  6957432,
+        "sha256":  "2163212784eb2aa9655c8f0e2dc9d004e683382116338663a89140c212d06217"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\librlottie-image-loader.so",
+        "bytes":  58584,
+        "sha256":  "ce2bac6c9f9f557e9d2dbbdc18920f0731ff4a88a8daf9383aec3f4776765bae"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\librlottie.so",
+        "bytes":  692440,
+        "sha256":  "069473a70c7338ddeb5c4aca8664791e3a38ef0b2fd1b46ff6e8180001d2f251"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\librlottie2gif.so",
+        "bytes":  3752,
+        "sha256":  "0e522c1261e4819bd1d83afb113ce1e52584c4a382543e3e37dc6c8c647fa6bf"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libsigner.so",
+        "bytes":  1145112,
+        "sha256":  "fb279ea3d929928055c8cb90e3a3c213939869a51ffafe6d587a072c530c5736"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libsurface_util_jni.so",
+        "bytes":  4896,
+        "sha256":  "a5c9d1928ea92ec7a94dff8cf666e7739cd734198b9f0ae1d4e28ea3c86516ba"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libuberchord.so",
+        "bytes":  5584,
+        "sha256":  "0c725fea7aeccd72b5bb17e99ce27093db4010984fd2ea00850b54902b7e0dbf"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libUberchordAudio.so",
+        "bytes":  1348272,
+        "sha256":  "1744278fe55e7ef7528808ec76c1f4324b94656637da7fd13b1cdd33142a6f40"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\libunity.so",
+        "bytes":  20367776,
+        "sha256":  "f3d42483f1f047669ee4f2f9b4c8f618cf2b60feb73f08e9e9fab24732893d12"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\arm64-v8a\\lib_burst_generated.so",
+        "bytes":  211640,
+        "sha256":  "b43b5138b653b6bac9e474929ef6943ac0d788ce9712d44d78a03ae388962a17"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libandroidx.graphics.path.so",
+        "bytes":  7252,
+        "sha256":  "41399eba6fc2a60f6f14642375c1824f3cf25eb8fec7397d753730a3ceda3e2b"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libc++_shared.so",
+        "bytes":  872872,
+        "sha256":  "91b49f121b3120538faff020fcf535ade1d945e65ccd793fc0b815b5799bbdf0"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libdatastore_shared_counter.so",
+        "bytes":  5916,
+        "sha256":  "b4a465c02ee3ab581128ce8fedf83b40f6868c73c74b88e98908803229947e6a"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libduolingounity.so",
+        "bytes":  8260,
+        "sha256":  "9a626281f93fb3314d6c94e04cd20c1141e17de05ff65ec34e70e2c74ab6bd33"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libgame.so",
+        "bytes":  89380,
+        "sha256":  "af4a1c2a3117cede2cf44dfdfa081170ec87b4e8310c77effa26f4c95735311c"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libil2cpp.so",
+        "bytes":  24259524,
+        "sha256":  "f82c4d7db7e9bd3b0e0c033f27707f43d75d3535b667989593ea9d39236f2362"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libimage_processing_util_jni.so",
+        "bytes":  24448,
+        "sha256":  "05973c0cf8e8dd281c8ec505c41814b78b740461056925bb41120594d7c35dcd"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libjlottie.so",
+        "bytes":  262628,
+        "sha256":  "52a3be627feac61bffc1524aaafc08e0bcb317c12b165cc6104a27147741c7ab"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libjlz4.so",
+        "bytes":  42132,
+        "sha256":  "0f7649f5b704ddd9e79263584a34b3ff25aa2db114295e098cefef58cbd59d2d"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libmain.so",
+        "bytes":  430532,
+        "sha256":  "24b776ffca34a60f60d82485dc338c7467a541da6fd449af18d2ab2b83d4f30a"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libnhook.so",
+        "bytes":  164752,
+        "sha256":  "71e686559512f9708179139cc2aa29fe29f56522a75d5f5efbef793bc1f86d77"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\librive-android.so",
+        "bytes":  5088632,
+        "sha256":  "fa5b3ad2b331bc707fbb7b409a530bd342aba282da5018bfafd430a07ab78590"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\librive.so",
+        "bytes":  4778652,
+        "sha256":  "d3d5edd26aba066533e38e5551c65fe24791c452872ab9ce580ecf7039412f4f"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\librlottie-image-loader.so",
+        "bytes":  41092,
+        "sha256":  "d3678b6de8bddfb5f6e585b7ee733dae9f123408554d60c3220f8d38ed901dff"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\librlottie.so",
+        "bytes":  446904,
+        "sha256":  "d292909f761cafd62f07547e2f4007a9e5d230702fd608e04693dfdeb2048fbb"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\librlottie2gif.so",
+        "bytes":  2556,
+        "sha256":  "fe1a89308dce26ec5486b84bd1b15aaa6bdbc7fdad4f59d87a82887e9abfb4bd"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libsigner.so",
+        "bytes":  1070500,
+        "sha256":  "ab68f112fffdb090015cef48ff123e34f4dc7819cbdf0f913dc19e331ac1484d"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libsurface_util_jni.so",
+        "bytes":  3460,
+        "sha256":  "78eb0b10e91b819be97cb7daa8c97fb757fa6d07cb80ccb7e92c113b45bda9be"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libuberchord.so",
+        "bytes":  4064,
+        "sha256":  "10ad397761d1254a03d2eeb1350bb76708bca0d7214f9436e62c17839cae1f1f"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libUberchordAudio.so",
+        "bytes":  1004500,
+        "sha256":  "fce445353622206f6d0d1c88ed90797784282f0341f1aaf2f7bf41d593e3589a"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\libunity.so",
+        "bytes":  15218556,
+        "sha256":  "87ee38e94b58ba8b892f9827f6b979464638ca0b895047d7318926b040a7f6a2"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\armeabi-v7a\\lib_burst_generated.so",
+        "bytes":  178260,
+        "sha256":  "329e2cbaf91f229d6b0d4dd077faf2edf9a739541b675f334126be054385f3c2"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\libandroidx.graphics.path.so",
+        "bytes":  9284,
+        "sha256":  "eb0570b41fd3bff25d8204a967c03bd7550719e768b791f680cc40cbe35f29af"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\libc++_shared.so",
+        "bytes":  1254988,
+        "sha256":  "318e833e6f7ec76cc73303da68004ebd63a1bbedd754e30440c78a90d80504d3"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\libdatastore_shared_counter.so",
+        "bytes":  6124,
+        "sha256":  "ad9ce026fa71181a87aaa5f86019902ca02bf132c20fb04c28b1e781e68d8df0"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\libimage_processing_util_jni.so",
+        "bytes":  41276,
+        "sha256":  "b52f93b57d408b2306071f9de1a4b0b5684c1b86563e34a8711d80a1e6c03f94"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\libjlottie.so",
+        "bytes":  372756,
+        "sha256":  "45ee0cf28ad4ff9fe7545e57dedfacbde2eba39fcdaec13e5a77c7df202a4491"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\libjlz4.so",
+        "bytes":  66688,
+        "sha256":  "06b11b8a7fff2f9c1762357213756c98801f9e5f1641a28a2502b72f7234c13f"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\libmain.so",
+        "bytes":  631176,
+        "sha256":  "ef2c21831508f03c4331b3695e39468f4b90cbc147a61ae6ed09e9f722214f7d"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\libnhook.so",
+        "bytes":  232884,
+        "sha256":  "4c35f6fa5adb8e97bdbbc010baa2b50ac9d3e093449ecf34fd184d34a5e358ec"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\librive-android.so",
+        "bytes":  5690568,
+        "sha256":  "d354081f8fa4204b9d919b45d1f4c5a3016db6df41820c3c5b572b650632897f"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\librlottie-image-loader.so",
+        "bytes":  70684,
+        "sha256":  "20c48a61f698d2d9302489f21c7cbe7d190e2ce75bbb3246cf9581436a1c9bf5"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\librlottie.so",
+        "bytes":  688536,
+        "sha256":  "4544f6d401059004b47733b270df2283dcfafaa51f4c96e26c77f3f7e40bd223"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\librlottie2gif.so",
+        "bytes":  2796,
+        "sha256":  "05b623d23882c6bc063fc76699ad7b271e3874c156a96016072ec01ad53f4b7c"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\libsigner.so",
+        "bytes":  1121808,
+        "sha256":  "a33c2cf24bcd6d3f9666aac0d4dcf5d84f37f44738310f1ab2c2c614dc9ae6db"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\libsurface_util_jni.so",
+        "bytes":  3812,
+        "sha256":  "3048a535d701579c87c4ad91283cd1246d2c85399a164ee4720642037ea31727"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\libuberchord.so",
+        "bytes":  4476,
+        "sha256":  "a475b0db580b20aec4a8fc865b3c73149970c8a08c9183be0dcd0d1910eb25ae"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86\\libUberchordAudio.so",
+        "bytes":  1267512,
+        "sha256":  "947a5fca9ce0f6c9e23f6388fb66058152262cd6b63bac3912ab070a6e4c36de"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libandroidx.graphics.path.so",
+        "bytes":  10760,
+        "sha256":  "4e56c996f13670e70082658de7880c4020eabf4f25e43387f88ed78a713fc9f0"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libc++_shared.so",
+        "bytes":  1252080,
+        "sha256":  "db9609240e60ca18b816a5e95a6bbc784e799261efbd5b30c8e2e03b540b3fa8"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libdatastore_shared_counter.so",
+        "bytes":  7336,
+        "sha256":  "ccd1862ef8f854d2322f3ee07adebd107890ded3b7c96b8f3528ac99aab4a4f6"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libduolingounity.so",
+        "bytes":  8920,
+        "sha256":  "a160a10840ee9887432bd276b8739cf57a817d3fca9e731b6a4fb7828141a20e"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libgame.so",
+        "bytes":  147568,
+        "sha256":  "67bd3a81182a42a8e05ff96a38a0816747e21c5a23d80ee7e4b0d9fe37cc9332"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libil2cpp.so",
+        "bytes":  27946872,
+        "sha256":  "f1f20efcc7a20808e9b09847080ac637549bd6e9bbbb4069b45bcd86ff27326b"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libimage_processing_util_jni.so",
+        "bytes":  49416,
+        "sha256":  "112703727717651e69e91f3ea2c3c2311737ee5809a909c9d342a811b6c7c069"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libjlottie.so",
+        "bytes":  420032,
+        "sha256":  "84a8f0368808218f31c57bccf4307704c4c06d73c543d348f4a2ed528a200840"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libjlz4.so",
+        "bytes":  69224,
+        "sha256":  "2e665f038821df8220d1f3d581de04077a98f85aba505e754d32092677b59d8b"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libmain.so",
+        "bytes":  661128,
+        "sha256":  "029a311b434a46cf566cf25ee0288e867058977435aac5eba8bdf0fcea1afadf"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libnhook.so",
+        "bytes":  271424,
+        "sha256":  "6bed95876f90fdfda4cc9312257535e2ee3a8dff008ba064b60180cdd46790a5"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\librive-android.so",
+        "bytes":  5712008,
+        "sha256":  "2ea3be8d0979a0459ea8115e8d4ecf0ca10a8106da29a23cc6336b0d6c9de6ca"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\librlottie-image-loader.so",
+        "bytes":  75976,
+        "sha256":  "43baa215fb2d76c39578c8f845fc8747fbc42eead981acf032c06a83bcbf9b3f"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\librlottie.so",
+        "bytes":  727136,
+        "sha256":  "4efe5aaa1990fb258d54c47eb8be8e66a9288f67518b2bf882b29ac525c01204"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\librlottie2gif.so",
+        "bytes":  3752,
+        "sha256":  "a1042343bb03910a6f3a556385b96752149e4abeeea9fc231ed0511f3b975540"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libsigner.so",
+        "bytes":  1085720,
+        "sha256":  "b00272e389cc33ecc7255adfb918871bb01cc34f6701877258c4f32ae011fb5c"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libsurface_util_jni.so",
+        "bytes":  4912,
+        "sha256":  "e5311942b4fce0f7f2505d41150cf9921e558a6368929cb73127450f74dd4fe4"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libuberchord.so",
+        "bytes":  5552,
+        "sha256":  "9758e30862729704dbccd72baa47e7136c1559e9814de1b530009376f4c9eae7"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libUberchordAudio.so",
+        "bytes":  1332920,
+        "sha256":  "8edf1758ed8d9e7269127e0052bbef281cb8c8b6609ab4ab269ea466cad4ce9a"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\libunity.so",
+        "bytes":  22618560,
+        "sha256":  "3bceeb1f147b0285ac7392cde76b8ca4252636e7152b2535b0b7924418d910cb"
+    },
+    {
+        "path":  "C:\\dev\\REA\\duolingo-analysis\\apk-raw\\lib\\x86_64\\lib_burst_generated.so",
+        "bytes":  219704,
+        "sha256":  "6c420e7db48add6e829308b57789add32dd84ca311348f3006dd0807b1fcd914"
+    }
+]

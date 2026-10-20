@@ -1,0 +1,21 @@
+[
+  {"name":"combo-producer-search","operation":"search_android_classes","input":{"query":"eu7"}},
+  {"name":"combo-producer-class","operation":"inspect_android_class","classFromSearch":{"record":"combo-producer-search","exact":"eu7"}},
+  {"name":"combo-grade-transition","operation":"inspect_android_method","methodFromClass":{"record":"combo-producer-class","name":"b"}},
+  {"name":"combo-increment","operation":"inspect_android_method","methodFromClass":{"record":"combo-producer-class","name":"a"}},
+  {"name":"combo-reset","operation":"inspect_android_method","methodFromClass":{"record":"combo-producer-class","name":"f"}},
+  {"name":"combo-session-search","operation":"search_android_classes","input":{"query":"xt7"}},
+  {"name":"combo-session-class","operation":"inspect_android_class","classFromSearch":{"record":"combo-session-search","exact":"xt7"}},
+  {"name":"combo-session-perfect","operation":"inspect_android_method","methodFromClass":{"record":"combo-session-class","name":"e"}},
+  {"name":"combo-session-visible","operation":"inspect_android_method","methodFromClass":{"record":"combo-session-class","name":"c"}},
+  {"name":"combo-session-experiment","operation":"inspect_android_method","methodFromClass":{"record":"combo-session-class","name":"d"}},
+  {"name":"combo-session-offset","operation":"inspect_android_method","methodFromClass":{"record":"combo-session-class","name":"b"}},
+  {"name":"energy-combo-class","operation":"inspect_android_class","input":{"class_name":"com.duolingo.data.energyrewards.ComboMoment"}},
+  {"name":"energy-combo-values","operation":"inspect_android_method","methodFromClass":{"record":"energy-combo-class","name":"<clinit>"}},
+  {"name":"xp-multiplier-class","operation":"inspect_android_class","input":{"class_name":"com.duolingo.data.xpboost.XpBoostMultiplier"}},
+  {"name":"xp-multiplier-values","operation":"inspect_android_method","methodFromClass":{"record":"xp-multiplier-class","name":"<clinit>"}},
+  {"name":"league-rules-class","operation":"inspect_android_class","input":{"class_name":"com.duolingo.data.leagues.LeaguesRuleset"}},
+  {"name":"reward-requirement-class","operation":"inspect_android_class","input":{"class_name":"com.duolingo.data.energyrewards.InLessonRewardRequirement"}},
+  {"name":"reward-template-class","operation":"inspect_android_class","input":{"class_name":"com.duolingo.data.energyrewards.EnergyRewardsTemplate"}},
+  {"name":"in-lesson-reward-class","operation":"inspect_android_class","input":{"class_name":"com.duolingo.data.energyrewards.InLessonReward"}}
+]

@@ -1,0 +1,18 @@
+{
+  "name": "combo-session-experiment",
+  "ok": true,
+  "operation": "inspect_android_method",
+  "evidenceId": "ev_eb61a4ed6deca55b4255f8217c9dd674d476faafa02ef48e0621d6de7300d06a",
+  "startedAt": "2026-10-20T14:13:51.834Z",
+  "elapsedMs": 2246,
+  "className": "defpackage.xt7",
+  "method": {
+    "name": "d",
+    "reported_signature": "d(): boolean",
+    "overload_index": 0,
+    "is_constructor": false,
+    "dex_descriptor": null
+  },
+  "representation": "java",
+  "bodyStatus": "available"
+}

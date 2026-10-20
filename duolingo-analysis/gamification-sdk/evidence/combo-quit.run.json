@@ -1,0 +1,18 @@
+{
+  "name": "combo-quit",
+  "ok": true,
+  "operation": "inspect_android_method",
+  "evidenceId": "ev_adcf94571e21c7dd96c38b8d177721e63e4896845906d108f53faf56fe904509",
+  "startedAt": "2026-10-20T14:16:21.040Z",
+  "elapsedMs": 2166,
+  "className": "defpackage.eu7",
+  "method": {
+    "name": "d",
+    "reported_signature": "d(boolean, yv8): java.lang.Object",
+    "overload_index": 0,
+    "is_constructor": false,
+    "dex_descriptor": null
+  },
+  "representation": "java",
+  "bodyStatus": "available"
+}

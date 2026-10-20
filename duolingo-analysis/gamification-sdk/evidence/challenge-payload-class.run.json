@@ -1,0 +1,805 @@
+{
+  "name": "challenge-payload-class",
+  "ok": true,
+  "operation": "inspect_android_class",
+  "evidenceId": "ev_a756cc5973e2fcbc553b587f326c43548978df87271b813d1246dfe217faa6e5",
+  "startedAt": "2026-10-20T14:42:09.183Z",
+  "elapsedMs": 92198,
+  "className": "com.duolingo.core.challenges.ChallengeSurrogate",
+  "methods": [
+    {
+      "name": "<clinit>",
+      "reported_signature": "<clinit>(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(int, int, int, int, int, int, java.lang.String, com.duolingo.core.pcollections.migration.PVector, java.lang.String, java.lang.Boolean, java.lang.String, com.duolingo.core.music.staff.MusicPassage, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.duolingo.core.challenges.ChallengeDisplaySettings, com.duolingo.core.tracking.TrackingProperties, com.duolingo.core.language.Language, java.lang.String, com.duolingo.core.chess.ChessPuzzleInfo, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, java.lang.Boolean, java.lang.Integer, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.challenges.DialogueSelectSpeakBubble, com.duolingo.core.pcollections.migration.PVector, java.lang.Boolean, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.piano.PitchRange, java.lang.String, java.lang.String, com.duolingo.core.pcollections.migration.PVector, jat, com.duolingo.core.challenges.explanations.SkillTipReference, com.duolingo.core.pcollections.migration.PVector, byte[], com.duolingo.core.challenges.GeneratorId, byte[], com.duolingo.core.pcollections.migration.PVector, java.lang.Double, java.lang.Double, com.duolingo.core.challenges.ApiGuess, java.lang.Boolean, java.lang.Integer, com.duolingo.core.pcollections.migration.PVector, java.lang.String, java.lang.Boolean, com.duolingo.core.pcollections.migration.PVector, java.lang.String, com.duolingo.core.challenges.SpeechChallengeInfo, java.lang.Integer, com.duolingo.core.data.model.StringId, java.lang.Boolean, com.duolingo.core.challenges.ChallengeImage, com.duolingo.core.pcollections.migration.PVector, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Boolean, com.duolingo.core.music.piano.PitchRange, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.staff.MusicPassage, com.duolingo.core.music.challenge.MusicTokenType, java.lang.String, java.lang.String, com.duolingo.core.pcollections.migration.PMap, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.duolingo.core.math.models.network.challenge.MathChallengeNetworkModel$MatchChallenge, com.duolingo.core.math.models.network.challenge.MathChallengeNetworkModel$PromptInputChallenge, com.duolingo.core.math.models.network.challenge.MathTextExamplesHint, com.duolingo.core.math.models.network.InterfaceElement$WorldCharacter, com.duolingo.core.math.models.network.InterfaceElement$MathWorldCharacterDisplayStyle, com.duolingo.core.math.models.network.LatexColorConfig, com.duolingo.core.math.models.network.LatexColorConfig, java.lang.Integer, com.duolingo.core.resourcemanager.model.Metadata, java.lang.String, java.lang.String, java.lang.String, com.duolingo.core.challenges.MistakeTargeting, com.duolingo.core.music.challenge.MusicNotationType, com.duolingo.core.music.staff.MusicPassage, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.challenge.MusicChallengeRecyclingStrategy, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, java.lang.Integer, java.lang.Integer, com.duolingo.core.pcollections.migration.PVector, java.lang.Integer, com.duolingo.core.pcollections.migration.PVector, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, java.lang.String, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.duolingo.core.pcollections.migration.PVector, jat, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.challenges.PronunciationGrader, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.staff.DragLabelType, com.duolingo.core.challenges.ImmersiveSpeakRecallType, com.duolingo.core.music.challenge.MusicTokenType, java.lang.String, java.lang.String, java.lang.Boolean, java.lang.Boolean, java.lang.Boolean, java.lang.Boolean, java.lang.String, java.lang.String, byte[], java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.String, com.duolingo.core.music.song.AnySchema, com.duolingo.core.music.staff.MusicScore, java.lang.Integer, com.duolingo.core.language.Language, com.duolingo.core.challenges.SpeakGrader, com.duolingo.core.music.staff.StaffAnimationType, com.duolingo.core.music.song.AnySchema, java.lang.String, com.duolingo.core.pcollections.migration.PVector, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.language.Language, java.lang.String, java.lang.Double, java.lang.Integer, com.duolingo.core.challenges.TransitionScreen, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.challenge.MusicTokenType, com.duolingo.core.pcollections.migration.PMap, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.song.AnySchema, java.lang.String, java.lang.String, java.lang.Boolean, java.lang.Boolean, com.duolingo.core.character.JuicyCharacter, java.lang.Boolean, java.lang.Integer, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.design.music.MusicWorldCharacter, java.lang.Integer, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean, java.lang.Boolean): void",
+      "overload_index": 0,
+      "is_constructor": true,
+      "dex_descriptor": null
+    },
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(java.lang.String, com.duolingo.core.pcollections.migration.PVector, java.lang.String, java.lang.Boolean, java.lang.String, com.duolingo.core.music.staff.MusicPassage, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.duolingo.core.challenges.ChallengeDisplaySettings, com.duolingo.core.tracking.TrackingProperties, com.duolingo.core.language.Language, java.lang.String, com.duolingo.core.chess.ChessPuzzleInfo, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, java.lang.Boolean, java.lang.Integer, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.challenges.DialogueSelectSpeakBubble, com.duolingo.core.pcollections.migration.PVector, java.lang.Boolean, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.piano.PitchRange, java.lang.String, java.lang.String, com.duolingo.core.pcollections.migration.PVector, jat, com.duolingo.core.challenges.explanations.SkillTipReference, com.duolingo.core.pcollections.migration.PVector, byte[], com.duolingo.core.challenges.GeneratorId, byte[], com.duolingo.core.pcollections.migration.PVector, java.lang.Double, java.lang.Double, com.duolingo.core.challenges.ApiGuess, java.lang.Boolean, java.lang.Integer, com.duolingo.core.pcollections.migration.PVector, java.lang.String, java.lang.Boolean, com.duolingo.core.pcollections.migration.PVector, java.lang.String, com.duolingo.core.challenges.SpeechChallengeInfo, java.lang.Integer, com.duolingo.core.data.model.StringId, java.lang.Boolean, com.duolingo.core.challenges.ChallengeImage, com.duolingo.core.pcollections.migration.PVector, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Boolean, com.duolingo.core.music.piano.PitchRange, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.staff.MusicPassage, com.duolingo.core.music.challenge.MusicTokenType, java.lang.String, java.lang.String, com.duolingo.core.pcollections.migration.PMap, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.duolingo.core.math.models.network.challenge.MathChallengeNetworkModel$MatchChallenge, com.duolingo.core.math.models.network.challenge.MathChallengeNetworkModel$PromptInputChallenge, com.duolingo.core.math.models.network.challenge.MathTextExamplesHint, com.duolingo.core.math.models.network.InterfaceElement$WorldCharacter, com.duolingo.core.math.models.network.InterfaceElement$MathWorldCharacterDisplayStyle, com.duolingo.core.math.models.network.LatexColorConfig, com.duolingo.core.math.models.network.LatexColorConfig, java.lang.Integer, com.duolingo.core.resourcemanager.model.Metadata, java.lang.String, java.lang.String, java.lang.String, com.duolingo.core.challenges.MistakeTargeting, com.duolingo.core.music.challenge.MusicNotationType, com.duolingo.core.music.staff.MusicPassage, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.challenge.MusicChallengeRecyclingStrategy, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, java.lang.Integer, java.lang.Integer, com.duolingo.core.pcollections.migration.PVector, java.lang.Integer, com.duolingo.core.pcollections.migration.PVector, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, java.lang.String, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.duolingo.core.pcollections.migration.PVector, jat, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.challenges.PronunciationGrader, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.staff.DragLabelType, com.duolingo.core.challenges.ImmersiveSpeakRecallType, com.duolingo.core.music.challenge.MusicTokenType, java.lang.String, java.lang.String, java.lang.Boolean, java.lang.Boolean, java.lang.Boolean, java.lang.Boolean, java.lang.String, java.lang.String, byte[], java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.String, com.duolingo.core.music.song.AnySchema, com.duolingo.core.music.staff.MusicScore, java.lang.Integer, com.duolingo.core.language.Language, com.duolingo.core.challenges.SpeakGrader, com.duolingo.core.music.staff.StaffAnimationType, com.duolingo.core.music.song.AnySchema, java.lang.String, com.duolingo.core.pcollections.migration.PVector, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.language.Language, java.lang.String, java.lang.Double, java.lang.Integer, com.duolingo.core.challenges.TransitionScreen, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.challenge.MusicTokenType, com.duolingo.core.pcollections.migration.PMap, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.song.AnySchema, java.lang.String, java.lang.String, java.lang.Boolean, java.lang.Boolean, com.duolingo.core.character.JuicyCharacter, java.lang.Boolean, java.lang.Integer, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.design.music.MusicWorldCharacter, java.lang.Integer, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean, java.lang.Boolean): void",
+      "overload_index": 1,
+      "is_constructor": true,
+      "dex_descriptor": null
+    },
+    {
+      "name": "a",
+      "reported_signature": "a(com.duolingo.core.challenges.ChallengeSurrogate, java.lang.String, com.duolingo.core.pcollections.migration.PVector, java.lang.String, java.lang.Boolean, java.lang.String, com.duolingo.core.music.staff.MusicPassage, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.duolingo.core.challenges.ChallengeDisplaySettings, com.duolingo.core.language.Language, java.lang.String, com.duolingo.core.chess.ChessPuzzleInfo, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.pcollections.migration.PVector, java.lang.String, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.pcollections.migration.PVector, java.lang.Boolean, java.lang.Integer, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.challenges.DialogueSelectSpeakBubble, com.duolingo.core.pcollections.migration.PersistentListBackedVector, java.lang.Boolean, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.music.piano.PitchRange, java.lang.String, java.lang.String, com.duolingo.core.pcollections.migration.PVector, iat, com.duolingo.core.pcollections.migration.PVector, byte[], byte[], com.duolingo.core.pcollections.migration.PersistentListBackedVector, java.lang.Double, java.lang.Double, com.duolingo.core.challenges.ApiGuess, java.lang.Boolean, java.lang.Integer, com.duolingo.core.pcollections.migration.PersistentListBackedVector, java.lang.String, java.lang.Boolean, com.duolingo.core.pcollections.migration.PersistentListBackedVector, java.lang.String, com.duolingo.core.challenges.SpeechChallengeInfo, java.lang.Integer, java.lang.Boolean, com.duolingo.core.challenges.ChallengeImage, java.lang.String, java.lang.Integer, java.lang.Boolean, com.duolingo.core.music.piano.PitchRange, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.music.staff.MusicPassage, com.duolingo.core.music.challenge.MusicTokenType, java.lang.String, java.lang.String, com.duolingo.core.pcollections.migration.PMap, java.lang.String, java.lang.String, java.lang.String, com.duolingo.core.math.models.network.challenge.MathChallengeNetworkModel$MatchChallenge, com.duolingo.core.math.models.network.challenge.MathChallengeNetworkModel$PromptInputChallenge, com.duolingo.core.math.models.network.InterfaceElement$WorldCharacter, com.duolingo.core.math.models.network.InterfaceElement$MathWorldCharacterDisplayStyle, com.duolingo.core.math.models.network.LatexColorConfig, com.duolingo.core.math.models.network.LatexColorConfig, java.lang.String, java.lang.String, java.lang.String, com.duolingo.core.challenges.MistakeTargeting, com.duolingo.core.music.challenge.MusicNotationType, com.duolingo.core.music.staff.MusicPassage, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.music.challenge.MusicChallengeRecyclingStrategy, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PersistentListBackedVector, java.lang.Integer, java.lang.Integer, com.duolingo.core.pcollections.migration.PersistentListBackedVector, java.lang.Integer, com.duolingo.core.pcollections.migration.PersistentListBackedVector, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, java.lang.String, java.lang.String, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.pcollections.migration.PersistentListBackedVector, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.duolingo.core.pcollections.migration.PVector, jat, java.lang.String, com.duolingo.core.challenges.PronunciationGrader, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.staff.DragLabelType, com.duolingo.core.challenges.ImmersiveSpeakRecallType, com.duolingo.core.music.challenge.MusicTokenType, java.lang.String, java.lang.Boolean, java.lang.Boolean, java.lang.Boolean, java.lang.Boolean, java.lang.String, java.lang.String, byte[], java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.String, com.duolingo.core.music.song.AnySchema, java.lang.Integer, com.duolingo.core.language.Language, com.duolingo.core.challenges.SpeakGrader, com.duolingo.core.music.staff.StaffAnimationType, com.duolingo.core.music.song.AnySchema, java.lang.String, com.duolingo.core.pcollections.migration.PersistentListBackedVector, java.lang.String, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.pcollections.migration.PersistentListBackedVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.language.Language, java.lang.String, java.lang.Double, java.lang.Integer, com.duolingo.core.challenges.TransitionScreen, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.challenge.MusicTokenType, java.lang.String, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.music.song.AnySchema, java.lang.String, java.lang.Boolean, java.lang.Boolean, com.duolingo.core.character.JuicyCharacter, java.lang.Boolean, java.lang.Integer, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.pcollections.migration.PVector, com.duolingo.core.design.music.MusicWorldCharacter, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean, java.lang.Boolean, int, int, int, int, int, int): com.duolingo.core.challenges.ChallengeSurrogate",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "b",
+      "reported_signature": "b(com.duolingo.core.challenges.ChallengeSurrogate, lc8, kotlinx.serialization.descriptors.SerialDescriptor): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "equals",
+      "reported_signature": "equals(java.lang.Object): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "hashCode",
+      "reported_signature": "hashCode(): int",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "toString",
+      "reported_signature": "toString(): java.lang.String",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    }
+  ],
+  "fields": [
+    {
+      "name": "A",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "A0",
+      "reported_type": "com.duolingo.core.math.models.network.challenge.MathTextExamplesHint"
+    },
+    {
+      "name": "A1",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "A2",
+      "reported_type": "n8m[]"
+    },
+    {
+      "name": "B",
+      "reported_type": "com.duolingo.core.challenges.DialogueSelectSpeakBubble"
+    },
+    {
+      "name": "B0",
+      "reported_type": "com.duolingo.core.math.models.network.InterfaceElement$WorldCharacter"
+    },
+    {
+      "name": "B1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "C",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "C0",
+      "reported_type": "com.duolingo.core.math.models.network.InterfaceElement$MathWorldCharacterDisplayStyle"
+    },
+    {
+      "name": "C1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "Companion",
+      "reported_type": "j35"
+    },
+    {
+      "name": "D",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "D0",
+      "reported_type": "com.duolingo.core.math.models.network.LatexColorConfig"
+    },
+    {
+      "name": "D1",
+      "reported_type": "byte[]"
+    },
+    {
+      "name": "E",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "E0",
+      "reported_type": "com.duolingo.core.math.models.network.LatexColorConfig"
+    },
+    {
+      "name": "E1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "F",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "F0",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "F1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "G",
+      "reported_type": "com.duolingo.core.music.piano.PitchRange"
+    },
+    {
+      "name": "G0",
+      "reported_type": "com.duolingo.core.resourcemanager.model.Metadata"
+    },
+    {
+      "name": "G1",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "H",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "H0",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "H1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "I",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "I0",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "I1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "J",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "J0",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "J1",
+      "reported_type": "com.duolingo.core.music.song.AnySchema"
+    },
+    {
+      "name": "K",
+      "reported_type": "jat"
+    },
+    {
+      "name": "K0",
+      "reported_type": "com.duolingo.core.challenges.MistakeTargeting"
+    },
+    {
+      "name": "K1",
+      "reported_type": "com.duolingo.core.music.staff.MusicScore"
+    },
+    {
+      "name": "L",
+      "reported_type": "com.duolingo.core.challenges.explanations.SkillTipReference"
+    },
+    {
+      "name": "L0",
+      "reported_type": "com.duolingo.core.music.challenge.MusicNotationType"
+    },
+    {
+      "name": "L1",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "M",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "M0",
+      "reported_type": "com.duolingo.core.music.staff.MusicPassage"
+    },
+    {
+      "name": "M1",
+      "reported_type": "com.duolingo.core.language.Language"
+    },
+    {
+      "name": "N",
+      "reported_type": "byte[]"
+    },
+    {
+      "name": "N0",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "N1",
+      "reported_type": "com.duolingo.core.challenges.SpeakGrader"
+    },
+    {
+      "name": "O",
+      "reported_type": "com.duolingo.core.challenges.GeneratorId"
+    },
+    {
+      "name": "O0",
+      "reported_type": "com.duolingo.core.music.challenge.MusicChallengeRecyclingStrategy"
+    },
+    {
+      "name": "O1",
+      "reported_type": "com.duolingo.core.music.staff.StaffAnimationType"
+    },
+    {
+      "name": "P",
+      "reported_type": "byte[]"
+    },
+    {
+      "name": "P0",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "P1",
+      "reported_type": "com.duolingo.core.music.song.AnySchema"
+    },
+    {
+      "name": "Q",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "Q0",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "Q1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "R",
+      "reported_type": "java.lang.Double"
+    },
+    {
+      "name": "R0",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "R1",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "S",
+      "reported_type": "java.lang.Double"
+    },
+    {
+      "name": "S0",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "S1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "T",
+      "reported_type": "com.duolingo.core.challenges.ApiGuess"
+    },
+    {
+      "name": "T0",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "T1",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "U",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "U0",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "U1",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "V",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "V0",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "V1",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "W",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "W0",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "W1",
+      "reported_type": "com.duolingo.core.language.Language"
+    },
+    {
+      "name": "X",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "X0",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "X1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "Y",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "Y0",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "Y1",
+      "reported_type": "java.lang.Double"
+    },
+    {
+      "name": "Z",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "Z0",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "Z1",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "a",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "a0",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "a1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "a2",
+      "reported_type": "com.duolingo.core.challenges.TransitionScreen"
+    },
+    {
+      "name": "b",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "b0",
+      "reported_type": "com.duolingo.core.challenges.SpeechChallengeInfo"
+    },
+    {
+      "name": "b1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "b2",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "c",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "c0",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "c1",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "c2",
+      "reported_type": "com.duolingo.core.music.challenge.MusicTokenType"
+    },
+    {
+      "name": "d",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "d0",
+      "reported_type": "com.duolingo.core.data.model.StringId"
+    },
+    {
+      "name": "d1",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "d2",
+      "reported_type": "com.duolingo.core.pcollections.migration.PMap"
+    },
+    {
+      "name": "e",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "e0",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "e1",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "e2",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "f",
+      "reported_type": "com.duolingo.core.music.staff.MusicPassage"
+    },
+    {
+      "name": "f0",
+      "reported_type": "com.duolingo.core.challenges.ChallengeImage"
+    },
+    {
+      "name": "f1",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "f2",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "g",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "g0",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "g1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "g2",
+      "reported_type": "com.duolingo.core.music.song.AnySchema"
+    },
+    {
+      "name": "h",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "h0",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "h1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "h2",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "i",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "i0",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "i1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "i2",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "j",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "j0",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "j1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "j2",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "k",
+      "reported_type": "com.duolingo.core.challenges.ChallengeDisplaySettings"
+    },
+    {
+      "name": "k0",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "k1",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "k2",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "l",
+      "reported_type": "com.duolingo.core.tracking.TrackingProperties"
+    },
+    {
+      "name": "l0",
+      "reported_type": "com.duolingo.core.music.piano.PitchRange"
+    },
+    {
+      "name": "l1",
+      "reported_type": "jat"
+    },
+    {
+      "name": "l2",
+      "reported_type": "com.duolingo.core.character.JuicyCharacter"
+    },
+    {
+      "name": "m",
+      "reported_type": "com.duolingo.core.language.Language"
+    },
+    {
+      "name": "m0",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "m1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "m2",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "n",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "n0",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "n1",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "n2",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "o",
+      "reported_type": "com.duolingo.core.chess.ChessPuzzleInfo"
+    },
+    {
+      "name": "o0",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "o1",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "o2",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "p",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "p0",
+      "reported_type": "com.duolingo.core.music.staff.MusicPassage"
+    },
+    {
+      "name": "p1",
+      "reported_type": "com.duolingo.core.challenges.PronunciationGrader"
+    },
+    {
+      "name": "p2",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "q",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "q0",
+      "reported_type": "com.duolingo.core.music.challenge.MusicTokenType"
+    },
+    {
+      "name": "q1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "q2",
+      "reported_type": "com.duolingo.core.design.music.MusicWorldCharacter"
+    },
+    {
+      "name": "r",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "r0",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "r1",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "r2",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "s",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "s0",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "s1",
+      "reported_type": "com.duolingo.core.music.staff.DragLabelType"
+    },
+    {
+      "name": "s2",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "t",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "t0",
+      "reported_type": "com.duolingo.core.pcollections.migration.PMap"
+    },
+    {
+      "name": "t1",
+      "reported_type": "com.duolingo.core.challenges.ImmersiveSpeakRecallType"
+    },
+    {
+      "name": "t2",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "u",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "u0",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "u1",
+      "reported_type": "com.duolingo.core.music.challenge.MusicTokenType"
+    },
+    {
+      "name": "u2",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "v",
+      "reported_type": "java.lang.Integer"
+    },
+    {
+      "name": "v0",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "v1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "v2",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "w",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "w0",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "w1",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "w2",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "x",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "x0",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "x1",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "x2",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "y",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "y0",
+      "reported_type": "com.duolingo.core.math.models.network.challenge.MathChallengeNetworkModel$MatchChallenge"
+    },
+    {
+      "name": "y1",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "y2",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "z",
+      "reported_type": "com.duolingo.core.pcollections.migration.PVector"
+    },
+    {
+      "name": "z0",
+      "reported_type": "com.duolingo.core.math.models.network.challenge.MathChallengeNetworkModel$PromptInputChallenge"
+    },
+    {
+      "name": "z1",
+      "reported_type": "java.lang.Boolean"
+    },
+    {
+      "name": "z2",
+      "reported_type": "java.lang.Boolean"
+    }
+  ]
+}

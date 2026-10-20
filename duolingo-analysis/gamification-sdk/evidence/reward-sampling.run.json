@@ -1,0 +1,18 @@
+{
+  "name": "reward-sampling",
+  "ok": true,
+  "operation": "inspect_android_method",
+  "evidenceId": "ev_553ad90b4c3f3e6c6235a6fba6e59b49cc63b56f7f8c752d87129ba7f03f8b39",
+  "startedAt": "2026-10-20T14:21:05.205Z",
+  "elapsedMs": 8320,
+  "className": "defpackage.cid",
+  "method": {
+    "name": "b",
+    "reported_signature": "b(int, java.lang.String, com.duolingo.data.energyrewards.ComboMoment, com.duolingo.data.course.Subject, int, boolean, boolean, java.lang.Integer, yv8): java.lang.Object",
+    "overload_index": 0,
+    "is_constructor": false,
+    "dex_descriptor": null
+  },
+  "representation": "java",
+  "bodyStatus": "available"
+}

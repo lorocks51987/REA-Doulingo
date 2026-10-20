@@ -1,0 +1,95 @@
+{
+  "name": "reward-operator-class",
+  "ok": true,
+  "operation": "inspect_android_class",
+  "evidenceId": "ev_00f718380d49e0e9f3138d533420a5b6f2a8519cf534f07bba7f507ab483395f",
+  "startedAt": "2026-10-20T14:16:46.377Z",
+  "elapsedMs": 1665,
+  "className": "com.duolingo.data.energyrewards.InLessonRewardOperator",
+  "methods": [
+    {
+      "name": "<clinit>",
+      "reported_signature": "<clinit>(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(java.lang.String, int, java.lang.String): void",
+      "overload_index": 0,
+      "is_constructor": true,
+      "dex_descriptor": null
+    },
+    {
+      "name": "getEntries",
+      "reported_signature": "getEntries(): lmd",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "getSerializedName",
+      "reported_signature": "getSerializedName(): java.lang.String",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "valueOf",
+      "reported_signature": "valueOf(java.lang.String): com.duolingo.data.energyrewards.InLessonRewardOperator",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "values",
+      "reported_signature": "values(): com.duolingo.data.energyrewards.InLessonRewardOperator[]",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    }
+  ],
+  "fields": [
+    {
+      "name": "$VALUES",
+      "reported_type": "com.duolingo.data.energyrewards.InLessonRewardOperator[]"
+    },
+    {
+      "name": "Companion",
+      "reported_type": "msk"
+    },
+    {
+      "name": "EQ",
+      "reported_type": "com.duolingo.data.energyrewards.InLessonRewardOperator"
+    },
+    {
+      "name": "G",
+      "reported_type": "com.duolingo.data.energyrewards.InLessonRewardOperator"
+    },
+    {
+      "name": "GEQ",
+      "reported_type": "com.duolingo.data.energyrewards.InLessonRewardOperator"
+    },
+    {
+      "name": "L",
+      "reported_type": "com.duolingo.data.energyrewards.InLessonRewardOperator"
+    },
+    {
+      "name": "LEQ",
+      "reported_type": "com.duolingo.data.energyrewards.InLessonRewardOperator"
+    },
+    {
+      "name": "NEQ",
+      "reported_type": "com.duolingo.data.energyrewards.InLessonRewardOperator"
+    },
+    {
+      "name": "a",
+      "reported_type": "java.lang.String"
+    },
+    {
+      "name": "b",
+      "reported_type": "mmd"
+    }
+  ]
+}

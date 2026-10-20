@@ -1,0 +1,139 @@
+{
+  "name": "combo-session-class",
+  "ok": true,
+  "operation": "inspect_android_class",
+  "evidenceId": "ev_0a8be73ea795aea43e95c99a0faa91c9dcaba13847c83e964b5248e19bbe188c",
+  "startedAt": "2026-10-20T14:13:45.395Z",
+  "elapsedMs": 1996,
+  "className": "defpackage.xt7",
+  "methods": [
+    {
+      "name": "<clinit>",
+      "reported_signature": "<clinit>(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(int, int, boolean, com.duolingo.core.experiments.ExperimentsRepository$TreatmentRecord, com.duolingo.core.experiments.ExperimentsRepository$TreatmentRecord, com.duolingo.core.experiments.ExperimentsRepository$TreatmentRecord, boolean, boolean, int, double, int, long, boolean): void",
+      "overload_index": 0,
+      "is_constructor": true,
+      "dex_descriptor": null
+    },
+    {
+      "name": "a",
+      "reported_signature": "a(xt7, int, boolean, int, int, int): xt7",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "b",
+      "reported_signature": "b(int): int",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "c",
+      "reported_signature": "c(): java.lang.Integer",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "d",
+      "reported_signature": "d(): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "e",
+      "reported_signature": "e(): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "equals",
+      "reported_signature": "equals(java.lang.Object): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "hashCode",
+      "reported_signature": "hashCode(): int",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    {
+      "name": "toString",
+      "reported_signature": "toString(): java.lang.String",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    }
+  ],
+  "fields": [
+    {
+      "name": "a",
+      "reported_type": "int"
+    },
+    {
+      "name": "b",
+      "reported_type": "int"
+    },
+    {
+      "name": "c",
+      "reported_type": "boolean"
+    },
+    {
+      "name": "d",
+      "reported_type": "com.duolingo.core.experiments.ExperimentsRepository$TreatmentRecord"
+    },
+    {
+      "name": "e",
+      "reported_type": "com.duolingo.core.experiments.ExperimentsRepository$TreatmentRecord"
+    },
+    {
+      "name": "f",
+      "reported_type": "com.duolingo.core.experiments.ExperimentsRepository$TreatmentRecord"
+    },
+    {
+      "name": "g",
+      "reported_type": "boolean"
+    },
+    {
+      "name": "h",
+      "reported_type": "boolean"
+    },
+    {
+      "name": "i",
+      "reported_type": "int"
+    },
+    {
+      "name": "j",
+      "reported_type": "double"
+    },
+    {
+      "name": "k",
+      "reported_type": "int"
+    },
+    {
+      "name": "l",
+      "reported_type": "long"
+    },
+    {
+      "name": "m",
+      "reported_type": "boolean"
+    },
+    {
+      "name": "n",
+      "reported_type": "xt7"
+    }
+  ]
+}

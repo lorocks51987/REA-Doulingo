@@ -1,0 +1,92 @@
+[
+    {
+        "path":  "classes.dex",
+        "version":  "039",
+        "declaredFileSize":  8819984,
+        "zipBytes":  8819984,
+        "classDefs":  9005,
+        "methodIds":  61583,
+        "typeIds":  23027
+    },
+    {
+        "path":  "classes10.dex",
+        "version":  "039",
+        "declaredFileSize":  2787408,
+        "zipBytes":  2787408,
+        "classDefs":  3765,
+        "methodIds":  26446,
+        "typeIds":  6687
+    },
+    {
+        "path":  "classes2.dex",
+        "version":  "039",
+        "declaredFileSize":  8102364,
+        "zipBytes":  8102364,
+        "classDefs":  8729,
+        "methodIds":  61579,
+        "typeIds":  23453
+    },
+    {
+        "path":  "classes3.dex",
+        "version":  "039",
+        "declaredFileSize":  7715804,
+        "zipBytes":  7715804,
+        "classDefs":  7916,
+        "methodIds":  61579,
+        "typeIds":  22745
+    },
+    {
+        "path":  "classes4.dex",
+        "version":  "039",
+        "declaredFileSize":  7833792,
+        "zipBytes":  7833792,
+        "classDefs":  8682,
+        "methodIds":  61573,
+        "typeIds":  18624
+    },
+    {
+        "path":  "classes5.dex",
+        "version":  "039",
+        "declaredFileSize":  9023248,
+        "zipBytes":  9023248,
+        "classDefs":  10925,
+        "methodIds":  61580,
+        "typeIds":  26756
+    },
+    {
+        "path":  "classes6.dex",
+        "version":  "039",
+        "declaredFileSize":  9501456,
+        "zipBytes":  9501456,
+        "classDefs":  10928,
+        "methodIds":  59021,
+        "typeIds":  29708
+    },
+    {
+        "path":  "classes7.dex",
+        "version":  "039",
+        "declaredFileSize":  8868000,
+        "zipBytes":  8868000,
+        "classDefs":  11341,
+        "methodIds":  55753,
+        "typeIds":  27882
+    },
+    {
+        "path":  "classes8.dex",
+        "version":  "039",
+        "declaredFileSize":  8634008,
+        "zipBytes":  8634008,
+        "classDefs":  10168,
+        "methodIds":  61533,
+        "typeIds":  18362
+    },
+    {
+        "path":  "classes9.dex",
+        "version":  "039",
+        "declaredFileSize":  6696608,
+        "zipBytes":  6696608,
+        "classDefs":  10302,
+        "methodIds":  61538,
+        "typeIds":  15047
+    }
+]

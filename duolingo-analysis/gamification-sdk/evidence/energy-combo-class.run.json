@@ -1,0 +1,106 @@
+{
+  "name": "energy-combo-class",
+  "operation": "inspect-android-class",
+  "selectors": [
+    "com.duolingo.data.energyrewards.ComboMoment"
+  ],
+  "startedAt": "2026-10-20T14:06:55.002Z",
+  "elapsedMs": 61066,
+  "exitCode": 0,
+  "signal": null,
+  "summary": {
+    "evidenceId": "ev_7e7609cbdc33c7a6b9962b2114952bda40c7ed06eba3786c2380c3e4b8916fad",
+    "operation": "inspect_android_class",
+    "className": "com.duolingo.data.energyrewards.ComboMoment",
+    "methods": [
+      {
+        "name": "<clinit>",
+        "reported_signature": "<clinit>(): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "<init>",
+        "reported_signature": "<init>(java.lang.String, int, java.lang.String): void",
+        "overload_index": 0,
+        "is_constructor": true,
+        "dex_descriptor": null
+      },
+      {
+        "name": "getEntries",
+        "reported_signature": "getEntries(): lmd",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "getSerializedName",
+        "reported_signature": "getSerializedName(): java.lang.String",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "valueOf",
+        "reported_signature": "valueOf(java.lang.String): com.duolingo.data.energyrewards.ComboMoment",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "values",
+        "reported_signature": "values(): com.duolingo.data.energyrewards.ComboMoment[]",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      }
+    ],
+    "fields": [
+      {
+        "name": "$VALUES",
+        "reported_type": "com.duolingo.data.energyrewards.ComboMoment[]"
+      },
+      {
+        "name": "Companion",
+        "reported_type": "as7"
+      },
+      {
+        "name": "IN_A_ROW_10",
+        "reported_type": "com.duolingo.data.energyrewards.ComboMoment"
+      },
+      {
+        "name": "IN_A_ROW_15",
+        "reported_type": "com.duolingo.data.energyrewards.ComboMoment"
+      },
+      {
+        "name": "IN_A_ROW_20",
+        "reported_type": "com.duolingo.data.energyrewards.ComboMoment"
+      },
+      {
+        "name": "IN_A_ROW_25",
+        "reported_type": "com.duolingo.data.energyrewards.ComboMoment"
+      },
+      {
+        "name": "IN_A_ROW_5",
+        "reported_type": "com.duolingo.data.energyrewards.ComboMoment"
+      },
+      {
+        "name": "IN_A_ROW_LONG_SESSION",
+        "reported_type": "com.duolingo.data.energyrewards.ComboMoment"
+      },
+      {
+        "name": "PERFECT",
+        "reported_type": "com.duolingo.data.energyrewards.ComboMoment"
+      },
+      {
+        "name": "a",
+        "reported_type": "java.lang.String"
+      },
+      {
+        "name": "b",
+        "reported_type": "mmd"
+      }
+    ]
+  }
+}

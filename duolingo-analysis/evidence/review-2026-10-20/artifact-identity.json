@@ -1,0 +1,76 @@
+{
+    "source":  "C:\\dev\\REA\\duolingo-analysis\\binaries\\Duolingo v6.101.2 (Premium).apk",
+    "sha256":  "19ae27b023cb2e323a7f5a497b55af966d7118195d3688764913de709a77539f",
+    "bytes":  200160388,
+    "zipEntries":  17882,
+    "dex":  [
+                {
+                    "path":  "classes.dex",
+                    "bytes":  8819984,
+                    "magic":  "dex\n039",
+                    "classDefinitions":  9005
+                },
+                {
+                    "path":  "classes10.dex",
+                    "bytes":  2787408,
+                    "magic":  "dex\n039",
+                    "classDefinitions":  3765
+                },
+                {
+                    "path":  "classes2.dex",
+                    "bytes":  8102364,
+                    "magic":  "dex\n039",
+                    "classDefinitions":  8729
+                },
+                {
+                    "path":  "classes3.dex",
+                    "bytes":  7715804,
+                    "magic":  "dex\n039",
+                    "classDefinitions":  7916
+                },
+                {
+                    "path":  "classes4.dex",
+                    "bytes":  7833792,
+                    "magic":  "dex\n039",
+                    "classDefinitions":  8682
+                },
+                {
+                    "path":  "classes5.dex",
+                    "bytes":  9023248,
+                    "magic":  "dex\n039",
+                    "classDefinitions":  10925
+                },
+                {
+                    "path":  "classes6.dex",
+                    "bytes":  9501456,
+                    "magic":  "dex\n039",
+                    "classDefinitions":  10928
+                },
+                {
+                    "path":  "classes7.dex",
+                    "bytes":  8868000,
+                    "magic":  "dex\n039",
+                    "classDefinitions":  11341
+                },
+                {
+                    "path":  "classes8.dex",
+                    "bytes":  8634008,
+                    "magic":  "dex\n039",
+                    "classDefinitions":  10168
+                },
+                {
+                    "path":  "classes9.dex",
+                    "bytes":  6696608,
+                    "magic":  "dex\n039",
+                    "classDefinitions":  10302
+                }
+            ],
+    "nativeLibraryCount":  81,
+    "unityMetadata":  [
+                          {
+                              "path":  "assets/bin/Data/Managed/Metadata/global-metadata.dat",
+                              "bytes":  6933960
+                          }
+                      ],
+    "authority":  "Direct read-only ZIP/DEX header observations; not REA Evidence"
+}
